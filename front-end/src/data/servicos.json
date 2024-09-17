@@ -1,0 +1,29 @@
+[
+  {
+    "id": "colete-otls",
+    "name": "Colete OTLS",
+    "description": "O colete OTLS é uma órtese confeccionada sob medida, com objetivo de estabilizar, imobilizar, ou corrigir a coluna vertebral. Moldadas em um material termoplástico resistente a alta temperatura, garantem leveza, facilidade na higienização e em sua colocação, além de trazer uma melhor distribuição de cargas e uma sustentação uniforme para a coluna. O acompanhamento mensal durante a utilização da órtese se faz necessário para que ajustes sejam realizados.",
+    "description1": "Indicações: Fraturas torácicas ou lombares, pós cirúrgicos, correção da coluna como escoliose, hipercifose ou hiperlordose.",
+    
+    "image": "https://live.staticflickr.com/65535/53978173914_faef4e7e2b_m.jpg"
+  },
+  {
+    "id": "palmilhas-ortopedicas",
+    "name": "Palmilhas Ortopédicas",
+    "description": "As palmilhas ortopédicas sob medida são recomendadas para uma variedade de condições, incluindo: Fascite plantar, Esporão de calcâneo, Metatarsalgias, Neuroma de Morton,Dores lombares, joelhos e pé Diferenças de comprimento entre as pernas, Pés diabéticos, Tratamento e prevenção de lesões esportivas",
+
+    "image": "https://live.staticflickr.com/65535/53977866951_4ef3060716_n.jpg"
+  },
+  {
+    "id": "proteses-ortopedicas",
+    "name": "Próteses Ortopédicas",
+    "description": "Proteses membro inferior sob medida: Características: Confeccionado em fibra de carbono e resina acrílica mais componentes em aço, titanium ou alumínio.",
+    "image": "https://live.staticflickr.com/65535/53975038786_8d43b2f033_n.jpg"
+  },
+  {
+    "id": "colar-aspen",
+    "name": "Colar Aspen",
+    "description": "O Aspen® CTO combina uma restrição de movimento altamente eficaz da coluna cervical e torácica alta com um nível de conforto bem aceito pelos pacientes. Pesquisas mostram uma restrição de movimento significativamente progressiva ao passar de um colar cervical independente para um aparelho de dois pontos e depois para uma órtese de quatro pontos. Por essas razões, o sistema Aspen® CTO oferece a maior versatilidade disponível para o tratamento de problemas cervicotorácicos.",
+    "image": "https://live.staticflickr.com/65535/53999245092_505e734392_n.jpg"
+  }
+]

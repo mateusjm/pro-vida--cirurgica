@@ -1,0 +1,16 @@
+.button_link a {
+  text-decoration: none;
+  color: var(--bg-success);
+}
+
+.button_link:hover a {
+  color: #fff;
+}
+
+.text_end {
+  text-align: end;
+}
+
+.border {
+  border: 1px solid black;
+}

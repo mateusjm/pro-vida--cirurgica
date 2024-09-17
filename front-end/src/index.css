@@ -1,0 +1,86 @@
+/* NAVBAR */
+.nav-link:focus, .nav-link:hover {
+  color: var(--bs-green)
+}
+
+.navbar-nav {
+  font-size: 16px;
+}
+
+.navbar {
+  --bs-navbar-toggler-border-color: none;
+  --bs-navbar-toggler-focus-width: none;
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--bs-green);
+  font-weight: bolder;
+}
+
+.navbar-collapse {
+  transition: height 0.35s ease; /* Transição suave para a altura */
+}
+
+.navbar-collapse.collapse {
+  height: 0;
+}
+
+.navbar-collapse.show {
+  height: auto;
+}
+
+/* CAROUSEL */
+
+.carousel-control-next, .carousel-control-prev {
+  width: 5%;
+  opacity: 1;
+}
+
+
+/* CAROUSEL SMARTPHONES */
+
+@media (max-width: 576px) {
+  .image-carousel {
+    height: 430px;
+    object-fit: cover;
+    object-position: center left;
+  }
+
+  .image-carousel-servicos {
+    height: 430px;
+    object-fit: cover;
+    object-position: center right;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: none;
+  }
+
+  .carousel-control-next-icon {
+    background-image: none;
+  }
+}
+
+.carousel-item {
+  transition: 0.2s ease-in-out;
+  opacity: 0;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  opacity: 1;
+}
+
+.carousel-item-next {
+  transform: translateX(0%);
+}
+
+.carousel-item-prev {
+  transform: translateX(0%);
+}
+
+.carousel-item-next.carousel-item-left,
+.carousel-item-prev.carousel-item-right {
+  transform: translateX(0);
+}

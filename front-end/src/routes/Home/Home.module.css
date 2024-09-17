@@ -1,0 +1,159 @@
+.border {
+  border: 1px solid red;
+}
+
+.span_list {
+  font-weight: bolder;
+  color: var(--bs-green);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.font_size {
+  font-size: 1em;
+}
+
+.text_end {
+  text-align: end;
+}
+
+.home_shadow {
+  box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.2);
+}
+
+.color_green {
+  background:  #00AA57
+}
+
+.img_home {
+  width: 500px;
+  border-radius: 25px;
+  border: 2px solid #fff;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+.button_link {
+  padding: 13px;
+  border-radius: 25px;
+}
+
+.button_link a {
+  text-decoration: none;
+  color: var(--bg-success);
+}
+
+.button_link:hover a {
+  color: #fff;
+}
+
+.cards {
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+ul.checkmark_list {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+ul.checkmark_list li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+ul.checkmark_list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 20px;
+  color: green;
+}
+
+.custom_img_medico {
+  border-radius: 10px;
+}
+
+.subtitle_home {
+  font-style: italic;
+}
+
+.local {
+  list-style: none;
+  font-size: 20px;
+}
+
+.iframe {
+  border-radius: 10px;
+}
+
+.map {
+  border-top: 1px solid black;
+  border-bottom: 1px solid #00AA57;
+}
+
+/* media queries */
+
+@media (max-width: 576px) {
+  .iframe {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media (min-width: 576px) {
+  .iframe {
+    height: 320px;
+    width: 320px;
+  }
+}
+
+@media (min-width: 768px) {
+  .iframe {
+    height: 340px;
+    width: 340px;
+  }
+}
+
+@media (min-width: 992px) {
+  .iframe {
+    height: 360px;
+    width: 360px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .iframe {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .iframe {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+h1.title_map {
+  font-style: italic;
+}
+

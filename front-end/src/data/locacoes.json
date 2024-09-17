@@ -1,0 +1,64 @@
+[
+    {
+      "id": "andador",
+      "name": "Andador",
+      "description": "Os andadores são indicados para aumentar a base de apoio, facilitando o equilíbrio durante a deambulação. Servem também para maior estabilidade anterior e lateral e suporte do peso do usuário. Em casos de fraqueza muscular, déficit de equilíbrio, pós cirúrgico entre outros.",
+      "image": "https://live.staticflickr.com/65535/53963759861_9a34a71ede_n.jpg"
+    },
+    {
+      "id": "cadeira-de-banho",
+      "name": "Cadeira de Banho",
+      "description": "A Cadeira de Banho Pedal Fixo foi desenvolvida para o banho ou higiene de pessoas com até 85kg. Fabricada em aço carbono, pintura epóxi, assento sanitário removível, encosto em nylon, apoio para os braços fixos, apoio para os pés fixos, freios bilaterais rodas traseiras aro 06 polegadas giratórias com pneus maciços rodas dianteiras aro 06″ com pneus maciços posicionadas na parte interna da cadeira.",
+      "image": "https://live.staticflickr.com/65535/53964088059_619e950d32_n.jpg"
+    },
+    {
+      "id": "cadeira-de-rodas",
+      "name": "Cadeira de Rodas",
+      "description": "A Cadeira de Rodas é um produto de alta qualidade projetado para fornecer conforto e mobilidade para pessoas com dificuldades de locomoção. Esta cadeira de rodas é ideal para pessoas que precisam de uma solução prática e econômica para sua mobilidade diária em casa. Com seu design simples e ergonômico, a Cadeira de Rodas é feita de materiais duráveis e de alta qualidade, garantindo sua durabilidade e segurança durante o uso. Sua estrutura é feita de aço carbono resistente e possui um acabamento em pintura epóxi, que torna a cadeira mais resistente a corrosão.",
+
+      "image": "https://live.staticflickr.com/65535/53964009043_93375c5f9c_n.jpg"
+    },
+    {
+      "id": "cama-hospitalar",
+      "name": "Cama Hospitalar",
+      "description": "A Cama Hospitalar é uma escolha ideal para pessoas que estão acamadas ou que necessitam passar longos períodos deitadas. Equipada com grade de proteção para garantir a segurança do paciente, a cama oferece durabilidade e estabilidade. Seu sistema deslizante silencioso, acionado por duas manivelas manuais, permite ajustar confortavelmente a posição da cama conforme as necessidades do usuário. Essa cama é especialmente projetada para facilitar a circulação sanguínea, sendo uma opção recomendada para uso domiciliar e em ambientes hospitalares.",
+      "image": "https://live.staticflickr.com/65535/53965780193_ffc81ee555_n.jpg"
+    },
+    {
+      "id": "conecentrador-de-oxigenio",
+      "name": "Concentrador de Oxigênio",
+      "description": "O Concentrador de Oxigênio 5L é ideal para o tratamento de doenças respiratórias crônicas que necessitam de oxigênio suplementar em casa ou em ambientes médicos, como no caso de pacientes com Doença Pulmonar Obstrutiva Crônica (DPOC). Oferecendo fluxo de oxigênio de 5LPM, este dispositivo é capaz de fornecer oxigênio puro e concentrado.",
+      "image": "https://live.staticflickr.com/65535/53985385107_6e3fa0c462_n.jpg"
+    },
+    {
+      "id": "cpap-dreamstation-philips",
+      "name": "Cpap Dreamstation Philips",
+      "description": "Os dispositivos de pressão positiva (CPAP e BiPAP) são desenhados para serem tão confortáveis e fáceis de experimentar como o sono deve ser. Conectando pacientes e provedores de saúde, os dispositivos permitem aos pacientes cuidar da sua saúde com confiança, e aos profissinais de saúde a gerenciar a terapia de seus pacientes de forma eficiente e eficaz.",
+      
+      "image": "https://live.staticflickr.com/65535/53963759781_2cdb3895c7_n.jpg"
+    },
+    {
+      "id": "cpap-gaslive",
+      "name": "Cpap Gaslive",
+      "description": "O CPAP Gaslive fornece pressão positiva contínua para as vias aéreas por meio de um tubo acoplado a uma máscara conectada ao rosto do paciente. A pressão positiva gerada pelo dispositivo impede o fechamento das vias aéreas do paciente e a ocorrência da apneia. Essa terapia pode fazer com que haja uma melhora na qualidade do sono e por consequência melhora na saúde e qualidade de vida do paciente.",
+      "image": "https://live.staticflickr.com/65535/53964215775_9aa65a8d81_n.jpg"
+    },
+    {
+      "id": "cpap-s10-auto-resmed",
+      "name": "Cpap S10 Auto Resmed",
+      "description": "O CPAP de pressão fixa da Resmed oferece tecnologia avançada e recursos sofisticados para aumentar o conforto e facilitar a adaptação ao tratamento da apneia do sono com pressão positiva contínua. Concebido para ser fácil de usar e começar a dormir bem. É extremamente silencioso, pequeno, leve, possui uma aparência moderna.",
+      "image": "https://live.staticflickr.com/65535/53963759726_2f22834242_n.jpg"
+    },
+    {
+      "id": "muleta-axilar",
+      "name": "Muleta Axilar",
+      "description": "Fabricada em alumínio anodizado, que lhe confere leveza e resistência. A muleta possui nove níveis de ajuste de altura inferior – reguláveis através de pino duplo com mola e indicador de posição do pino – e cinco níveis de ajuste superior, proporcionando um posicionamento adequado aos braços. Contém apoio de mão em material confortável, sistema interno para redução de ruído e ponteira de borracha com peça metálica interna para reduzir o desgaste. Circunferência do tubo: 7/8 (22mm de diâmetro)",
+      "image": "https://live.staticflickr.com/65535/53964009003_500d0fd6fc_n.jpg"
+    },
+    {
+      "id": "muleta-canadense",
+      "name": "Muleta Canadense",
+      "description": "Indicadas para pessoas com incapacidade de descarregar completamente o peso nos membros inferiores, por fratura, dor, lesões traumáticas, amputação, pós-operatório, entre outros.",
+      "image": "https://live.staticflickr.com/65535/53962869677_d1ce3c522e_n.jpg"
+    }
+  ]
