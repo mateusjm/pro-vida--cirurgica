@@ -39,7 +39,7 @@ h4 {
 }
 
 .img_people {
-  width: 650px;
+  width: 680px;
 }
 
 .img_home {
@@ -159,5 +159,11 @@ ul.checkmark_list li::before {
 
 h1.title_map {
   font-style: italic;
+}
+
+@media (max-width: 1398px) {
+  .img_people {
+    width: 600px;
+  }
 }
 

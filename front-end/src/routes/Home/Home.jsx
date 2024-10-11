@@ -51,11 +51,11 @@ const Home = ({banner1, banner3, banner4, people, car, medalha, dinheiro, concor
             </Col>
           </Row>
           <Row className={`d-flex align-items-end justify-content-between`}>
-            <Col xxl={5} xl={6} className='d-none d-xl-block' >
+            <Col xxl={6} xl={6} className='d-none d-xl-block' >
               <img className={`${styles.img_people}`} src={people} alt="Pessoas" />
             </Col>
-            <Col xxl={6} xl={5} xs={12} className={`p-4`}>
-              <h3 className='mb-4 text-start'>Somos especialistas em produtos hospitalares, ortopédicos e cuidados pessoais. </h3>
+            <Col xxl={6} xl={6} xs={12} className={`p-4`}>
+              <h3 className='mb-4 text-start fst-italic'>Somos especialistas em produtos hospitalares, ortopédicos e cuidados pessoais. </h3>
               <p>Oferecemos uma ampla gama de produtos e serviços para atender suas necessidades de saúde e bem-estar.</p>
               <ul>
                 <Stack gap={2}>
