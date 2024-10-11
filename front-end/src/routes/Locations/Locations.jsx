@@ -17,7 +17,7 @@ const Locations = ({banner3}) => {
       <title>Locações - Pró-Vida Cirúrgica</title>
       <meta 
         name="description" 
-        content="Locação de CPAP, Cama Hospitalar, Cadeira de Rodas e Cadeira de Banho em Ponte Nova."/>
+        content="Aluguel de CPAP, Cama Hospitalar, Cadeira de Rodas e Cadeira de Banho em Ponte Nova."/>
     </Helmet>
     <style type='text/css'>
       {`

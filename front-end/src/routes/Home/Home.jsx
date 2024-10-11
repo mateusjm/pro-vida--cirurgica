@@ -47,16 +47,19 @@ const Home = ({banner1, banner3, banner4, people, car, medalha, dinheiro, concor
       <Container>
           <Row className={`mt-4`}>
             <Col xs={12}>
-              <h1 className='mt-3 mb-4'>Mais de 140 mil clientes satisfeitos!</h1>
+              <h1 className='mt-3 mb-3'>Mais de 140 mil clientes satisfeitos!</h1>
             </Col>
+          </Row>
+          <Row>
+            <Col>
+            <h3 sm={12} xs={12} className='mb-3 text-center fst-italic'>Somos especialistas em produtos hospitalares, ortopédicos e cuidados pessoais. </h3></Col>
           </Row>
           <Row className={`d-flex align-items-end justify-content-between`}>
             <Col xxl={6} xl={6} className='d-none d-xl-block' >
               <img className={`${styles.img_people}`} src={people} alt="Pessoas" />
             </Col>
             <Col xxl={6} xl={6} xs={12} className={`p-4`}>
-              <h3 className='mb-4 text-start fst-italic'>Somos especialistas em produtos hospitalares, ortopédicos e cuidados pessoais. </h3>
-              <p>Oferecemos uma ampla gama de produtos e serviços para atender suas necessidades de saúde e bem-estar.</p>
+              <p className='mb-3'>Oferecemos uma ampla gama de produtos e serviços para atender suas necessidades de saúde e bem-estar.</p>
               <ul>
                 <Stack gap={2}>
                   <li>
