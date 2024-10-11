@@ -19,6 +19,7 @@ import dinheiro from './assets/dinheiro.png'
 import concorrencia from './assets/concorrencia.png'
 import medico from './assets/medico.jpg'
 import maps from './assets/maps.png'
+import favicon from './assets/logo-pro-vida.ico'
 
 // configurando o router
 import {createBrowserRouter, Navigate, RouterProvider} from 'react-router-dom'
@@ -50,6 +51,7 @@ const router = createBrowserRouter([
           concorrencia={concorrencia}
           medico={medico}
           maps={maps}
+          favicon={favicon}
         />
       },
       {

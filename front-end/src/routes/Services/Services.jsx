@@ -17,7 +17,7 @@ const Services = ({banner4}) => {
       <title>Serviços - Pró-Vida Cirúrgica</title>
       <meta 
         name="description" 
-        content="Explore nossos serviços hospitalares e de cuidados pessoais." />
+        content="Serviços hospitalares e de cuidados pessoais... Palmilhas Ortopédicas, Colete OTLS, Próteses Ortopédicas e Colar Aspen." />
     </Helmet>
     <style type='text/css'>
       {`

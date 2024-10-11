@@ -8,14 +8,15 @@ import styles from './Home.module.css'
 import {Carousel} from 'react-bootstrap'
 import {Container, Row, Col, Stack, Button} from 'react-bootstrap'
 
-const Home = ({banner1, banner3, banner4, people, car, medalha, dinheiro, concorrencia, medico, maps}) => {
+const Home = ({banner1, banner3, banner4, people, car, medalha, dinheiro, concorrencia, medico, maps, favicon}) => {
   return (
     <>
     <Helmet>
-      <title>Home - Pró-Vida Cirúrgica</title>
+      <title>Pró-Vida Cirúrgica</title>
       <meta 
         name="description" 
         content="Página inicial com informações sobre nossos produtos e serviços hospitalares." />
+      <link rel="shortcut icon" href={favicon} type="image/x-icon" />
     </Helmet>
     <div>
       <Carousel>
@@ -42,7 +43,7 @@ const Home = ({banner1, banner3, banner4, people, car, medalha, dinheiro, concor
         </Carousel.Item>
       </Carousel>
     </div>
-    <div>
+    <div className='pt-5'>
       <Container fluid>
           <Row className={`mt-4`}>
             <Col xs={12}>
@@ -87,8 +88,8 @@ const Home = ({banner1, banner3, banner4, people, car, medalha, dinheiro, concor
           </Row>
       </Container>
     </div>
-    <div className='bg-dark'>
-      <Container className='bg-dark'>
+    <div className='bg-dark pt-5 pb-5'>
+      <Container>
         <Row>
           <Col xs={12}>
             <h1 className='text-light mt-5'>Por que Escolher a Pró-Vida Cirúrgica?</h1>
@@ -121,8 +122,8 @@ const Home = ({banner1, banner3, banner4, people, car, medalha, dinheiro, concor
         </Row>
       </Container>
     </div>
-    <div>
-      <Container  className={`${styles.color_green} `} fluid>
+    <div className={`${styles.color_green} pt-5 pb-5`}>
+      <Container fluid>
         <Row className='p-3 justify-content-center'>
           <Col xxl={12}>
             <h1 className={`text-light text-center p-3`}>Compromisso com nossos clientes!</h1>
@@ -156,13 +157,13 @@ const Home = ({banner1, banner3, banner4, people, car, medalha, dinheiro, concor
         </Row>
       </Container>
     </div>
-    <div className={styles.map}>
-      <Container className={`bg-white`}>
+    <div className={`pt-5 pb-5 ${styles.map}`}>
+      <Container>
         <Row className='align-items-center mt-5 mb-5'>
           <Col xxl={6} xl={5} md={7} sm={10} className='text-black'>
-            <h1 className={`text-success p-2 ${styles.title_map}`}>Saiba onde nos encontrar!</h1>
+            <h1 className={`text-success p-2 mb-5 ${styles.title_map}`}>Saiba onde nos encontrar!</h1>
               <ul className={styles.local}>
-            <Stack gap={3}>
+            <Stack className='pb-5' gap={3}>
                 <p><img src={maps} width={25} alt="Localização" />Localização</p>
                 <li><span className='text-success fw-bold'>Logradouro:</span> Av. Dr. José Grossi, 126</li>
                 <li><span className='text-success fw-bold'>Bairro:</span> Guarapiranga</li>
