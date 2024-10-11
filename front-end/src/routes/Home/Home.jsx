@@ -44,17 +44,17 @@ const Home = ({banner1, banner3, banner4, people, car, medalha, dinheiro, concor
       </Carousel>
     </div>
     <div className='pt-5'>
-      <Container fluid>
+      <Container>
           <Row className={`mt-4`}>
             <Col xs={12}>
-              <h1 className='mt-3'>Mais de 140 mil clientes satisfeitos!</h1>
+              <h1 className='mt-3 mb-4'>Mais de 140 mil clientes satisfeitos!</h1>
             </Col>
           </Row>
-          <Row className={`d-flex align-items-end justify-content-end`}>
+          <Row className={`d-flex align-items-end justify-content-between`}>
             <Col xxl={5} xl={6} className='d-none d-xl-block' >
-              <img className='img-fluid' src={people} alt="" />
+              <img className={`${styles.img_people}`} src={people} alt="Pessoas" />
             </Col>
-            <Col xxl={6} xl={6} xs={12} className={`p-4`}>
+            <Col xxl={6} xl={5} xs={12} className={`p-4`}>
               <h3 className='mb-4 text-start'>Somos especialistas em produtos hospitalares, ortopédicos e cuidados pessoais. </h3>
               <p>Oferecemos uma ampla gama de produtos e serviços para atender suas necessidades de saúde e bem-estar.</p>
               <ul>
@@ -93,19 +93,19 @@ const Home = ({banner1, banner3, banner4, people, car, medalha, dinheiro, concor
         <Row>
           <Col xs={12}>
             <h1 className='text-light mt-5'>Por que Escolher a Pró-Vida Cirúrgica?</h1>
-            <h3 className={`text-success mb-3 ${styles.subtitle_home}`}>Benefícios que fazem a diferença na sua escolha:</h3>
+            <h3 className={`text-success mb-5 ${styles.subtitle_home}`}>Benefícios que fazem a diferença na sua escolha:</h3>
           </Col>
         </Row>
         <Row className={`d-flex justify-content-center align-items-center`}>
           <Col xxl={6} xl={7} xs={12}>
             <ul className={`text-light ${styles.checkmark_list}`}>
-              <li>Somos a Maior e Melhor Loja de Produtos Ortopédicos e Hospitalares de Ponte Nova-Mg e região!</li>
-              <li>Entregamos e montamos Camas Hospitalares</li>
-              <li>Realizamos locações de produtos</li>
-              <li>Estamos presentes nas principais Redes-Sociais</li>
-              <li>Temos Atendimento On-line</li>
-              <li>Funcionamento de Segunda à Sábado</li>
-              <li>Temos Estacionamento Próprio para Clientes</li>
+              <li className='mb-3'>Somos a Maior e Melhor Loja de Produtos Ortopédicos e Hospitalares de Ponte Nova-Mg e região!</li>
+              <li className='mb-3'>Entregamos e montamos Camas Hospitalares</li>
+              <li className='mb-3'>Realizamos locações de produtos</li>
+              <li className='mb-3'>Estamos presentes nas principais Redes-Sociais</li>
+              <li className='mb-3'>Temos Atendimento On-line</li>
+              <li className='mb-3'>Funcionamento de Segunda à Sábado</li>
+              <li className='mb-3'>Temos Estacionamento Próprio para Clientes</li>
             </ul>
             <div className={`m-2 p-3`}>
                 <Button className={` ${styles.button_link}`} variant='success'>
@@ -126,30 +126,30 @@ const Home = ({banner1, banner3, banner4, people, car, medalha, dinheiro, concor
       <Container fluid>
         <Row className='p-3 justify-content-center'>
           <Col xxl={12}>
-            <h1 className={`text-light text-center p-3`}>Compromisso com nossos clientes!</h1>
+            <h1 className={`text-light text-center p-3 mb-3`}>Compromisso com nossos clientes!</h1>
           </Col>
           <Col xxl={8} className='text-center'>
             <h3>Nossa missão é proporcionar um serviço excepcional em todos os aspectos</h3>
-            <h4 className='mb-4 d-none d-sm-block'>Conheça os pilares que definem nossa excelência:</h4>
+            <h4 className='mb-5 d-none d-sm-block'>Conheça os pilares que definem nossa excelência:</h4>
           </Col>
         </Row>
         <Row className={`text-center justify-content-around`}>
-          <Col className={`${styles.cards} mb-4 p-4`} xxl={2} md={5} xs={10}>
+          <Col className={`${styles.cards} mb-4 p-4`} xxl={2} xl={2} lg={5} md={5} xs={10}>
             <img width={110} className='img-fluid' src={car} alt=""/>
             <h4 className='text-success'>Entrega em toda Região</h4>
             <p>Garantimos uma experiência sem preocupações!</p>
           </Col>
-          <Col className={`${styles.cards} mb-4 p-4`} xxl={2} md={5} xs={10}>
+          <Col className={`${styles.cards} mb-4 p-4`} xxl={2} xl={2} lg={5} md={5} xs={10}>
             <img width={110} className='img-fluid p-3' src={medalha} alt="" />
             <h4 className='text-success'>Ótimo <br/>Atendimento</h4>
             <p>Refletimos nossa dedicação em cada detalhe!</p>
           </Col>
-          <Col className={`${styles.cards} mb-4 p-4`} xxl={2} md={5} xs={10}>
+          <Col className={`${styles.cards} mb-4 p-4`} xxl={2} xl={2} lg={5} md={5} xs={10}>
             <img width={110} className='img-fluid p-3' src={dinheiro} alt="" />
             <h4 className='text-success'>Melhores <br/> Preços</h4>
             <p>Sua satisfação é nossa prioridade!</p>
           </Col>
-          <Col className={`${styles.cards} mb-4 p-4`} xxl={2} md={5} xs={10}>
+          <Col className={`${styles.cards} mb-4 p-4`} xxl={2} xl={2} lg={5} md={5} xs={10}>
             <img width={110} className='img-fluid p-3' src={concorrencia} alt="" />
             <h4 className='text-success'>Líder no <br/> Mercado</h4>
             <p>Reconhecidos pela nossa excelência e confiança!</p>
@@ -159,8 +159,8 @@ const Home = ({banner1, banner3, banner4, people, car, medalha, dinheiro, concor
     </div>
     <div className={`pt-5 pb-5 ${styles.map}`}>
       <Container>
-        <Row className='align-items-center mt-5 mb-5'>
-          <Col xxl={6} xl={5} md={7} sm={10} className='text-black'>
+        <Row className='align-items-center justify-content-center mt-5 mb-5'>
+          <Col xxl={6} xl={5} lg={6} md={6} sm={10} className='text-black'>
             <h1 className={`text-success p-2 mb-5 ${styles.title_map}`}>Saiba onde nos encontrar!</h1>
               <ul className={styles.local}>
             <Stack className='pb-5' gap={3}>
@@ -172,7 +172,7 @@ const Home = ({banner1, banner3, banner4, people, car, medalha, dinheiro, concor
             </Stack>
               </ul>
           </Col>
-          <Col xxl={6} xl={7} md={5} sm={10} className='text-center'>
+          <Col xxl={6} xl={7} lg={6} md={6} sm={10} className='text-center'>
             <iframe
               className={styles.iframe}
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14957.926438915096!2d-42.890966!3d-20.404253!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa4975264c9dac5%3A0x5ad8f5ccf7a0c76f!2zUHLDsy1WaWRhIENpcsO6cmdpY2E!5e0!3m2!1spt-BR!2sbr!4v1725046013049!5m2!1spt-BR!2sbr"
