@@ -38,7 +38,7 @@ const Locations = ({banner3}) => {
           <Col key={id} xl={3} md={4} xs={6} className="mb-4">
               <Card >
                   <Link to={`/locacoes/${id}`}>
-                    <Card.Img variant="top" src={image} alt={name} />
+                    <Card.Img className={styles.images_locations  } variant="top" src={image} alt={name} />
                   </Link>
               </Card>
                   <Card.Title className='text-center mt-3'>{name}</Card.Title>

@@ -38,7 +38,7 @@ const Services = ({banner4}) => {
           <Col key={id} xl={3} md={4} xs={6} className="mb-4">
               <Card >
                   <Link to={`/servicos/${id}`}>
-                    <Card.Img variant="top" src={image} alt={name} />
+                    <Card.Img className={styles.images_services} variant="top" src={image} alt={name} />
                   </Link>
               </Card>
                   <Card.Title className='text-center mt-3'>{name}</Card.Title>
