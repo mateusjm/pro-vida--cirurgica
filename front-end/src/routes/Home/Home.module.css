@@ -64,10 +64,14 @@ h4 {
 }
 
 .cards {
-  padding: 10px;
-  background-color: #fff;
-  border: 2px solid black;
-  border-radius: 15px;
+  background-color: white;
+  border-radius: 10px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  transition: box-shadow 0.3s ease; 
+}
+
+.cards:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
 }
 
 ul.checkmark_list {
