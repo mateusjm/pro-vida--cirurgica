@@ -160,7 +160,7 @@ const Home = ({banner1, banner3, banner4, people, car, medalha, dinheiro, concor
         </Row>
       </Container>
     </div>
-    <div className={`pt-5 pb-5 ${styles.map}`}>
+    <div className={`pt-5 pb-5`}>
       <Container>
         <Row className='align-items-center justify-content-center mt-5 mb-5'>
           <Col xxl={6} xl={5} lg={6} md={6} sm={10} className='text-black'>

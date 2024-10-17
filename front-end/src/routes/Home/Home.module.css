@@ -112,11 +112,6 @@ ul.checkmark_list li::before {
   border-radius: 10px;
 }
 
-.map {
-  border-top: 1px solid black;
-  border-bottom: 1px solid #00AA57;
-}
-
 /* media queries */
 
 @media (max-width: 576px) {
