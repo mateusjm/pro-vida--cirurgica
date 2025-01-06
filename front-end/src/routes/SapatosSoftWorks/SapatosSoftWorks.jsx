@@ -29,7 +29,7 @@ const SapatosSoftWorks = ({ banner2 }) => {
       <div>
         <Container fluid>
           <img
-            className={`img-fluid image-carousel`}
+            className={`img-fluid image-carousel-produtos`}
             src={banner2}
             alt="Pró-Vida Banner Locações"
           />
