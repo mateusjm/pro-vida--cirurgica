@@ -12,7 +12,7 @@ import banner1 from './assets/Pro-vida-banner1.png'
 import banner2 from './assets/Pro-vida-banner2.png'
 import banner3 from './assets/Pro-vida-banner3.png'
 import banner4 from './assets/Pro-vida-banner4.png'
-import people from './assets/people.png'
+import people from './assets/people.jpg'
 import car from './assets/car.png'
 import medalha from './assets/medalha.png'
 import dinheiro from './assets/dinheiro.png'
@@ -95,7 +95,7 @@ const router = createBrowserRouter([
         />
       },
       {
-        path: '/produtos/sapatos-hospitalares',
+        path: '/produtos/sapatos-profissionais',
         element: <SapatosSoftWorks
           banner2={banner2}
         />
@@ -143,7 +143,7 @@ const router = createBrowserRouter([
         element: <MeiasDeCompressaoDetails/>
       },
       {
-        path: '/produtos/sapatos-hospitalares/:id',
+        path: '/produtos/sapatos-profissionais/:id',
         element: <SapatosSoftWorksDetails/>
       },
       {

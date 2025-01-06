@@ -28,7 +28,7 @@ const MeiasDeCompressao = ({ banner2 }) => {
           <img
             className={`img-fluid image-carousel-produtos`}
             src={banner2}
-            alt="Pró-Vida Banner Locações"
+            alt="Pró-Vida Banner Produtos"
           />
         </Container>
       </div>

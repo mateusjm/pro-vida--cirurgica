@@ -98,3 +98,8 @@ li {
 .carousel-item-prev.carousel-item-right {
   transform: translateX(0);
 }
+
+.text_container h4,
+.text_container p {
+  margin: 0; /* Remove margens padrão */
+}

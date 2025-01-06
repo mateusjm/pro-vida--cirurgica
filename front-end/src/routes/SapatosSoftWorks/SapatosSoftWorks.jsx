@@ -13,10 +13,10 @@ const SapatosSoftWorks = ({ banner2 }) => {
   return (
     <>
       <Helmet>
-        <title>Sapatos Hospitalares</title>
+        <title>Sapatos Profissionais</title>
         <meta
           name="description"
-          content="Sapatos Hospitalares SoftWorks em Ponte Nova."
+          content="Sapatos Profissionais SoftWorks em Ponte Nova."
         />
       </Helmet>
       <style type="text/css">
@@ -31,7 +31,7 @@ const SapatosSoftWorks = ({ banner2 }) => {
           <img
             className={`img-fluid image-carousel-produtos`}
             src={banner2}
-            alt="Pró-Vida Banner Locações"
+            alt="Pró-Vida Banner Produtos"
           />
         </Container>
       </div>
@@ -42,7 +42,7 @@ const SapatosSoftWorks = ({ banner2 }) => {
               sapatos.map(({ id, name, image }) => (
                 <Col key={id} xl={3} md={4} xs={6} className="mb-4">
                   <Card>
-                    <Link to={`/produtos/sapatos-hospitalares/${id}`}>
+                    <Link to={`/produtos/sapatos-profissionais/${id}`}>
                       <Card.Img
                         className={styles.images_sapatos_hospitalares}
                         variant="top"

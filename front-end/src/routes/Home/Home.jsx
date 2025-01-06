@@ -64,76 +64,86 @@ const Home = ({
           </Carousel.Item>
         </Carousel>
       </div>
-      <div className="pt-5">
-        <Container>
-          <Row className={`mt-4`}>
-            <Col xs={12}>
-              <h1 className="mt-3 mb-3">
+      <div>
+        <Container fluid>
+          <Row>
+            <Col xl={6} md={12} className={`p-0 d-none d-sm-block`} style={{ height: "730px" }}>
+              <img
+                src={people}
+                alt="Pessoas"
+                className={`${styles.img_people} w-100 h-100`}
+                style={{ objectFit: "cover" }}
+              />
+            </Col>
+            <Col>
+              <h1 className="mt-5 mb-3">
                 Mais de 140 mil clientes satisfeitos!
               </h1>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <h3 sm={12} xs={12} className="mb-3 text-center fst-italic">
+              <h3 sm={12} xs={12} className="text-center fst-italic mb-5">
                 Somos especialistas em produtos hospitalares, ortopédicos e
                 cuidados pessoais.{" "}
               </h3>
-            </Col>
-          </Row>
-          <Row className={`d-flex align-items-end justify-content-between`}>
-            <Col xxl={6} xl={6} className="d-none d-xl-block">
-              <img
-                className={`${styles.img_people}`}
-                src={people}
-                alt="Pessoas"
-              />
-            </Col>
-            <Col xxl={6} xl={6} xs={12} className={`p-4`}>
-              <p className="mb-3">
-                Oferecemos uma ampla gama de produtos e serviços para atender
-                suas necessidades de saúde e bem-estar.
-              </p>
-              <ul>
-                <Stack gap={2}>
-                  <li>
-                    <span className={styles.span_list}>
-                      Materiais Descartáveis:{" "}
-                    </span>
-                    Qualidade e confiança em cada produto.
+              <ul className={`${styles.home}`}>
+                <Stack gap={4}>
+                  <li className={styles.list_item}>
+                    <div className={styles.circulo}>
+                      <img
+                        src={`https://cdn-icons-png.flaticon.com/128/407/407543.png`}
+                        alt="Ícone de materiais descartáveis"
+                        className={styles.image}
+                      />
+                    </div>
+                    <div className={styles.text_container}>
+                      <h4 className={styles.span_list}>
+                        Materiais Descartáveis
+                      </h4>
+                      <p>Qualidade e confiança em cada produto.</p>
+                    </div>
                   </li>
-                  <li>
-                    <span className={styles.span_list}>Locações: </span>
-                    Cadeiras de rodas e de banho, andadores, muletas, camas
-                    hospitalares, CPAP e BiPAP.
+                  <li className={styles.list_item}>
+                    <div className={styles.circulo}>
+                      <img
+                        src={`https://cdn-icons-png.flaticon.com/128/2563/2563778.png`}
+                        alt="Ícone de locações"
+                        className={styles.image}
+                      />
+                    </div>
+                    <div className={styles.text_container}>
+                      <h4 className={styles.span_list}>Locações</h4>
+                      <p>
+                        Cadeiras de rodas e de banho, andadores, muletas, camas
+                        hospitalares, CPAP e BiPAP.
+                      </p>
+                    </div>
                   </li>
-                  <li>
-                    <span className={styles.span_list}>
-                      Produtos Ortopédicos:{" "}
-                    </span>
-                    Variedade para garantir conforto e suporte.
+                  <li className={styles.list_item}>
+                    <div className={styles.circulo}>
+                      <img
+                        src={`https://cdn-icons-png.flaticon.com/128/8123/8123362.png`}
+                        alt="Ícone de produtos ortopédicos"
+                        className={styles.image}
+                      />
+                    </div>
+                    <div className={styles.text_container}>
+                      <h4 className={styles.span_list}>Produtos Ortopédicos</h4>
+                      <p>Variedade para garantir conforto e suporte.</p>
+                    </div>
                   </li>
-                  <li>
-                    <span className={styles.span_list}>CPAP e BiPAP: </span>
-                    Soluções eficazes para problemas respiratórios.
+                  <li className={styles.list_item}>
+                    <div className={styles.circulo}>
+                      <img
+                        src={`https://cdn-icons-png.flaticon.com/128/11228/11228368.png`}
+                        alt="Ícone de CPAP e BiPAP"
+                        className={styles.image}
+                      />
+                    </div>
+                    <div className={styles.text_container}>
+                      <h4 className={styles.span_list}>CPAP e BiPAP</h4>
+                      <p>Soluções eficazes para problemas respiratórios.</p>
+                    </div>
                   </li>
                 </Stack>
               </ul>
-              <p>
-                Fornecemos os melhores produtos e serviços com excelência e
-                dedicação. Entre em contato conosco para mais informações.
-              </p>
-              <div className={`m-2 p-3 ${styles.text_end}`}>
-                <Button className={` ${styles.button_link}`} variant="success">
-                  <a
-                    className={styles.a}
-                    href="https://wa.me/message/K7V37SCXJ72KG1"
-                    target="blank"
-                  >
-                    Entrar em contato
-                  </a>
-                </Button>
-              </div>
             </Col>
           </Row>
         </Container>
