@@ -60,6 +60,12 @@ li {
     object-position: center right;
   }
 
+  .image-carousel-produtos {
+    height: 430px;
+    object-fit: cover;
+    object-position: center right;
+  }
+
   .carousel-control-prev-icon {
     background-image: none;
   }

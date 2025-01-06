@@ -1,0 +1,27 @@
+[
+  {
+    "id": "bb31",
+    "name": "Sapato BB31",
+    "description": "O Cabedal do Babuch Soft Works é confeccionado em EVA (Etil Vinil Acetato), um material super leve, que permite extremo conforto e alta absorção de impacto. Contém antimicrobiano que atenua o odor nos pés.",
+    "image": "https://live.staticflickr.com/65535/54242127514_03cdbf23b9_n.jpg"
+  },
+  {
+    "id": "bb60",
+    "name": "Sapato BB60",
+    "description": "Calçado ocupacional de uso profissional tipo tamanco, confeccionado em EVA, soleta de borracha antiderrapante, resistente ao escorregamento em piso cerâmico com solução de detergente e piso de aço com solução de glicerol, resistente à absorção de energia na região do salto e ao óleo combustível.",
+    "image": "https://live.staticflickr.com/65535/54242115999_4de9f81858_n.jpg"
+  },
+  {
+    "id": "bb67",
+    "name": "Sapato BB67",
+    "description": "Calçado ocupacional de uso profissional tipo sapato, fechado na parte do calcanhar e na parte superior, confeccionado em EVA, solado de borracha antiderrapante, resistente ao escorregamento em piso cerâmico com solução de detergente e piso de aço com solução de glicerol, resistente ao isolamento ao frio, à absorção de energia na região do salto e ao óleo combustível, com palmilha interna removível.",
+
+    "image": "https://live.staticflickr.com/65535/54240975767_9644c9e285_n.jpg"
+  },
+  {
+    "id": "bb80",
+    "name": "Sapato BB80",
+    "description": "Calçado ocupacional de uso profissional tipo tênis (OB), fechado na parte do calcanhar e na parte superior (NR-32), confeccionado em EVA, soleta de borracha antiderrapante (SRC), resistente ao escorregamento em piso cerâmico com solução de detergente e piso de aço com solução de glicerol, resistente à absorção de energia na região do salto (E) e ao óleo combustível (FO), com palmilha interna removível.",
+    "image": "https://live.staticflickr.com/65535/54242111228_9071f105b4_n.jpg"
+  }
+]

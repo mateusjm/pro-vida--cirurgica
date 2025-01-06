@@ -1,0 +1,69 @@
+[
+  {
+    "id": "imobilizador-de-joelho",
+    "name": "Imobilizador de Joelho",
+    "description": "O Imobilizador de Joelho é um produto ortopédico que imobiliza completamente o joelho de forma eficaz e segura, mantendo todos os ligamentos da região protegidos e estabilizados. Excelente produto para tratar e recuperar lesões do joelho, desde entorses e edemas até fraturas",
+    "image": "https://live.staticflickr.com/65535/54249154477_12a0e0185a_n.jpg"
+  },
+  {
+    "id": "tipoia-bilateral",
+    "name": "Tipoia Bilateral",
+    "description": "A Tipoia Bilateral é um equipamento de uso ortopédico diário confeccionado em brim estofada sendo desenvolvida para proporcionar estabilidade e conforto durante a recuperação de lesões ocasionadas no ombro, braço e antebraço.",
+    "image": "https://live.staticflickr.com/65535/54250051586_5fa7ab8fc7_n.jpg"
+  },
+  {
+    "id": "joelheira-lisa",
+    "name": "Joelheira Lisa",
+    "description": "A Joelheira Lisa curta oferece alta compressão em torno do joelho e melhora a sensação de estabilidade da articulação.",
+
+    "image": "https://live.staticflickr.com/65535/54250478200_61fa99af27_n.jpg"
+  },
+  {
+    "id": "tala-para-punho",
+    "name": "Tala para Punho",
+    "description": "A Tala para Punho é confeccionada em material de alta qualidade, que permite a transpiração e garante ainda mais conforto. Assegura, ainda, um visual moderno durante o tratamento das afecções de punho.",
+    "image": "https://live.staticflickr.com/65535/54250051606_94c3182468_n.jpg"
+  },
+  {
+    "id": "bota-imobilizadora",
+    "name": "Bota Imobilizadora",
+    "description": "A Bota Imobilizadora é indicada para a imobilização do pé e tornozelo em casos de fraturas, luxações, entorses, pós-operatório, substituição do gesso, prevenção e tratamento nas artrites reumatoides. Pode ser utilizada durante o exame de RX devido não conter metais em sua composição.",
+    "image": "https://live.staticflickr.com/65535/54250292323_95a3362215_n.jpg"
+  },
+  {
+    "id": "palmilha-de-silicone",
+    "name": "Palmilha de Silicone",
+    "description": "Comfeel® Plus – Proteção garantida. Cicatrização mais rápida. Curativos hidrocolóide para cicatrização de feridas em meio úmido. Comfeel®Plus proporciona os benefícios da cicatrização de ferida em meio úmido e a proteção para feridas e pele em risco. Em comparação com a cicatrização tradicional de feridas.",
+    "image": "https://live.staticflickr.com/65535/54250292313_2445dd94d2_n.jpg"
+  },
+  {
+    "id": "calcanheira",
+    "name": "Calcanheira",
+    "description": "A Calcnheira é indicada para esporão de calcaneo, fascite plantar, tendinite, bursite, artralgia entre outras. Promove diminuição do impacto com o solo durante as atividades do dia a dia e/ou durante a prática esportiva.",
+    "image": "https://live.staticflickr.com/65535/54250304259_03a023b053_n.jpg"
+  },
+  {
+    "id": "protetor-para-punho",
+    "name": "Protetor para Punho",
+    "description": "Protetor para Punho é indicado para prevenção e tratamento de contusões, distensões e tendinites; alívio de dores agudas e crônicas; prevenção de lesões durante a prática de exercícios; auxílio no tratamento fisioterapêutico",
+    "image": "https://live.staticflickr.com/65535/54250304264_7a06888b8e_n.jpg"
+  },
+  {
+    "id": "faixa-elastica-paineis",
+    "name": "Faixa Elástica Painéis",
+    "description": "A Faixa Elástica Painéis é indicada para pós-operatório de lipoaspiração, cirurgia bariátrica (redução de estômago), hérnias, pós-parto. Fraturas e contusões em região do tórax, entre outras.",
+    "image": "https://live.staticflickr.com/65535/54250304279_54278dc697_n.jpg"
+  },
+  {
+    "id": "faixa-elastica-exercicios",
+    "name": "Faixa Elástica Exercícios",
+    "description": "A Faixa Elástica Exerecícios é indicada para exercícios que necessitem de pouca, média ou alta resistência. Geralmente utilizada para exercícios de membros superiores..",
+    "image": "https://live.staticflickr.com/65535/54250051656_996f5c6380_n.jpg"
+  },
+  {
+    "id": "tornozeleira",
+    "name": "Tornozeleira",
+    "description": "A Tornozeleira é indicada para tratamentos de lesões agudas e crônicas; entorses e contusões; prevenção de lesões durante a prática de exercícios; instabilidade articular e ligamentar; tendinites, luxações, estresse muscular; reabilitação de fraturas; auxílio no tratamento fisioterapêutico.",
+    "image": "https://live.staticflickr.com/65535/54250482700_e7b7f7a53d_n.jpg"
+  }
+]

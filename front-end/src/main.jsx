@@ -26,11 +26,26 @@ import {createBrowserRouter, Navigate, RouterProvider} from 'react-router-dom'
 
 // routes 
 import Home from './routes/Home/Home.jsx'
+import Products from './routes/Products/Products.jsx'
 import Locations from './routes/Locations/Locations.jsx';
 import Services from './routes/Services/Services.jsx'
 import ErrorPage from './routes/ErrorPage/ErrorPage.jsx'
 import LocationsDetails from './routes/LocationsDetails/LocationsDetails.jsx'
 import ServicesDetails from './routes/ServicesDetails/ServicesDetails.jsx'
+import MeiasdeCompressao from './routes/MeiasDeCompressao/MeiasDeCompressao.jsx'
+import MeiasDeCompressaoDetails from './routes/MeiasDeCompressaoDetails/MeiasDeCompressaoDetails.jsx';
+import SapatosSoftWorks from './routes/SapatosSoftworks/SapatosSoftworks.jsx';
+import SapatosSoftWorksDetails from './routes/SapatosSoftWorksDetails/SapatosSoftWorksDetails.jsx';
+import DietasEnterais from './routes/DietasEnterais/DietasEnterais.jsx';
+import DietasEnteraisDetails from './routes/DietasEnteraisDetails/DietasEnteraisDetails.jsx';
+import Curativos from './routes/Curativos/Curativos.jsx'
+import CurativosDetails from './routes/CurativosDetails/CurativosDetails.jsx'
+import MateriaisOrtopedicos from './routes/MateriaisOrtopedicos/MateriaisOrtopedicos.jsx'
+import MateriaisOrtopedicosDetails from './routes/MateriaisOrtopedicosDetails/MateriaisOrtopedicosDetails.jsx'
+import ColchoesTravesseiros from './routes/ColchoesTravesseiros/ColchoesTravesseiros.jsx';
+import ColchoesTravesseirosDetails from './routes/ColchoesTravesseirosDetails/ColchoesTravesseirosDetails.jsx';
+import MateriaisDescartaveis from './routes/MateriaisDescartaveis/MateriaisDescartaveis.jsx';
+import MateriaisDescartaveisDetails from './routes/MateriaisDescartaveisDetails/MateriaisDescartaveisDetails.jsx';
 
 const router = createBrowserRouter([
   {
@@ -42,6 +57,7 @@ const router = createBrowserRouter([
         path: '/',
         element: <Home 
           banner1={banner1} 
+          banner2={banner2}
           banner3={banner3} 
           banner4={banner4} 
           people={people} 
@@ -52,6 +68,12 @@ const router = createBrowserRouter([
           medico={medico}
           maps={maps}
           favicon={favicon}
+        />
+      },
+      {
+        path: '/produtos',
+        element: <Products 
+          banner2={banner2}
         />
       },
       {
@@ -67,13 +89,83 @@ const router = createBrowserRouter([
         />
       },
       {
+        path: '/produtos/meias-de-compressao',
+        element: <MeiasdeCompressao
+          banner2={banner2}
+        />
+      },
+      {
+        path: '/produtos/sapatos-hospitalares',
+        element: <SapatosSoftWorks
+          banner2={banner2}
+        />
+      },
+      {
+        path: '/produtos/dietas-enterais',
+        element: <DietasEnterais
+          banner2={banner2}
+        />
+      },
+      {
+        path: '/produtos/curativos',
+        element: <Curativos
+          banner2={banner2}
+        />
+      },
+      {
+        path: '/produtos/materiais-ortopedicos',
+        element: <MateriaisOrtopedicos
+          banner2={banner2}
+        />
+      },
+      {
+        path: '/produtos/colchoes-travesseiros',
+        element: <ColchoesTravesseiros
+          banner2={banner2}
+        />
+      },
+      {
+        path: '/produtos/materiais-descartaveis',
+        element: <MateriaisDescartaveis
+          banner2={banner2}
+        />
+      },
+      {
         path: '/locacoes/:id',
         element: <LocationsDetails/>
       },
       {
         path: '/servicos/:id',
         element: <ServicesDetails/>
-      }
+      },
+      {
+        path: '/produtos/meias-de-compressao/:id',
+        element: <MeiasDeCompressaoDetails/>
+      },
+      {
+        path: '/produtos/sapatos-hospitalares/:id',
+        element: <SapatosSoftWorksDetails/>
+      },
+      {
+        path: '/produtos/dietas-enterais/:id',
+        element: <DietasEnteraisDetails/>
+      },
+      {
+        path: '/produtos/curativos/:id',
+        element: <CurativosDetails/>
+      },
+      {
+        path: '/produtos/materiais-ortopedicos/:id',
+        element: <MateriaisOrtopedicosDetails/>
+      },
+      {
+        path: '/produtos/colchoes-travesseiros/:id',
+        element: <ColchoesTravesseirosDetails/>
+      },
+      {
+        path: '/produtos/materiais-descartaveis/:id',
+        element: <MateriaisDescartaveisDetails/>
+      },
     ]
   }
 ])

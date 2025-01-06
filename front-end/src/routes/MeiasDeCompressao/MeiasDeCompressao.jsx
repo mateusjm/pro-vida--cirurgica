@@ -4,20 +4,17 @@ import { Helmet } from "react-helmet-async";
 // bootstrap
 import { Container, Col, Row, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import servicos from "../../data/servicos.json";
+import meiasdecompressao from "../../data/meiasdecompressao.json";
 
 // CSS
-import styles from "./Services.module.css";
+import styles from "./MeiasDeCompressao.module.css";
 
-const Services = ({ banner4 }) => {
+const MeiasDeCompressao = ({ banner2 }) => {
   return (
     <>
       <Helmet>
-        <title>Serviços</title>
-        <meta
-          name="description"
-          content="Serviços hospitalares e de cuidados pessoais...Venda de Palmilhas Ortopédicas, Colete OTLS, Próteses Ortopédicas e Colar Aspen."
-        />
+        <title>Meias de Compressão</title>
+        <meta name="description" content="Meias de Compressão em Ponte Nova." />
       </Helmet>
       <style type="text/css">
         {`
@@ -29,8 +26,8 @@ const Services = ({ banner4 }) => {
       <div>
         <Container fluid>
           <img
-            className={`img-fluid image-carousel-servicos`}
-            src={banner4}
+            className={`img-fluid image-carousel`}
+            src={banner2}
             alt="Pró-Vida Banner Locações"
           />
         </Container>
@@ -38,13 +35,13 @@ const Services = ({ banner4 }) => {
       <div>
         <Container className="p-5 mt-4">
           <Row>
-            {servicos &&
-              servicos.map(({ id, name, image }) => (
+            {meiasdecompressao &&
+              meiasdecompressao.map(({ id, name, image }) => (
                 <Col key={id} xl={3} md={4} xs={6} className="mb-4">
                   <Card>
-                    <Link to={`/servicos/${id}`}>
+                    <Link to={`/produtos/meias-de-compressao/${id}`}>
                       <Card.Img
-                        className={styles.images_services}
+                        className={styles.images_meias_de_compressao}
                         variant="top"
                         src={image}
                         alt={name}
@@ -61,4 +58,4 @@ const Services = ({ banner4 }) => {
   );
 };
 
-export default Services;
+export default MeiasDeCompressao;

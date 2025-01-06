@@ -1,0 +1,21 @@
+.button_link {
+  padding: 13px;
+  border-radius: 25px;
+}
+
+.button_link a {
+  text-decoration: none;
+  color: var(--bg-success);
+}
+
+.button_link:hover a {
+  color: #fff;
+}
+
+.border {
+  border: 1px solid red;
+}
+
+.text_justify_custom {
+  text-align: justify;
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "id": "isosource-soya",
+    "name": "Dieta Soya",
+    "description": "Isosource® Soya é uma fórmula padrão destinada para nutrição de pessoas com necessidades especiais, com condições específicas de dietas e/ou restrições alimentares.​ É constituído de 100% de proteína de soja e é normocalórico, cada 1ml fornece 1,2kcal",
+    "image": "https://live.staticflickr.com/65535/54242407304_b43a3beb8e_n.jpg"
+  },
+  {
+    "id": "isosource-fiber",
+    "name": "Dieta Fiber",
+    "description": "Isosource® Soya Fiber Isosource® Soya Fiber é uma fórmula padrão destinada para nutrição de pessoas com necessidades especiais, com condições específicas de dietas e/ou restrições alimentares.​ É constituído de 100% de proteína de soja, é normocalórico, cada 1ml fornece 1,2kcal e possui um mix de fibras.",
+    "image": "https://live.staticflickr.com/65535/54242405913_36977cd0b2_n.jpg"
+  },
+  {
+    "id": "isosource-hipercalorico",
+    "name": "Dieta Hipercalórico 1.5",
+    "description": "Isosource® 1.5 é uma fórmula padrão destinada para nutrição de pessoas com necessidades especiais, com condições específicas de dietas e/ou restrições alimentares.​ É hipercalórico, sendo que cada 1ml fornece 1,5kcal.",
+
+    "image": "https://live.staticflickr.com/65535/54242588680_4cb0eeb517_n.jpg"
+  },
+  {
+    "id": "proline-morango",
+    "name": "Proline Morango",
+    "description": "Fórmula modificada para nutrição enteral​e oral hipercalórica, hiperproteica, adicionada de arginina e prolina. Com alto​teor de zinco, selênio, vitaminas A, E e C e sem adição de sacarose.",
+    "image": "https://live.staticflickr.com/65535/54242173611_83e6b3cb88_n.jpg"
+  },
+  {
+    "id": "proline-baunilha",
+    "name": "Proline Baunilha",
+    "description": "Fórmula modificada para nutrição enteral​e oral hipercalórica, hiperproteica, adicionada de arginina e prolina. Com alto​teor de zinco, selênio, vitaminas A, E e C e sem adição de sacarose.",
+    "image": "https://live.staticflickr.com/65535/54242407748_83e310a7a6_n.jpg"
+  },
+  {
+    "id": "espessante-thickenup",
+    "name": "Espessante ThickenUp",
+    "description": "O Resource® ThickenUp Clear é um espessante e gelificante para alimentos. Não altera cor, sabor e cheiro dos alimentos quentes ou frios.",
+    "image": "https://live.staticflickr.com/65535/54242483049_7d6b29106a_n.jpg"
+  }
+]

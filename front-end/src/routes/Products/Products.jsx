@@ -4,19 +4,19 @@ import { Helmet } from "react-helmet-async";
 // bootstrap
 import { Container, Col, Row, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import servicos from "../../data/servicos.json";
+import secoesprodutos from "../../data/secoesprodutos.json";
 
 // CSS
-import styles from "./Services.module.css";
+import styles from "./Products.module.css";
 
-const Services = ({ banner4 }) => {
+const Products = ({ banner2 }) => {
   return (
     <>
       <Helmet>
-        <title>Serviços</title>
+        <title>Produtos</title>
         <meta
           name="description"
-          content="Serviços hospitalares e de cuidados pessoais...Venda de Palmilhas Ortopédicas, Colete OTLS, Próteses Ortopédicas e Colar Aspen."
+          content="Linha de Produtos e Materiais Hospitalares em Ponte Nova."
         />
       </Helmet>
       <style type="text/css">
@@ -29,8 +29,8 @@ const Services = ({ banner4 }) => {
       <div>
         <Container fluid>
           <img
-            className={`img-fluid image-carousel-servicos`}
-            src={banner4}
+            className={`img-fluid image-carousel-produtos`}
+            src={banner2}
             alt="Pró-Vida Banner Locações"
           />
         </Container>
@@ -38,13 +38,13 @@ const Services = ({ banner4 }) => {
       <div>
         <Container className="p-5 mt-4">
           <Row>
-            {servicos &&
-              servicos.map(({ id, name, image }) => (
+            {secoesprodutos &&
+              secoesprodutos.map(({ id, name, image }) => (
                 <Col key={id} xl={3} md={4} xs={6} className="mb-4">
                   <Card>
-                    <Link to={`/servicos/${id}`}>
+                    <Link to={`/produtos/${id}`}>
                       <Card.Img
-                        className={styles.images_services}
+                        className={styles.images_products}
                         variant="top"
                         src={image}
                         alt={name}
@@ -61,4 +61,4 @@ const Services = ({ banner4 }) => {
   );
 };
 
-export default Services;
+export default Products;

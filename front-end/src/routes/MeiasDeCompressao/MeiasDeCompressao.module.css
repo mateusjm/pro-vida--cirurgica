@@ -1,0 +1,28 @@
+.button_link a {
+  text-decoration: none;
+  color: var(--bg-success);
+}
+
+.button_link:hover a {
+  color: #fff;
+}
+
+.text_end {
+  text-align: end;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.images_meias_de_compressao {
+  background-color: white;
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: box-shadow 0.3s ease; 
+}
+
+.images_meias_de_compressao:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+

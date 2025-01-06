@@ -1,43 +1,47 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import { useParams } from "react-router-dom";
-import servicos from "../../data/servicos.json";
+import colchoestravesseiros from "../../data/colchoestravesseiros.json";
 
 // bootstrap
 import { Container, Col, Row, Button } from "react-bootstrap";
 
 // CSS
-import styles from "./ServicesDetails.module.css";
+import styles from "./ColchoesTravesseirosDetails.module.css";
 
-const ServicesDetails = () => {
+const ColchoesTravesseirosDetails = () => {
   const { id } = useParams();
-  const [servico, setServico] = useState(null);
+  const [colchoesTravesseiros, setColchoesTravesseiros] = useState(null);
 
   useEffect(() => {
-    const servicoEncontrado = servicos.find((servico) => servico.id === id);
-    setServico(servicoEncontrado);
+    const colchoesTravesseiros = colchoestravesseiros.find(
+      (colchoesTravesseiros) => colchoesTravesseiros.id === id
+    );
+    setColchoesTravesseiros(colchoesTravesseiros);
   }, [id]);
 
-  if (!servico) {
-    return <div>Serviço não encontrado.</div>;
+  if (!colchoesTravesseiros) {
+    return <div>Colchões e Travesseiros não encontrados.</div>;
   }
 
   return (
     <>
-      {" "}
       <Helmet>
-        <title>{servico.name}</title>
-        <meta name="description" content={`${servico.description}`} />
+        <title>{colchoesTravesseiros.name}</title>
+        <meta
+          name="description"
+          content={`${colchoesTravesseiros.description}`}
+        />
       </Helmet>
       <Container className={`mb-5`}>
-        <h1 className="mt-5 mb-5">{servico.name}</h1>
+        <h1 className="mt-5 mb-5">{colchoesTravesseiros.name}</h1>
         <Row>
           <Col xxl={6} xl={6} md={6} sm={12} className="text-center">
             <img
               width={500}
               className="img-fluid"
-              src={servico.image}
-              alt={servico.name}
+              src={colchoesTravesseiros.image}
+              alt={colchoesTravesseiros.name}
             />
           </Col>
           <Col
@@ -45,10 +49,10 @@ const ServicesDetails = () => {
             xl={5}
             md={6}
             sm={12}
+            xs={12}
             className={`p-4 ${styles.text_justify_custom}`}
           >
-            <p>{servico.description}</p>
-            <p>{servico.description1}</p>
+            <p>{colchoesTravesseiros.description}</p>
             <Col className="text-end">
               <Button className={styles.button_link} variant="success">
                 <a
@@ -67,4 +71,4 @@ const ServicesDetails = () => {
   );
 };
 
-export default ServicesDetails;
+export default ColchoesTravesseirosDetails;

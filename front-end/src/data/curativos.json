@@ -1,0 +1,81 @@
+[
+  {
+    "id": "petrolatum",
+    "name": "Petrolatum",
+    "description": "Curatec Compressa com Emulsão de Petrolatum é uma compressa de Rayon estéril, não aderente impregnada com emulsão de petrolatum de origem minerais.",
+    "image": "https://live.staticflickr.com/65535/54241395792_df3beb84f2_n.jpg"
+  },
+  {
+    "id": "lomatuel-pro",
+    "name": "Lomatuel Pro",
+    "description": "Lomatuell® Pro é um curativo de gaze não aderente, flexível e macio. É composto por tule sintético de poliéster de malha larga, impregnado com matriz polimérica contendo vaselina e hidrocoloide. Em contato com o exsudato da ferida, as partículas de hidrocoloide formam um gel e em conjunto com a vaselina, constituem uma camada anfifílica (hidrofílica-lipofílica) acelerando o processo de cicatrização.",
+    "image": "https://live.staticflickr.com/65535/54241395777_72346e506b_n.jpg"
+  },
+  {
+    "id": "suprasorb",
+    "name": "Suprasorb A+Ag",
+    "description": "Suprasorb A + Ag Pro é uma cobertura primária, macia e flexível que se adapta facilmente a qualquer leito da ferida. Utilizado também para preencher cavidades. Pode permanecer aplicado por até 7 dias.",
+
+    "image": "https://live.staticflickr.com/65535/54241395757_5168392c70_n.jpg"
+  },
+  {
+    "id": "biatain-ag",
+    "name": "Biatain Ag",
+    "description": "Biatain® Ag Não Adesivo é um curativo de espuma absorvente com prata para feridas infectadas. O que faz de Biatain® a melhor escolha para cicatrização de feridas infectadas é a exclusiva tecnologia 3DFit para manejo adequado do espaço morto e do exsudato, combinada com a libração sustentada da prata no leito da ferida.",
+    "image": "https://live.staticflickr.com/65535/54242534193_ef45ec29e5_n.jpg"
+  },
+  {
+    "id": "biatain-alginate",
+    "name": "Biatain Alginate",
+    "description": "Biatain® Alginato Ag é um curativo de alginato de prata, altamente absorvente para feridas infectadas com exsudação moderada à intensa de qualquer tamanho, forma e profundidade.",
+    "image": "https://live.staticflickr.com/65535/54242300256_458c343c17_n.jpg"
+  },
+  {
+    "id": "hidrocoloide",
+    "name": "Hidrocolóide",
+    "description": "Comfeel® Plus – Proteção garantida. Cicatrização mais rápida. Curativos hidrocolóide para cicatrização de feridas em meio úmido. Comfeel®Plus proporciona os benefícios da cicatrização de ferida em meio úmido e a proteção para feridas e pele em risco. Em comparação com a cicatrização tradicional de feridas.",
+    "image": "https://live.staticflickr.com/65535/54242535484_25c311954f_n.jpg"
+  },
+  {
+    "id": "calcio-sodio",
+    "name": "Curativo Cálcio e Sódio",
+    "description": "Curatec Alginato de Cálcio e Sódio é uma cobertura estéril, absorvente, composta por ácidos manurônico e gulurônico na forma de sais, derivado de algas marinhas marrons.",
+    "image": "https://live.staticflickr.com/65535/54242535479_28efa3fc1b_n.jpg"
+  },
+  {
+    "id": "purilon",
+    "name": "Purilon",
+    "description": "Purilon® é um hidrogel suave, composto por ingredientes naturais sem nenhum aditivo. Purilon gel deve ser usado em feridas que precisam de desbridamento eficaz e delicado do tecido necrótico, preparando, assim, o caminho para cicatrização mais rápida da ferida.",
+    "image": "https://live.staticflickr.com/65535/54242300196_cbeb612240_n.jpg"
+  },
+  {
+    "id": "creme-de-barreira",
+    "name": "Creme de Barreira",
+    "description": "Creme Barreira Comfeel hidrata a pele e protege contra a ação de agentes externos, criando uma barreira protetora e auxiliando na manutenção do ph natural da pele.",
+    "image": "https://live.staticflickr.com/65535/54242535499_26d2830ef5_n.jpg"
+  },
+  {
+    "id": "sabonete-phmb",
+    "name": "Sabonete com PHMB",
+    "description": "Pielsana Sabonete Antisséptico com PHMB (Cloridrato de Polihexametileno Biguanida) é um produto altamente eficaz e de amplo espectro de ação com baixa toxicidade para o homem e ao meio ambiente. Sua baixa produção de espuma torna o banho de leito mais fácil, sem perda de sua eficácia, não havendo a necessidade de enxague.",
+    "image": "https://live.staticflickr.com/65535/54241395872_002f0be199_n.jpg"
+  },
+  {
+    "id": "solucao-aquosa",
+    "name": "Solução Aquosa",
+    "description": "O Pielsana Polihexanida Solução Aquosa é um produto a base de polihexanida (biguanida) com alta absorção que promove a limpeza e a hidratação das feridas crônicas. Indicado para acelerar o processo de cicatrização, proporcionando a rápida e eficaz remoção das crostas e a redução dos odores da ferida.",
+    "image": "https://live.staticflickr.com/65535/54241395882_e5f0a4d6ba_n.jpg"
+  },
+  {
+    "id": "hidrogel",
+    "name": "Hidrogel",
+    "description": "O Pielsana Hidrogel Polihexanida c/ PHMB promove a limpeza, o desbridamento, a hidratação, bem como a remoção de odores/bactérias/biofilme do leito de lesões crônicas e agudas.",
+    "image": "https://live.staticflickr.com/65535/54242534178_6ee41bcd30_n.jpg"
+  },
+  {
+    "id": "bota-de-unna",
+    "name": "Bota de Unna",
+    "description": "Curatec Bota de Unna é uma bandagem inelástica (terapia de contensão) impregnada com pasta à base de óxido de zinco. Melhora o retorno venoso dos membros inferiores.",
+    "image": "https://live.staticflickr.com/65535/54242534188_eae8cf4185_n.jpg"
+  }
+]
