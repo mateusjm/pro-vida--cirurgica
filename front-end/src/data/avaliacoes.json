@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "nome": "Maria Rita Ribeiro Bellico",
+    "avaliacao": "Gostamos muito do atendimento e da entrega dos produtos; que são de ótima qualidade!",
+    "nota": 5,
+    "data": "31/12/2024"
+  },
+  {
+    "id": 2,
+    "nome": "Natalia Rodrigues",
+    "avaliacao": "Gosto muito do atendimento da provida todos atenciosos!",
+    "nota": 5,
+    "data": "17/12/2024"
+  },
+  {
+    "id": 3,
+    "nome": "Patricia Lidia",
+    "avaliacao": "Boa tarde. Atendimento maravilhoso. Excelentes profissionais. Pessoas humanas e dominam conhecimento sobre os produtos que fornecem. Continuam sempre a sim.",
+    "nota": 5,
+    "data": "07/12/2024"
+  },
+  {
+    "id": 4,
+    "nome": "Ana Cristina",
+    "avaliacao": "Ótimo atendimento, explicam como usar o produto corretamente, atendimento rápido sem demoras.",
+    "nota": 5,
+    "data": "06/12/2024"
+  },
+  {
+    "id": 5,
+    "nome": "Crislaine Nascimento Marra",
+    "avaliacao": "Muito atenciosos, respondem rápido. Ótimo atendimento.",
+    "nota": 5,
+    "data": "01/12/2024"
+  },
+  {
+    "id": 6,
+    "nome": "Antonio Liberato",
+    "avaliacao": "Ótimo ,já realizei compras para outras pessoas e agora para mim mesmo , excelente atendimento.Recomendo.",
+    "nota": 5,
+    "data": "08/11/2024"
+  },
+  {
+    "id": 7,
+    "nome": "Vanda Colen",
+    "avaliacao": "Sempre com o melhor atendimento, e carinho com os clientes. Sou cliente da Pró Vida a mais 10 anos. Nota 1000.",
+    "nota": 5,
+    "data": "15/09/2024"
+  },
+  {
+    "id": 8,
+    "nome": "Márcia Silveira",
+    "avaliacao": "Muito prestativos. Material de alta qualidade. Atende às solicitações dos consumidores comprando material que precisamos é eles ainda não tem. Nota 10..",
+    "nota": 5,
+    "data": "04/01/2024"
+  }
+]

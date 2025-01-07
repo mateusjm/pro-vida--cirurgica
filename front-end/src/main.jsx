@@ -12,7 +12,7 @@ import banner1 from './assets/Pro-vida-banner1.png'
 import banner2 from './assets/Pro-vida-banner2.png'
 import banner3 from './assets/Pro-vida-banner3.png'
 import banner4 from './assets/Pro-vida-banner4.png'
-import people from './assets/people.jpg'
+import people from './assets/people.png'
 import car from './assets/car.png'
 import medalha from './assets/medalha.png'
 import dinheiro from './assets/dinheiro.png'
@@ -46,6 +46,7 @@ import ColchoesTravesseiros from './routes/ColchoesTravesseiros/ColchoesTravesse
 import ColchoesTravesseirosDetails from './routes/ColchoesTravesseirosDetails/ColchoesTravesseirosDetails.jsx';
 import MateriaisDescartaveis from './routes/MateriaisDescartaveis/MateriaisDescartaveis.jsx';
 import MateriaisDescartaveisDetails from './routes/MateriaisDescartaveisDetails/MateriaisDescartaveisDetails.jsx';
+import Avaliacoes from './routes/Avaliacoes/Avaliacoes.jsx';
 
 const router = createBrowserRouter([
   {
@@ -86,6 +87,12 @@ const router = createBrowserRouter([
         path: '/servicos',
         element: <Services
           banner4={banner4}
+        />
+      },
+      {
+        path: '/avaliacoes',
+        element: <Avaliacoes
+        favicon={favicon}
         />
       },
       {

@@ -67,7 +67,7 @@ const Home = ({
       <div>
         <Container fluid>
           <Row>
-            <Col xl={6} md={12} className={`p-0 d-none d-sm-block`} style={{ height: "730px" }}>
+            <Col xl={6} md={4} className={`d-none d-md-block`} style={{ height: "770px" }}>
               <img
                 src={people}
                 alt="Pessoas"
@@ -77,11 +77,11 @@ const Home = ({
             </Col>
             <Col>
               <h1 className="mt-5 mb-3">
-                Mais de 140 mil clientes satisfeitos!
+                Mais de 200 mil clientes satisfeitos!
               </h1>
               <h3 sm={12} xs={12} className="text-center fst-italic mb-5">
                 Somos especialistas em produtos hospitalares, ortopédicos e
-                cuidados pessoais.{" "}
+                cuidados pessoais.
               </h3>
               <ul className={`${styles.home}`}>
                 <Stack gap={4}>
@@ -231,7 +231,7 @@ const Home = ({
             >
               <img width={110} className="img-fluid" src={car} alt="" />
               <h4 className="text-success">Entrega em toda Região</h4>
-              <p>Garantimos uma experiência sem preocupações!</p>
+              <p className={`${styles.avaliacoes}`}>Garantimos uma experiência sem preocupações!</p>
             </Col>
             <Col
               className={`${styles.cards} mb-4 p-4`}
@@ -241,12 +241,14 @@ const Home = ({
               md={5}
               xs={10}
             >
-              <img width={110} className="img-fluid p-3" src={medalha} alt="" />
-              <h4 className="text-success">
-                Ótimo <br />
-                Atendimento
-              </h4>
-              <p>Refletimos nossa dedicação em cada detalhe!</p>
+              <a className={`${styles.avaliacoes}`} href="/avaliacoes">
+                <img width={110} className="img-fluid p-3" src={medalha} alt="" />
+                <h4 className="text-success">
+                  Ótimo <br />
+                  Atendimento
+                </h4>
+                <p>Refletimos nossa dedicação em cada detalhe!</p>
+              </a>
             </Col>
             <Col
               className={`${styles.cards} mb-4 p-4`}
@@ -265,7 +267,7 @@ const Home = ({
               <h4 className="text-success">
                 Melhores <br /> Preços
               </h4>
-              <p>Sua satisfação é nossa prioridade!</p>
+              <p className={`${styles.avaliacoes}`}>Sua satisfação é nossa prioridade!</p>
             </Col>
             <Col
               className={`${styles.cards} mb-4 p-4`}
@@ -284,7 +286,7 @@ const Home = ({
               <h4 className="text-success">
                 Líder no <br /> Mercado
               </h4>
-              <p>Reconhecidos pela nossa excelência e confiança!</p>
+              <p className={`${styles.avaliacoes}`}>Reconhecidos pela nossa excelência e confiança!</p>
             </Col>
           </Row>
         </Container>

@@ -37,6 +37,9 @@ const Footer = ({ logo, telefone, email, facebook, instagram, whatsapp }) => {
             <LinkContainer to="/servicos">
               <Link className={styles.footerLink}>Serviços</Link>
             </LinkContainer>
+            <LinkContainer to="/avaliacoes">
+              <Link className={styles.footerLink}>Avalie-nos</Link>
+            </LinkContainer>
           </Stack>
         </Col>
         <Col xxl={3} md={4} className="p-3">
