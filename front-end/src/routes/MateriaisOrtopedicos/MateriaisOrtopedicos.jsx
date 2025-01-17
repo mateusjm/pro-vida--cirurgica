@@ -42,7 +42,7 @@ const MateriaisOrtopedicos = ({ banner2 }) => {
               materiaisortopedicos.map(({ id, name, image }) => (
                 <Col key={id} xl={3} md={4} xs={6} className="mb-4">
                   <Card>
-                    <Link to={`/produtos/materiais-ortopedicos/${id}`}>
+                    <Link to={`/produtos/ortopedicos/${id}`}>
                       <Card.Img
                         className={styles.images_materiais_ortopedicos}
                         variant="top"

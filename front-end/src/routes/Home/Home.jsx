@@ -67,7 +67,7 @@ const Home = ({
       <div>
         <Container fluid>
           <Row>
-            <Col xl={6} md={4} className={`d-none d-md-block`} style={{ height: "770px" }}>
+            <Col xxl={5} xl={5} md={3} className={`d-none d-md-block`} style={{ height: "734px" }}>
               <img
                 src={people}
                 alt="Pessoas"

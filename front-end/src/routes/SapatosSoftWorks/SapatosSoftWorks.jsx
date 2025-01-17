@@ -42,7 +42,7 @@ const SapatosSoftWorks = ({ banner2 }) => {
               sapatos.map(({ id, name, image }) => (
                 <Col key={id} xl={3} md={4} xs={6} className="mb-4">
                   <Card>
-                    <Link to={`/produtos/sapatos-profissionais/${id}`}>
+                    <Link to={`/produtos/sapatos/${id}`}>
                       <Card.Img
                         className={styles.images_sapatos_hospitalares}
                         variant="top"

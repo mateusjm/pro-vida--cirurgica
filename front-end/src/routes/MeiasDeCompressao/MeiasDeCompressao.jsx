@@ -39,7 +39,7 @@ const MeiasDeCompressao = ({ banner2 }) => {
               meiasdecompressao.map(({ id, name, image }) => (
                 <Col key={id} xl={3} md={4} xs={6} className="mb-4">
                   <Card>
-                    <Link to={`/produtos/meias-de-compressao/${id}`}>
+                    <Link to={`/produtos/meias/${id}`}>
                       <Card.Img
                         className={styles.images_meias_de_compressao}
                         variant="top"

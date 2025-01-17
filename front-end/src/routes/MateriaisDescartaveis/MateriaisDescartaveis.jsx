@@ -42,7 +42,7 @@ const MateriaisDescartaveis = ({ banner2 }) => {
               materiaisdescartaveis.map(({ id, name, image }) => (
                 <Col key={id} xl={3} md={4} xs={6} className="mb-4">
                   <Card>
-                    <Link to={`/produtos/materiais-descartaveis/${id}`}>
+                    <Link to={`/produtos/descartaveis/${id}`}>
                       <Card.Img
                         className={styles.images_materiais_descartaveis}
                         variant="top"

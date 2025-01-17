@@ -42,7 +42,7 @@ const DietasEnterais = ({ banner2 }) => {
               dietasenterais.map(({ id, name, image }) => (
                 <Col key={id} xl={3} md={4} xs={6} className="mb-4">
                   <Card>
-                    <Link to={`/produtos/dietas-enterais/${id}`}>
+                    <Link to={`/produtos/dietas/${id}`}>
                       <Card.Img
                         className={styles.images_dietas_enterais}
                         variant="top"

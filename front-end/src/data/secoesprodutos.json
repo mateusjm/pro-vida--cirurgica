@@ -1,16 +1,16 @@
 [
   {
-    "id": "meias-de-compressao",
+    "id": "meias",
     "name": "Meias de Compressão",
     "image": "https://live.staticflickr.com/65535/54242055548_d5e7a8db85_n.jpg"
   },
   {
-    "id": "sapatos-profissionais",
+    "id": "sapatos",
     "name": "Sapatos Profissionais",
     "image": "https://live.staticflickr.com/65535/54242111228_9071f105b4_n.jpg"
   },
   {
-    "id": "dietas-enterais",
+    "id": "dietas",
     "name": "Dietas Enterais",
     "image": "https://live.staticflickr.com/65535/54242407304_b43a3beb8e_n.jpg"
   },
@@ -20,17 +20,17 @@
     "image": "https://live.staticflickr.com/65535/54241395777_72346e506b_n.jpg"
   },
   {
-    "id": "materiais-ortopedicos",
+    "id": "ortopedicos",
     "name": "Materiais Ortopédicos",
     "image": "https://live.staticflickr.com/65535/54250292313_2445dd94d2_n.jpg"
   },
   {
-    "id": "colchoes-travesseiros",
+    "id": "colchoes",
     "name": "Colchões e Travesseiros",
     "image": "https://live.staticflickr.com/65535/54242787585_5c22c8b95b_n.jpg"
   },
   {
-    "id": "materiais-descartaveis",
+    "id": "descartaveis",
     "name": "Materiais Descartáveis",
     "image": "https://live.staticflickr.com/65535/54242718748_cefcdc0d3e_n.jpg"
   }

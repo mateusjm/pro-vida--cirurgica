@@ -42,7 +42,7 @@ const ColchoesTravesseiros = ({ banner2 }) => {
               colchoestravesseiros.map(({ id, name, image }) => (
                 <Col key={id} xl={3} md={4} xs={6} className="mb-4">
                   <Card>
-                    <Link to={`/produtos/colchoes-travesseiros/${id}`}>
+                    <Link to={`/produtos/colchoes/${id}`}>
                       <Card.Img
                         className={styles.images_colchoes_travesseiros}
                         variant="top"

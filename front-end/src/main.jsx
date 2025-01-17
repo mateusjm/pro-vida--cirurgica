@@ -96,19 +96,19 @@ const router = createBrowserRouter([
         />
       },
       {
-        path: '/produtos/meias-de-compressao',
+        path: '/produtos/meias',
         element: <MeiasdeCompressao
           banner2={banner2}
         />
       },
       {
-        path: '/produtos/sapatos-profissionais',
+        path: '/produtos/sapatos',
         element: <SapatosSoftWorks
           banner2={banner2}
         />
       },
       {
-        path: '/produtos/dietas-enterais',
+        path: '/produtos/dietas',
         element: <DietasEnterais
           banner2={banner2}
         />
@@ -120,19 +120,19 @@ const router = createBrowserRouter([
         />
       },
       {
-        path: '/produtos/materiais-ortopedicos',
+        path: '/produtos/ortopedicos',
         element: <MateriaisOrtopedicos
           banner2={banner2}
         />
       },
       {
-        path: '/produtos/colchoes-travesseiros',
+        path: '/produtos/colchoes',
         element: <ColchoesTravesseiros
           banner2={banner2}
         />
       },
       {
-        path: '/produtos/materiais-descartaveis',
+        path: '/produtos/descartaveis',
         element: <MateriaisDescartaveis
           banner2={banner2}
         />
@@ -146,15 +146,15 @@ const router = createBrowserRouter([
         element: <ServicesDetails/>
       },
       {
-        path: '/produtos/meias-de-compressao/:id',
+        path: '/produtos/meias/:id',
         element: <MeiasDeCompressaoDetails/>
       },
       {
-        path: '/produtos/sapatos-profissionais/:id',
+        path: '/produtos/sapatos/:id',
         element: <SapatosSoftWorksDetails/>
       },
       {
-        path: '/produtos/dietas-enterais/:id',
+        path: '/produtos/dietas/:id',
         element: <DietasEnteraisDetails/>
       },
       {
@@ -162,15 +162,15 @@ const router = createBrowserRouter([
         element: <CurativosDetails/>
       },
       {
-        path: '/produtos/materiais-ortopedicos/:id',
+        path: '/produtos/ortopedicos/:id',
         element: <MateriaisOrtopedicosDetails/>
       },
       {
-        path: '/produtos/colchoes-travesseiros/:id',
+        path: '/produtos/colchoes/:id',
         element: <ColchoesTravesseirosDetails/>
       },
       {
-        path: '/produtos/materiais-descartaveis/:id',
+        path: '/produtos/descartaveis/:id',
         element: <MateriaisDescartaveisDetails/>
       },
     ]
