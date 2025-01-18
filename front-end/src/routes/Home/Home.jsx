@@ -86,13 +86,15 @@ const Home = ({
               <ul className={`${styles.home}`}>
                 <Stack gap={4}>
                   <li className={styles.list_item}>
-                    <div className={styles.circulo}>
-                      <img
-                        src={`https://cdn-icons-png.flaticon.com/128/407/407543.png`}
-                        alt="Ícone de materiais descartáveis"
-                        className={styles.image}
-                      />
-                    </div>
+                    <a href="/produtos/descartaveis">
+                      <div className={styles.circulo}>
+                        <img
+                          src={`https://cdn-icons-png.flaticon.com/128/407/407543.png`}
+                          alt="Ícone de materiais descartáveis"
+                          className={styles.image}
+                        />
+                      </div>
+                    </a>
                     <div className={styles.text_container}>
                       <h4 className={styles.span_list}>
                         Materiais Descartáveis
@@ -101,13 +103,15 @@ const Home = ({
                     </div>
                   </li>
                   <li className={styles.list_item}>
-                    <div className={styles.circulo}>
-                      <img
-                        src={`https://cdn-icons-png.flaticon.com/128/2563/2563778.png`}
-                        alt="Ícone de locações"
-                        className={styles.image}
-                      />
-                    </div>
+                    <a href="/locacoes">
+                      <div className={styles.circulo}>
+                        <img
+                          src={`https://cdn-icons-png.flaticon.com/128/2563/2563778.png`}
+                          alt="Ícone de locações"
+                          className={styles.image}
+                        />
+                      </div>
+                    </a>
                     <div className={styles.text_container}>
                       <h4 className={styles.span_list}>Locações</h4>
                       <p>
@@ -117,26 +121,30 @@ const Home = ({
                     </div>
                   </li>
                   <li className={styles.list_item}>
-                    <div className={styles.circulo}>
-                      <img
-                        src={`https://cdn-icons-png.flaticon.com/128/8123/8123362.png`}
-                        alt="Ícone de produtos ortopédicos"
-                        className={styles.image}
-                      />
-                    </div>
+                    <a href="/produtos/ortopedicos">
+                      <div className={styles.circulo}>
+                        <img
+                          src={`https://cdn-icons-png.flaticon.com/128/8123/8123362.png`}
+                          alt="Ícone de produtos ortopédicos"
+                          className={styles.image}
+                        />
+                      </div>
+                    </a>
                     <div className={styles.text_container}>
                       <h4 className={styles.span_list}>Produtos Ortopédicos</h4>
                       <p>Variedade para garantir conforto e suporte.</p>
                     </div>
                   </li>
                   <li className={styles.list_item}>
-                    <div className={styles.circulo}>
-                      <img
-                        src={`https://cdn-icons-png.flaticon.com/128/11228/11228368.png`}
-                        alt="Ícone de CPAP e BiPAP"
-                        className={styles.image}
-                      />
-                    </div>
+                    <a target="_blank" href="https://cpap.providacirurgica.com.br">
+                      <div className={styles.circulo}>
+                        <img
+                          src={`https://cdn-icons-png.flaticon.com/128/11228/11228368.png`}
+                          alt="Ícone de CPAP e BiPAP"
+                          className={styles.image}
+                        />
+                      </div>
+                    </a>
                     <div className={styles.text_container}>
                       <h4 className={styles.span_list}>CPAP e BiPAP</h4>
                       <p>Soluções eficazes para problemas respiratórios.</p>
