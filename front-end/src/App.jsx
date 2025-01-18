@@ -10,6 +10,7 @@ import whatsapp from "./assets/whatsapp.png";
 
 // reaproveitando estrutura
 import { Outlet } from "react-router-dom";
+import ErrorPage from "./routes/ErrorPage/ErrorPage";
 
 // components
 import Header from "./components/Header";
@@ -23,7 +24,9 @@ function App() {
     <>
       <ScrollToTop />
       <Header logo={logo} />
-      <Outlet />
+      <main>
+        <Outlet />
+      </main>
       <Footer
         logo={logo}
         telefone={telefone}

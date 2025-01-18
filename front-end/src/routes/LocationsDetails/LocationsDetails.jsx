@@ -8,6 +8,7 @@ import { Container, Col, Row, Button } from "react-bootstrap";
 
 // CSS
 import styles from "./LocationsDetails.module.css";
+import ErrorPage from "../ErrorPage/ErrorPage";
 
 const LocationDetails = () => {
   const { id } = useParams();
@@ -19,7 +20,7 @@ const LocationDetails = () => {
   }, [id]);
 
   if (!locacao) {
-    return <div>Locação não encontrada.</div>;
+    return <ErrorPage />;
   }
 
   return (

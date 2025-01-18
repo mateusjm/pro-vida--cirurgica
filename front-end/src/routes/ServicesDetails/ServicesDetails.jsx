@@ -8,6 +8,7 @@ import { Container, Col, Row, Button } from "react-bootstrap";
 
 // CSS
 import styles from "./ServicesDetails.module.css";
+import ErrorPage from "../ErrorPage/ErrorPage";
 
 const ServicesDetails = () => {
   const { id } = useParams();
@@ -19,7 +20,7 @@ const ServicesDetails = () => {
   }, [id]);
 
   if (!servico) {
-    return <div>Serviço não encontrado.</div>;
+    return <ErrorPage />;
   }
 
   return (

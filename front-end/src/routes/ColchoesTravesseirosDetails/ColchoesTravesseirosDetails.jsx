@@ -8,6 +8,7 @@ import { Container, Col, Row, Button } from "react-bootstrap";
 
 // CSS
 import styles from "./ColchoesTravesseirosDetails.module.css";
+import ErrorPage from "../ErrorPage/ErrorPage";
 
 const ColchoesTravesseirosDetails = () => {
   const { id } = useParams();
@@ -21,7 +22,7 @@ const ColchoesTravesseirosDetails = () => {
   }, [id]);
 
   if (!colchoesTravesseiros) {
-    return <div>Colchões e Travesseiros não encontrados.</div>;
+    return <ErrorPage />;
   }
 
   return (

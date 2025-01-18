@@ -8,6 +8,7 @@ import { Container, Col, Row, Button } from "react-bootstrap";
 
 // CSS
 import styles from "./MeiasDeCompressaoDetails.module.css";
+import ErrorPage from "../ErrorPage/ErrorPage";
 
 const MeiasDeCompressaoDetails = () => {
   const { id } = useParams();
@@ -19,7 +20,7 @@ const MeiasDeCompressaoDetails = () => {
   }, [id]);
 
   if (!meia) {
-    return <div>Meia de Compressão não encontrada.</div>;
+    return <ErrorPage />;
   }
 
   return (

@@ -8,6 +8,7 @@ import { Container, Col, Row, Button } from "react-bootstrap";
 
 // CSS
 import styles from "./CurativosDetails.module.css";
+import ErrorPage from "../ErrorPage/ErrorPage";
 
 const CurativosDetails = () => {
   const { id } = useParams();
@@ -19,7 +20,7 @@ const CurativosDetails = () => {
   }, [id]);
 
   if (!curativo) {
-    return <div>Curativo não encontrado.</div>;
+    return <ErrorPage />;
   }
 
   return (

@@ -8,6 +8,7 @@ import { Container, Col, Row, Button } from "react-bootstrap";
 
 // CSS
 import styles from "./DietasEnteraisDetails.module.css";
+import ErrorPage from "../ErrorPage/ErrorPage";
 
 const DietasEnteraisDetails = () => {
   const { id } = useParams();
@@ -19,7 +20,7 @@ const DietasEnteraisDetails = () => {
   }, [id]);
 
   if (!dieta) {
-    return <div>Dieta Enteral não encontrada.</div>;
+    return <ErrorPage />;
   }
 
   return (

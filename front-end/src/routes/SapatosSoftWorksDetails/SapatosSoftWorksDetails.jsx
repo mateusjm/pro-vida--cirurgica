@@ -8,6 +8,7 @@ import { Container, Col, Row, Button } from "react-bootstrap";
 
 // CSS
 import styles from "./SapatosSoftWorksDetails.module.css";
+import ErrorPage from "../ErrorPage/ErrorPage";
 
 const SapatosSoftWorksDetails = () => {
   const { id } = useParams();
@@ -19,7 +20,7 @@ const SapatosSoftWorksDetails = () => {
   }, [id]);
 
   if (!sapato) {
-    return <div>Sapato Hospitalar não encontrado.</div>;
+    return <ErrorPage />;
   }
 
   return (

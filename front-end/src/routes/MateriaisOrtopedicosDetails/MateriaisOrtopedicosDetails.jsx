@@ -8,6 +8,7 @@ import { Container, Col, Row, Button } from "react-bootstrap";
 
 // CSS
 import styles from "./MateriaisOrtopedicosDetails.module.css";
+import ErrorPage from "../ErrorPage/ErrorPage";
 
 const MateriaisOrtopedicosDetails = () => {
   const { id } = useParams();
@@ -21,7 +22,7 @@ const MateriaisOrtopedicosDetails = () => {
   }, [id]);
 
   if (!materialOrtopedico) {
-    return <div>Material Ortopédico não encontrado.</div>;
+    return <ErrorPage />;
   }
 
   return (

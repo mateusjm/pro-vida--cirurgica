@@ -8,6 +8,7 @@ import { Container, Col, Row, Button } from "react-bootstrap";
 
 // CSS
 import styles from "./MateriaisDescartaveisDetails.module.css";
+import ErrorPage from "../ErrorPage/ErrorPage";
 
 const MateriaisDescartaveisDetails = () => {
   const { id } = useParams();
@@ -21,7 +22,7 @@ const MateriaisDescartaveisDetails = () => {
   }, [id]);
 
   if (!materialDescartavel) {
-    return <div>Material Descartável não encontrado.</div>;
+    return <ErrorPage />;
   }
 
   return (
