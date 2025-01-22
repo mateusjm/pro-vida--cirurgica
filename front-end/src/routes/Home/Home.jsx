@@ -28,7 +28,7 @@ const Home = ({
         <title>Pró-Vida Cirúrgica</title>
         <meta
           name="description"
-          content="Página inicial com informações sobre nossos produtos e serviços hospitalares."
+          content="Informações sobre nossos produtos e serviços hospitalares."
         />
         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
