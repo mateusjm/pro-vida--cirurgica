@@ -33,7 +33,7 @@ const Home = ({
         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <div>
-        <Carousel>
+        <Carousel indicators={false}>
           <Carousel.Item interval={3000}>
             <img
               className="d-block w-100 image-carousel"
