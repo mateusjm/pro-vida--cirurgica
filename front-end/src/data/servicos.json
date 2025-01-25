@@ -25,5 +25,17 @@
     "name": "Colar Aspen",
     "description": "O Aspen® CTO combina uma restrição de movimento altamente eficaz da coluna cervical e torácica alta com um nível de conforto bem aceito pelos pacientes. Pesquisas mostram uma restrição de movimento significativamente progressiva ao passar de um colar cervical independente para um aparelho de dois pontos e depois para uma órtese de quatro pontos. Por essas razões, o sistema Aspen® CTO oferece a maior versatilidade disponível para o tratamento de problemas cervicotorácicos.",
     "image": "https://live.staticflickr.com/65535/53999245092_505e734392_n.jpg"
+  },
+  {
+    "id": "tutor-curto-articulado",
+    "name": "Tutor Curto Articulado",
+    "description": "O Tutor Curto Articulado, também conhecido como AFO articulada, é uma órtese que possui articulações no tornozelo. O objetivo é permitir o movimento controlado do tornozelo e suportar a amplitude de movimento desejada. ",
+    "image": "https://live.staticflickr.com/65535/54286962690_80d1aedd59_n.jpg"
+  },
+  {
+    "id": "colete-cto",
+    "name": "Colete CTO",
+    "description": "O Colete CTO proporciona uma eficaz restrição de movimento da coluna cervical e torácica alta com um nível de conforto bem aceito pelos pacientes. Consistem de um apoio mentoniano e occipital conectado a um apoio esternal e torácico anterior e posterior.",
+    "image": "https://live.staticflickr.com/65535/54286775544_e59161b878_n.jpg"
   }
 ]
