@@ -28,6 +28,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
+//components
+import SearchResults from './components/SearchResults.jsx'
+
 // routes
 import Home from "./routes/Home/Home.jsx";
 import Products from "./routes/Products/Products.jsx";
@@ -80,6 +83,10 @@ const router = createBrowserRouter([
       {
         path: "/produtos",
         element: <Products banner2={banner2} />,
+      },
+      {
+        path: "/busca",
+        element: <SearchResults />,
       },
       {
         path: "/locacoes",

@@ -2,24 +2,28 @@
   {
     "id": "colchao-hospitalar",
     "name": "Colchão Hospitalar",
+    "tipo": "colchoes",
     "description": "Projetado para oferecer suporte necessário ao corpo, ele conta com uma placa de espuma de alta performance D33 à base de soja. Ideal para proporcionar conforto e apoio durante todo o período de recuperação.",
     "image": "https://live.staticflickr.com/65535/54242787585_5c22c8b95b_n.jpg"
   },
   {
     "id": "colchao-caixa-de-ovo",
     "name": "Colchão Caixa de Ovo",
+    "tipo": "colchoes",
     "description": "É um colchão ideal para pessoas que permanecem deitadas por longos períodos de convalescença e pós operatórios. É um colchão que oferece conforte e segurança. Tem capacidade de resistência para até 130Kg. Usar como colchonete sobre o colchão; Vestir a forração com um lençol fino de algodão.",
     "image": "https://live.staticflickr.com/65535/54242606288_158386919f_n.jpg"
   },
   {
     "id": "travesseiro-triangulo",
     "name": "Travesseiro Triângulo",
+    "tipo": "colchoes",
     "description": "O Travesseiro Encosto Terapêutico Triangular Ortopédico Lombar para Dor nas Costas é a escolha perfeita para quem procura aliviar desconfortos na coluna e melhorar a postura de forma prática e eficiente. Seu design funcional oferece suporte ergonômico, proporcionando mais conforto em diversos ambientes, seja em casa, hospitais, clínicas ou casas de repouso.",
     "image": "https://live.staticflickr.com/65535/54241605662_638d67b306_n.jpg"
   },
   {
     "id": "colchao-pneumatico",
     "name": "Colchão Pneumático",
+    "tipo": "colchoes",
     "description": "Colchão pneumático em PVC com bomba insufladora. A bomba trabalha inflando e desinflando as células do colchão, alternadamente, em ciclos de 5 minutos. Este processo permite a troca dos pontos de contato e pressão no paciente, prevenindo o aparecimento de escaras/feridas;",
 
     "image": "https://live.staticflickr.com/65535/54241467162_c8c7864af6_n.jpg"
@@ -27,24 +31,28 @@
   {
     "id": "travesseiro-hospitalar",
     "name": "Travesseiro Hospitalar",
+    "tipo": "colchoes",
     "description": "Travesseiro ideal para hospitais, clínicas, UPA's e casas de repouso devido à sua capa em Napa Impermeável na cor Azul, de fácil assepsia, com abertura através de ziper.",
     "image": "https://live.staticflickr.com/65535/54242607044_60e2b67159_n.jpg"
   },
   {
     "id": "travesseiro-perfil-baixo",
     "name": "Travesseiro Perfil Baixo",
+    "tipo": "colchoes",
     "description": "O travesseiro magnético terapêutico ortopédico em viscoelástico perfil baixo Perfetto une o Infravermelho Longo, tecnologia que simula as características mais benéficas dos raios solares, e a Magnetoterapia, uma terapia natural que oferece inúmeros benefícios ao organismo.",
     "image": "https://live.staticflickr.com/65535/54241467187_bae7f43729_n.jpg"
   },
   {
     "id": "travesseiro-perfil-alto",
     "name": "Travesseiro Perfil Alto",
+    "tipo": "colchoes",
     "description": "O Travesseiro Magnético da Perfetto tem tecnologia de infravermelho longo e de magnetos que reduzem o cansaço físico e mental e alivia crises de enxaqueca. As correntes criadas pelos magnetos tem o poder de equilibrar a energia do organismo, levando mais oxigênio para as células do corpo. O design anatômico e a sua espuma com memória vão dar mais alívio da pressão e conforto na hora de dormir. Prático, o travesseiro vem com zíper, sendo fácil remover a capa e lavar.",
     "image": "https://live.staticflickr.com/65535/54242607039_c10e8239d8_n.jpg"
   },
   {
     "id": "travesseiro-anatomico-visco",
     "name": "Travesseiro Anatômico Visco",
+    "tipo": "colchoes",
     "description": "Espuma com memória para maior conforto e alívio da pressão na cervical. Contornos especiais que auxiliam no alinhamento dos ombros, cabeça e pescoço. Indicado para dormir com a parte mais alta encaixada nos ombros.",
     "image": "https://live.staticflickr.com/65535/54242607124_55a79779ea_n.jpg"
   }

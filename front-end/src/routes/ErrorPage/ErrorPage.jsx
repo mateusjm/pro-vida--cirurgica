@@ -4,7 +4,7 @@ function ErrorPage() {
   return (
     <Container
       fluid
-      className="d-flex flex-column justify-content-center align-items-center text-center vh-100 bg-light"
+      className="d-flex flex-column justify-content-center align-items-center text-center vh-100"
     >
       <Row>
         <Col>

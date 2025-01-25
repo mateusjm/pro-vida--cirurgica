@@ -2,18 +2,21 @@
   {
     "id": "avental",
     "name": "Avental",
+    "tipo": "descartaveis",
     "description": "Avental desenvolvido para uso do paciente para pequenos procedimentos clínicos e laboratoriais como exames em ambientes não estéreis e não cirúrgicos.",
     "image": "https://live.staticflickr.com/65535/54241580477_bef59cf2f2_n.jpg"
   },
   {
     "id": "especulo",
     "name": "Espéculo",
+    "tipo": "descartaveis",
     "description": "Espéculo vaginal descartável modelo Collin, indicado para visualização da cavidade vaginal e colo uterino para exame especular ginecológico, Colposcopia, coleta de material biológico para exames e/ou outros procedimentos específicos destes órgãos, para mulheres em idade fértil, sexualmente ativas..",
     "image": "https://live.staticflickr.com/65535/54242718688_2388f4bc22_n.jpg"
   },
   {
     "id": "touca",
     "name": "Touca",
+    "tipo": "descartaveis",
     "description": "A Touca é feita em polipropileno não tecido, possui fechamento em elástico e é de uso único.Indicado para evitar a queda de sujeira e partículas de cabelo em ambientes onde há necessidade de alta limpeza, protegendo o usuário contra respingos, fluidos e outras substâncias.",
 
     "image": "https://live.staticflickr.com/65535/54242900665_5886156728_n.jpg"
@@ -21,54 +24,63 @@
   {
     "id": "mascara",
     "name": "Máscara",
+    "tipo": "descartaveis",
     "description": "É uma Máscara para proteção individual. Possui camada em papel filtro branco fundido com eficiência de filtragem BFE: ≥95%. Barreira física contra fluídos, partículas, bactérias, vírus, pólen, poluição atmosférica e sujeira, protege com qualidade, conforto e promove maior segurança para o dia a dia.",
     "image": "https://live.staticflickr.com/65535/54242718668_f2f0349a4c_n.jpg"
   },
   {
     "id": "papel-maca",
     "name": "Papel para Maca",
+    "tipo": "descartaveis",
     "description": "Lençol de papel em rolo, descartável, embalado individualmente, para proteção da maca e/ou mesa de exames.",
     "image": "https://live.staticflickr.com/65535/54242900650_a896c2a6ae_n.jpg"
   },
   {
     "id": "equipo-dieta",
     "name": "Equipo de Dieta",
+    "tipo": "descartaveis",
     "description": "O Equipo de Dieta é um dispositivo médico utilizado em procedimentos de nutrição enteral. O equipo realiza a conexão entre a sonda de alimentação enteral, ligado ao paciente, e o recipiente – frasco ou bolsa – que contém a solução ou o nutriente que será administrado.",
     "image": "https://live.staticflickr.com/65535/54242484066_62766d86f3_n.jpg"
   },
   {
     "id": "equipo-soro",
     "name": "Equipo de Soro",
+    "tipo": "descartaveis",
     "description": "Equipo de Soro macrogotas (20 gotas/ml), com conector Luer Slip, desenvolvido para administração de medicamentos e soluções pela via endovenosa.",
     "image": "https://live.staticflickr.com/65535/54242718698_519ef57048_n.jpg"
   },
   {
     "id": "frasco",
     "name": "Frasco de Dieta",
+    "tipo": "descartaveis",
     "description": "Frasco não estéril, transparente para realizar o envase de dieta enteral do paciente. Possui tampa de rosca com obturador e medidas laterais. Encaixe para equipo com ponta tipo lanceta",
     "image": "https://live.staticflickr.com/65535/54242484136_a0e911c59e_n.jpg"
   },
   {
     "id": "luva-latex",
     "name": "Luva de Látex",
+    "tipo": "descartaveis",
     "description": "A Luva de Látex é feita de borracha 100% natural. Lisa, ambidestra, não esterilizada e de cor natural. Indicada para procedimentos não cirúrgicos, proporciona uma barreira contra contaminação. Produto descartável e de uso único.",
     "image": "https://live.staticflickr.com/65535/54242718748_cefcdc0d3e_n.jpg"
   },
   {
     "id": "prope",
     "name": "Propé",
+    "tipo": "descartaveis",
     "description": "Propé é um equipamento de proteção para calçados, na qual veda o solado evitando contaminações ou sujeiras trazidas para dentro de um ambiente esterilizado, podendo ser utilizado dentro de restaurantes, cozinhas industriais, hospitais, laboratórios, entre outras necessidades de higiene e limpeza.",
     "image": "https://live.staticflickr.com/65535/54242900735_a6d2051fdc_n.jpg"
   },
   {
     "id": "agulha",
     "name": "Agulha",
+    "tipo": "descartaveis",
     "description": "A Agulha é um dispositivo estéril, destinado à administração de soluções através da injeção intradérmica, intramuscular e intravenosa ou para a aspiração de fluidos para análises clínicas.",
     "image": "https://live.staticflickr.com/65535/54242718773_d711bffde8_n.jpg"
   },
   {
     "id": "seringa",
     "name": "Seringa",
+    "tipo": "descartaveis",
     "description": "A Seringa foi desenvolvida para aplicação de medicamentos pela via parenteral e coleta de sangue.",
     "image": "https://live.staticflickr.com/65535/54242484176_376430136c_n.jpg"
   }

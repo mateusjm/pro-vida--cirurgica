@@ -2,18 +2,21 @@
   {
     "id": "meia-ultraline",
     "name": "Meia Ultraline",
+    "tipo": "meias",
     "description": "A linha Ultraline 4000 possui meias e braçadeiras compressivas Super Premium, em fios e malhas com efeito climático, feita com mais alto padrão de qualidade Suíço. Produzida em microfibras tactel e micro emulsão de silicone (nanotecnologia)¹, oferecendo uma agradável sensação climática. Garante maior elasticidade e maciez no seu dia a dia. As meias e braçadeiras da linha Ultraline  4000 são mais confortáveis, sedosas, duráveis e fáceis de calçar.",
     "image": "https://live.staticflickr.com/65535/54242055548_d5e7a8db85_n.jpg"
   },
   {
     "id": "meia-comfortline",
     "name": "Meia Comfortline",
+    "tipo": "meias",
     "description": "A Comfortline é a linha tradicional de meias compressivas da Venosan® Brasil. A combinação perfeita entre conforto e naturalidade, proporcionando agradável sensação ao calçar. Produzidas com tecnologia sofisticada e avançada, a partir de elastano com duplo recobrimento de última geração. Com maior índice de rigidez, garante conforto, segurança e maior durabilidade.",
     "image": "https://live.staticflickr.com/65535/54242240185_a04ebcf327_n.jpg"
   },
   {
     "id": "meia-legline",
     "name": "Meia Legline",
+    "tipo": "meias",
     "description": "As meias Legline da Venosan® Brasil são feitas para mulheres dinâmicas que se previnem sem abrir mão do conforto, bem estar e elegância. Possui tecnologia têxtil avançada, garantindo a terapia elasto-compressiva graduada, transparência, maciez e conforto, atendendo as exigências médicas e estéticas. A combinação perfeita entre saúde e beleza para quem deseja pernas bonitas, aliviadas e saudáveis.",
 
     "image": "https://live.staticflickr.com/65535/54240928592_56b4662224_n.jpg"
@@ -21,12 +24,14 @@
   {
     "id": "meia-6000",
     "name": "Meia 6000",
+    "tipo": "meias",
     "description": "Indicada para homens e mulheres, desenhada especialmente para pessoas modernas e ativas. A Venosan® 6000 entra em uma nova era de meias medicinais com alta sensibilidade e conforto. A sua textura possui a suavidade da seda, sendo ­­­elegante, fina e muito confortável, atendendo às exigências médicas e estéticas.",
     "image": "https://live.staticflickr.com/65535/54242061513_8d83ec3f31_n.jpg"
   },
   {
     "id": "meia-antiembolia",
     "name": "Meia Antiembolia",
+    "tipo": "meias",
     "description": "As meias Venosan® AES antiembolia e antitrombo auxiliam no aumento da velocidade do sangue na circulação venosa. Contribuem igualmente para evitar a formação de coágulos que provocam trombose e embolias pulmonares. A meia Venosan®  AES também tem a versão estéril para ser usada durante a cirurgia.",
     "image": "https://live.staticflickr.com/65535/54241827871_9086f8f554_n.jpg"
   }

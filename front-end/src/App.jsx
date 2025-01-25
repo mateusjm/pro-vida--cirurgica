@@ -1,4 +1,5 @@
 import "./App.css";
+import { useState } from "react";
 
 // assets
 import logo from "./assets/logo-pro-vida.png";
@@ -10,7 +11,6 @@ import whatsapp from "./assets/whatsapp.png";
 
 // reaproveitando estrutura
 import { Outlet } from "react-router-dom";
-import ErrorPage from "./routes/ErrorPage/ErrorPage";
 
 // components
 import Header from "./components/Header";
