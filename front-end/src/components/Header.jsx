@@ -21,22 +21,17 @@ const Header = ({ logo, produtos }) => {
     if (expanded) setExpanded(false);
   };
 
-  // Função para normalizar as strings e remover acentos
-  const normalizeString = (str) => {
-    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); // Remove acentos
-  };
-
   // Função para lidar com o envio da pesquisa
   const handleSearch = (e) => {
     e.preventDefault();
     if (searchTerm.trim() === "") return;
-
+  
     // Normaliza o termo de busca
-    const normalizedSearchTerm = normalizeString(searchTerm.toLowerCase());
-
+    const normalizedSearchTerm = searchTerm.trim().toLowerCase();
+  
     // Realiza a navegação para a página de busca com o termo normalizado
-    navigate(`/busca?q=${normalizedSearchTerm}`);
-
+    navigate(`/busca?q=${encodeURIComponent(normalizedSearchTerm)}`);
+  
     // Limpa o campo de busca e fecha o menu
     setSearchTerm("");
     setExpanded(false);
@@ -107,7 +102,7 @@ const Header = ({ logo, produtos }) => {
               style={{
                 outline: "none",
                 boxShadow: "none",
-                borderColor: "green"
+                borderColor: "green",
               }}
             />
             <Button variant="outline-success" className="me-2" type="submit">
