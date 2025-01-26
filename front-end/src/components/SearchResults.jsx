@@ -14,32 +14,38 @@ import materiaisDescartaveis from "../data/materiaisdescartaveis.json";
 import locacoes from "../data/locacoes.json";
 import servicos from "../data/servicos.json";
 
-const sections = [
-  { title: "Meias de Compressão", data: meiasDeCompressao },
-  { title: "Dietas Enterais", data: dietasEnterais },
-  { title: "Sapatos Profissionais", data: sapatos },
-  { title: "Curativos", data: curativos },
-  { title: "Materiais Ortopédicos", data: materiaisOrtopedicos },
-  { title: "Colchões e Travesseiros", data: colchoesTravesseiros },
-  { title: "Materiais Descartáveis", data: materiaisDescartaveis },
-  { title: "Locações", data: locacoes },
-  { title: "Serviços", data: servicos },
-];
-
 const SearchResults = () => {
   const [searchParams] = useSearchParams();
   const query = (searchParams.get("q") || "").toLowerCase();
 
-  // Filtrar todos os dados dinamicamente
-  const filteredSections = sections.map(({ title, data }) => ({
+  // Dados organizados em seções
+  const generalSections = [
+    { title: "Meias de Compressão", data: meiasDeCompressao },
+    { title: "Dietas Enterais", data: dietasEnterais },
+    { title: "Sapatos Profissionais", data: sapatos },
+    { title: "Curativos", data: curativos },
+    { title: "Materiais Ortopédicos", data: materiaisOrtopedicos },
+    { title: "Colchões e Travesseiros", data: colchoesTravesseiros },
+    { title: "Materiais Descartáveis", data: materiaisDescartaveis },
+  ];
+
+  const filteredGeneral = generalSections.map(({ title, data }) => ({
     title,
     results: data.filter((item) => item.name.toLowerCase().includes(query)),
   }));
 
-  // Verificar se há resultados
-  const hasResults = filteredSections.some(
-    (section) => section.results.length > 0
+  const filteredLocacoes = locacoes.filter((item) =>
+    item.name.toLowerCase().includes(query)
   );
+
+  const filteredServicos = servicos.filter((item) =>
+    item.name.toLowerCase().includes(query)
+  );
+
+  const hasResults =
+    filteredGeneral.some((section) => section.results.length > 0) ||
+    filteredLocacoes.length > 0 ||
+    filteredServicos.length > 0;
 
   return (
     <div className="container py-4">
@@ -48,35 +54,100 @@ const SearchResults = () => {
       </h2>
 
       {hasResults ? (
-        filteredSections.map(
-          ({ title, results }) =>
-            results.length > 0 && (
-              <section key={title}>
-                <h3 className="mt-5">{title}</h3>
-                <Container className="p-3 mt-3">
-                  <Row>
-                    {results.map((item) => (
-                      <Col key={item.id} xl={3} md={4} xs={6} className="mb-4">
-                        <Card>
-                          <Link to={`/produtos/${item.tipo}/${item.id}`}>
-                            <Card.Img
-                              className={styles.images_search}
-                              variant="top"
-                              src={item.image}
-                              alt={item.name}
-                            />
-                          </Link>
-                        </Card>
-                        <Card.Title className="text-center mt-3">
-                          {item.name}
-                        </Card.Title>
-                      </Col>
-                    ))}
-                  </Row>
-                </Container>
-              </section>
-            )
-        )
+        <>
+          {/* Renderizar resultados gerais */}
+          {filteredGeneral.map(
+            ({ title, results }) =>
+              results.length > 0 && (
+                <section key={title}>
+                  <h3 className="mt-5">{title}</h3>
+                  <Container className="p-3 mt-3">
+                    <Row>
+                      {results.map((item) => (
+                        <Col
+                          key={item.id}
+                          xl={3}
+                          md={4}
+                          xs={6}
+                          className="mb-4"
+                        >
+                          <Card>
+                            <Link to={`/produtos/${item.tipo}/${item.id}`}>
+                              <Card.Img
+                                className={styles.images_search}
+                                variant="top"
+                                src={item.image}
+                                alt={item.name}
+                              />
+                            </Link>
+                          </Card>
+                          <Card.Title className="text-center mt-3">
+                            {item.name}
+                          </Card.Title>
+                        </Col>
+                      ))}
+                    </Row>
+                  </Container>
+                </section>
+              )
+          )}
+
+          {/* Renderizar locações */}
+          {filteredLocacoes.length > 0 && (
+            <section>
+              <h3 className="mt-5">Locações</h3>
+              <Container className="p-3 mt-3">
+                <Row>
+                  {filteredLocacoes.map((item) => (
+                    <Col key={item.id} xl={3} md={4} xs={6} className="mb-4">
+                      <Card>
+                        <Link to={`/locacoes/${item.id}`}>
+                          <Card.Img
+                            className={styles.images_search}
+                            variant="top"
+                            src={item.image}
+                            alt={item.name}
+                          />
+                        </Link>
+                      </Card>
+                      <Card.Title className="text-center mt-3">
+                        {item.name}
+                      </Card.Title>
+                    </Col>
+                  ))}
+                </Row>
+              </Container>
+            </section>
+          )}
+
+          {/* Renderizar serviços */}
+          {filteredServicos.length > 0 && (
+            <section>
+              <h3 className="mt-5">Serviços</h3>
+              <Container className="p-3 mt-3">
+                <Row>
+                  {filteredServicos.map((item) => (
+                    <Col key={item.id} xl={3} md={4} xs={6} className="mb-4">
+                      <Card>
+                        <Link to={`/servicos/${item.id}`}>
+                          <Card.Img
+                            className={styles.images_search}
+                            variant="top"
+                            src={item.image}
+                            alt={item.name}
+                          />
+                        </Link>
+                      </Card>
+                      <Card.Title className="text-center mt-3">
+                        {item.name}
+                      </Card.Title>
+                    </Col>
+                  ))}
+                </Row>
+              </Container>
+            </section>
+          )}
+        </>
       ) : (
         <Container
           fluid
@@ -84,9 +155,7 @@ const SearchResults = () => {
         >
           <Row>
             <Col>
-              <p className="fs-4 text-secondary">
-                Nenhum resultado encontrado.
-              </p>
+              <p className="fs-4 text-secondary">Nenhum resultado encontrado.</p>
               <Button
                 href="/busca"
                 variant="success"
