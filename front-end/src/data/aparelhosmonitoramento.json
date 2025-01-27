@@ -1,0 +1,52 @@
+[
+  {
+    "id": "aparelho-pressao",
+    "name": "Aparelho de Pressão",
+    "tipo": "aparelhos",
+    "description": "O Aparelho de Pressão é um dispositivo de alta precisão utilizado para aferir a pressão sanguínea. Projetado com qualidade excepcional, é de fácil manuseio e interpretação, garantindo segurança e conforto ao usuário. Fabricado sem látex, minimizando riscos de alergias, sua braçadeira é confeccionada em Nylon, ajustável para pacientes adultos, e possui um fecho de metal que assegura estabilidade durante o uso.",
+    "image": "https://live.staticflickr.com/65535/54290261547_0a0864b2f0_n.jpg"
+  },
+  {
+    "id": "estetoscopio",
+    "name": "Estetoscópio",
+    "tipo": "aparelhos",
+    "description": "O Estetoscópio é indicado para a ausculta cardio pulmonar não invasiva do organismo. É um estetoscópio completo, de baixo peso, formado com tubo em “Y” moldado em PVC de peça única para melhor transmissão do som, com fone biauricular em cobre cromado, que permite auscultar simultaneamente o som com os dois ouvidos e auscultador para ausculta mais precisa e eficiente.  Sua limpeza é simples, basta limpar com um tecido suave levemente umedecido com água.",
+    "image": "https://live.staticflickr.com/65535/54291570925_a48b5530e8_n.jpg"
+  },
+  {
+    "id": "oximetro",
+    "name": "Oxímetro",
+    "tipo": "aparelhos",
+    "description": "O Oxímetro é uma ferramenta de alta tecnologia e precisão, garantindo uma medição de 98% de acurácia no nível de saturação de oxigênio no sangue e na frequência de pulsação, batimentos cardíacos. Seu design compacto e eficiente o torna adequado para uso tanto em crianças quanto em adultos. A tela de LED oferece dois modos de visualização e é operada com apenas um botão, proporcionando facilidade de uso. Além de sua precisão nas leituras.",
+
+    "image": "https://live.staticflickr.com/65535/54291139316_008b04a02c_n.jpg"
+  },
+  {
+    "id": "termometro",
+    "name": "Termômetro",
+    "tipo": "aparelhos",
+    "description": " O Termômetro é indicado para processos de medição de temperatura por via oral e axilar.",
+    "image": "https://live.staticflickr.com/65535/54290261542_fda13f9cdb_n.jpg"
+  },
+  {
+    "id": "glicosimetro",
+    "name": "Medidor de Glicose",
+    "tipo": "aparelhos",
+    "description": "O Medidor de Glicose é uma escolha ideal para o controle eficiente do diabetes. Com tecnologia avançada e design portátil, este dispositivo garante resultados rápidos e confiáveis, proporcionando uma experiência de monitoramento de glicose descomplicada e eficaz.",
+    "image": "https://live.staticflickr.com/65535/54291570945_e9a8c7b63e_n.jpg"
+  },
+  {
+    "id": "nebulizador",
+    "name": "Nebulizador",
+    "tipo": "aparelhos",
+    "description": "O Nebulizador possui design super compacto e leve, facilitando o uso cotidiano e em situações de viagem, seu baixíssimo nível de ruído, muito menor que os nebulizadores a ar comprimido tradicionais, torna o tratamento mais agradável e adaptável a diferentes idades. A tecnologia superflow plus proporciona maior fluxo de névoa e maior quantidades de partículas que alcança diretamente os pulmões, isso garante que o medicamento está sendo corretamente absorvido pelo organismo.",
+    "image": "https://live.staticflickr.com/65535/54291379294_1f7b007700_n.jpg"
+  },
+  {
+    "id": "lanterna-clinica",
+    "name": "Lanterna Clínica",
+    "tipo": "aparelhos",
+    "description": "A Lanterna Clínica , garante alta visibilidade para exames médicos sendo perfeita para todos os profissionais da área da saúde, e tem ótimo custo benefício.",
+    "image": "https://live.staticflickr.com/65535/54291391478_df32a0978f_n.jpg"
+  }
+]

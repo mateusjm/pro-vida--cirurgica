@@ -11,6 +11,7 @@ import curativos from "../data/curativos.json";
 import materiaisOrtopedicos from "../data/materiaisortopedicos.json";
 import colchoesTravesseiros from "../data/colchoestravesseiros.json";
 import materiaisDescartaveis from "../data/materiaisdescartaveis.json";
+import aparelhosMonitoramento from '../data/aparelhosmonitoramento.json'
 import locacoes from "../data/locacoes.json";
 import servicos from "../data/servicos.json";
 
@@ -27,6 +28,7 @@ const SearchResults = () => {
     { title: "Materiais Ortopédicos", data: materiaisOrtopedicos },
     { title: "Colchões e Travesseiros", data: colchoesTravesseiros },
     { title: "Materiais Descartáveis", data: materiaisDescartaveis },
+    { title: "Aparelhos Monitoramento", data: aparelhosMonitoramento }
   ];
 
   const filteredGeneral = generalSections.map(({ title, data }) => ({

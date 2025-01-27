@@ -4,19 +4,19 @@ import { Helmet } from "react-helmet-async";
 // bootstrap
 import { Container, Col, Row, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import colchoestravesseiros from "../../data/colchoestravesseiros.json";
+import aparelhosmonitoramento from "../../data/aparelhosmonitoramento.json";
 
 // CSS
-import styles from "./ColchoesTravesseiros.module.css";
+import styles from "./AparelhosMonitoramento.module.css";
 
 const ColchoesTravesseiros = ({ banner2 }) => {
   return (
     <>
       <Helmet>
-        <title>Colchões e Travesseiros</title>
+        <title>Aparelhos de Monitoramento</title>
         <meta
           name="description"
-          content="Colchões e Travesseiros Hospitalares em Ponte Nova."
+          content="Aparelhos de Monitoramento em Ponte Nova."
         />
       </Helmet>
       <style type="text/css">
@@ -38,13 +38,13 @@ const ColchoesTravesseiros = ({ banner2 }) => {
       <div>
         <Container className="p-5 mt-4">
           <Row>
-            {colchoestravesseiros &&
-              colchoestravesseiros.map(({ id, name, image }) => (
+            {aparelhosmonitoramento &&
+              aparelhosmonitoramento.map(({ id, name, image }) => (
                 <Col key={id} xl={3} md={4} xs={6} className="mb-4">
                   <Card>
-                    <Link to={`/produtos/colchoes/${id}`}>
+                    <Link to={`/produtos/aparelhos/${id}`}>
                       <Card.Img
-                        className={styles.images_colchoes_travesseiros}
+                        className={styles.images_aparelhos}
                         variant="top"
                         src={image}
                         alt={name}

@@ -54,6 +54,8 @@ import ColchoesTravesseirosDetails from "./routes/ColchoesTravesseirosDetails/Co
 import MateriaisDescartaveis from "./routes/MateriaisDescartaveis/MateriaisDescartaveis.jsx";
 import MateriaisDescartaveisDetails from "./routes/MateriaisDescartaveisDetails/MateriaisDescartaveisDetails.jsx";
 import Avaliacoes from "./routes/Avaliacoes/Avaliacoes.jsx";
+import AparelhosMonitoramento from "./routes/AparelhosMonitoramento/AparelhosMonitoramento.jsx";
+import AparelhosMonitoramentoDetails from "./routes/AparelhosMonitoramentoDetails/AparelhosMonitoramentoDetails.jsx";
 
 const router = createBrowserRouter([
   {
@@ -129,6 +131,10 @@ const router = createBrowserRouter([
         element: <MateriaisDescartaveis banner2={banner2} />,
       },
       {
+        path: "/produtos/aparelhos",
+        element: <AparelhosMonitoramento banner2={banner2} />,
+      },
+      {
         path: "/locacoes/:id",
         element: <LocationsDetails />,
       },
@@ -163,6 +169,10 @@ const router = createBrowserRouter([
       {
         path: "/produtos/descartaveis/:id",
         element: <MateriaisDescartaveisDetails />,
+      },
+      {
+        path: "/produtos/aparelhos/:id",
+        element: <AparelhosMonitoramentoDetails />,
       },
     ],
   },

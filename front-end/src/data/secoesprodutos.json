@@ -33,5 +33,10 @@
     "id": "descartaveis",
     "name": "Materiais Descartáveis",
     "image": "https://live.staticflickr.com/65535/54242718748_cefcdc0d3e_n.jpg"
+  },
+  {
+    "id": "aparelhos",
+    "name": "Aparelhos de Monitoramento",
+    "image": "https://live.staticflickr.com/65535/54290261547_0a0864b2f0_n.jpg"
   }
 ]
