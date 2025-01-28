@@ -28,7 +28,7 @@ const SearchResults = () => {
     { title: "Materiais Ortopédicos", data: ortopedicos },
     { title: "Colchões e Travesseiros", data: colchoes },
     { title: "Materiais Descartáveis", data: descartaveis },
-    { title: "Aparelhos Monitoramento", data: aparelhos },
+    { title: "Aparelhos de Monitoramento", data: aparelhos },
   ];
 
   const filteredGeneral = generalSections.map(({ title, data }) => ({
