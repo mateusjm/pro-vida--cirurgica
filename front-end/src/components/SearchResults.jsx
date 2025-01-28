@@ -4,14 +4,14 @@ import { Container, Col, Row, Card, Button } from "react-bootstrap";
 import styles from "./Search.module.css";
 
 // Importando dados
-import meiasDeCompressao from "../data/meiasdecompressao.json";
-import dietasEnterais from "../data/dietasenterais.json";
+import meias from "../data/meiasdecompressao.json";
+import dietas from "../data/dietasenterais.json";
 import sapatos from "../data/sapatos.json";
 import curativos from "../data/curativos.json";
-import materiaisOrtopedicos from "../data/materiaisortopedicos.json";
-import colchoesTravesseiros from "../data/colchoestravesseiros.json";
-import materiaisDescartaveis from "../data/materiaisdescartaveis.json";
-import aparelhosMonitoramento from '../data/aparelhosmonitoramento.json'
+import ortopedicos from "../data/materiaisortopedicos.json";
+import colchoes from "../data/colchoestravesseiros.json";
+import descartaveis from "../data/materiaisdescartaveis.json";
+import aparelhos from "../data/aparelhosmonitoramento.json";
 import locacoes from "../data/locacoes.json";
 import servicos from "../data/servicos.json";
 
@@ -21,14 +21,14 @@ const SearchResults = () => {
 
   // Dados organizados em seções
   const generalSections = [
-    { title: "Meias de Compressão", data: meiasDeCompressao },
-    { title: "Dietas Enterais", data: dietasEnterais },
+    { title: "Meias de Compressão", data: meias },
+    { title: "Dietas Enterais", data: dietas },
     { title: "Sapatos Profissionais", data: sapatos },
     { title: "Curativos", data: curativos },
-    { title: "Materiais Ortopédicos", data: materiaisOrtopedicos },
-    { title: "Colchões e Travesseiros", data: colchoesTravesseiros },
-    { title: "Materiais Descartáveis", data: materiaisDescartaveis },
-    { title: "Aparelhos Monitoramento", data: aparelhosMonitoramento }
+    { title: "Materiais Ortopédicos", data: ortopedicos },
+    { title: "Colchões e Travesseiros", data: colchoes },
+    { title: "Materiais Descartáveis", data: descartaveis },
+    { title: "Aparelhos Monitoramento", data: aparelhos },
   ];
 
   const filteredGeneral = generalSections.map(({ title, data }) => ({
@@ -62,7 +62,11 @@ const SearchResults = () => {
             ({ title, results }) =>
               results.length > 0 && (
                 <section key={title}>
-                  <h3 className="mt-5">{title}</h3>
+                  <h3 className="mt-5">
+                    <Link className={styles.link} to={`/produtos`}>
+                      {title}
+                    </Link>
+                  </h3>
                   <Container className="p-3 mt-3">
                     <Row>
                       {results.map((item) => (
@@ -97,7 +101,11 @@ const SearchResults = () => {
           {/* Renderizar locações */}
           {filteredLocacoes.length > 0 && (
             <section>
-              <h3 className="mt-5">Locações</h3>
+              <h3 className="mt-5">
+                <Link className={styles.link} to={`/locacoes`}>
+                  Locações
+                </Link>
+              </h3>
               <Container className="p-3 mt-3">
                 <Row>
                   {filteredLocacoes.map((item) => (
@@ -125,7 +133,11 @@ const SearchResults = () => {
           {/* Renderizar serviços */}
           {filteredServicos.length > 0 && (
             <section>
-              <h3 className="mt-5">Serviços</h3>
+              <h3 className="mt-5">
+                <Link className={styles.link} to={`/servicos`}>
+                  Serviços
+                </Link>
+              </h3>
               <Container className="p-3 mt-3">
                 <Row>
                   {filteredServicos.map((item) => (
@@ -157,7 +169,9 @@ const SearchResults = () => {
         >
           <Row>
             <Col>
-              <p className="fs-4 text-secondary">Nenhum resultado encontrado.</p>
+              <p className="fs-4 text-secondary">
+                Nenhum resultado encontrado.
+              </p>
               <Button
                 href="/busca"
                 variant="success"
