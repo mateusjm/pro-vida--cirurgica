@@ -9,7 +9,7 @@ import { LinkContainer } from "react-router-bootstrap";
 
 import { Link } from "react-router-dom";
 
-const Footer = ({ logo, telefone, email, facebook, instagram, whatsapp }) => {
+const Footer = ({ logo, home, maps, telefone, email, facebook, instagram, whatsapp }) => {
   return (
     <Container
       fluid
@@ -36,6 +36,9 @@ const Footer = ({ logo, telefone, email, facebook, instagram, whatsapp }) => {
             </LinkContainer>
             <LinkContainer to="/servicos">
               <Link className={styles.footerLink}>Serviços</Link>
+            </LinkContainer>
+            <LinkContainer to="/contato">
+              <Link className={styles.footerLink}>Contato</Link>
             </LinkContainer>
             <LinkContainer to="/avaliacoes">
               <Link className={styles.footerLink}>Avalie-nos</Link>
@@ -71,6 +74,14 @@ const Footer = ({ logo, telefone, email, facebook, instagram, whatsapp }) => {
           <h6>Contato</h6>
           <Stack>
             <Link className={styles.footerLink}>
+              <img className="p-1" width={25} src={home} alt="Nome" />
+              Pró-Vida Cirúrgica
+            </Link>
+            <Link className={styles.footerLink}>
+              <img className="p-1" width={25} src={maps} alt="Localização" />
+              Av. Dr. Jossé Grossi, 126
+            </Link>
+            <Link className={styles.footerLink}>
               <img className="p-1" width={25} src={telefone} alt="Telefone" />
               (31) 98976-7045
             </Link>
@@ -83,7 +94,7 @@ const Footer = ({ logo, telefone, email, facebook, instagram, whatsapp }) => {
               to="mailto:contato@providacirurgica.com.br"
             >
               <img className="p-1" width={25} src={email} alt="E-mail" />
-              E-mail
+              contato@providacirurgica.com.br
             </Link>
           </Stack>
         </Col>

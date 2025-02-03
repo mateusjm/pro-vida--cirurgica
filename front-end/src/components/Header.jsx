@@ -39,8 +39,7 @@ const Header = ({ logo, produtos }) => {
 
   return (
     <Navbar
-      className={`bg-body-light ${styles.header_shadow} ${styles.navbar_custom}`}
-      variant="light"
+      className={`${styles.header_shadow} ${styles.navbar_custom}`}
       expand="lg"
       expanded={expanded}
     >
@@ -57,7 +56,7 @@ const Header = ({ logo, produtos }) => {
           onClick={() => setExpanded(!expanded)}
         />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto p-2">
+          <Nav className="ms-auto p-2" role="navigation" aria-label="Menu principal">
             <LinkContainer to="/">
               <Nav.Link
                 active={location.pathname === "/"}
@@ -88,6 +87,14 @@ const Header = ({ logo, produtos }) => {
                 onClick={handleNavItemClick}
               >
                 Serviços
+              </Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/contato">
+              <Nav.Link
+                active={location.pathname === "/contato"}
+                onClick={handleNavItemClick}
+              >
+                Contato
               </Nav.Link>
             </LinkContainer>
           </Nav>

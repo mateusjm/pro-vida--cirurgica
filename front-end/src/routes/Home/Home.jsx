@@ -28,7 +28,7 @@ const Home = ({
         <title>Pró-Vida Cirúrgica</title>
         <meta
           name="description"
-          content="Informações sobre nossos produtos e serviços hospitalares."
+          content="Somos especialistas em produtos hospitalares, ortopédicos e cuidados pessoais."
         />
         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
@@ -38,28 +38,28 @@ const Home = ({
             <img
               className="d-block w-100 image-carousel"
               src={banner1}
-              alt="Banner-1 da Pró-Vida"
+              alt="Pró-Vida Cirúrgica"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
               className="d-block w-100 image-carousel-produtos"
               src={banner2}
-              alt="Banner-2 da Pró-Vida"
+              alt="Produtos hospitalares da Pró-Vida Cirúrgica em Ponte Nova MG"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
               className="d-block w-100 image-carousel"
               src={banner3}
-              alt="Banner-2 da Pró-Vida"
+              alt="Locações de equipamentos hospitalares da Pró-Vida Cirúrgica em Ponte Nova MG"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
               className="d-block w-100 image-carousel-servicos"
               src={banner4}
-              alt="Banner-3 da Pró-Vida"
+              alt="Servicos hospitalares da Pró-Vida Cirúrgica em Ponte Nova Mg"
             />
           </Carousel.Item>
         </Carousel>
@@ -161,7 +161,7 @@ const Home = ({
           <Row>
             <Col xs={12}>
               <h1 className="text-light mt-5">
-                Por que Escolher a Pró-Vida Cirúrgica?
+                Por que Escolher a Pró-Vida Cirúrgica Ponte Nova MG?
               </h1>
               <h3 className={`text-success mb-5 ${styles.subtitle_home}`}>
                 Benefícios que fazem a diferença na sua escolha:

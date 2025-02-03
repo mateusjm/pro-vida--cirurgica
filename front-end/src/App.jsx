@@ -8,6 +8,8 @@ import email from "./assets/email.png";
 import facebook from "./assets/facebook.png";
 import instagram from "./assets/instagram.png";
 import whatsapp from "./assets/whatsapp.png";
+import maps from './assets/maps.png'
+import home from './assets/home.png'
 
 // reaproveitando estrutura
 import { Outlet } from "react-router-dom";
@@ -23,18 +25,26 @@ function App() {
   return (
     <>
       <ScrollToTop />
-      <Header logo={logo} />
-      <main>
+      <header>
+        <Header logo={logo} />
+      </header>
+      <main role="main">
         <Outlet />
       </main>
-      <Footer
-        logo={logo}
-        telefone={telefone}
-        email={email}
-        facebook={facebook}
-        instagram={instagram}
-        whatsapp={whatsapp}
-      />
+      <footer>
+        <section>
+          <Footer
+            logo={logo}
+            home={home}
+            maps={maps}
+            telefone={telefone}
+            email={email}
+            facebook={facebook}
+            instagram={instagram}
+            whatsapp={whatsapp}
+          />
+        </section>
+      </footer>
     </>
   );
 }

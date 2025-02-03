@@ -31,11 +31,11 @@ const Products = ({ banner2 }) => {
           <img
             className={`img-fluid image-carousel-produtos`}
             src={banner2}
-            alt="Pró-Vida Banner Locações"
+            alt="Produtos hospitalares da Pró-Vida Cirúrgica em Ponte Nova Mg"
           />
         </Container>
       </div>
-      <div>
+      <section aria-label="Produtos disponíveis">
         <Container className="p-5 mt-4">
           <Row>
             {secoesprodutos &&
@@ -56,7 +56,7 @@ const Products = ({ banner2 }) => {
               ))}
           </Row>
         </Container>
-      </div>
+      </section>
     </>
   );
 };

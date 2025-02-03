@@ -20,6 +20,9 @@ import concorrencia from "./assets/concorrencia.png";
 import medico from "./assets/medico.jpg";
 import maps from "./assets/maps.png";
 import favicon from "./assets/logo-pro-vida.ico";
+import email from './assets/email.png'
+import telefone from './assets/telefone.png'
+import home from './assets/home.png'
 
 // configurando o router
 import {
@@ -29,7 +32,7 @@ import {
 } from "react-router-dom";
 
 //components
-import SearchResults from './components/SearchResults.jsx'
+import SearchResults from "./components/SearchResults.jsx";
 
 // routes
 import Home from "./routes/Home/Home.jsx";
@@ -56,6 +59,7 @@ import MateriaisDescartaveisDetails from "./routes/MateriaisDescartaveisDetails/
 import Avaliacoes from "./routes/Avaliacoes/Avaliacoes.jsx";
 import AparelhosMonitoramento from "./routes/AparelhosMonitoramento/AparelhosMonitoramento.jsx";
 import AparelhosMonitoramentoDetails from "./routes/AparelhosMonitoramentoDetails/AparelhosMonitoramentoDetails.jsx";
+import Contact from "./routes/Contact/Contact.jsx";
 
 const router = createBrowserRouter([
   {
@@ -101,6 +105,18 @@ const router = createBrowserRouter([
       {
         path: "/avaliacoes",
         element: <Avaliacoes favicon={favicon} />,
+      },
+      {
+        path: "/contato",
+        element: (
+          <Contact
+            favicon={favicon}
+            home={home}
+            maps={maps}
+            telefone={telefone}
+            email={email}
+          />
+        ),
       },
       {
         path: "/produtos/meias",

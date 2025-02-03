@@ -16,7 +16,7 @@ const Services = ({ banner4 }) => {
         <title>Serviços</title>
         <meta
           name="description"
-          content="Serviços hospitalares e de cuidados pessoais...Venda de Palmilhas Ortopédicas, Colete OTLS, Próteses Ortopédicas e Colar Aspen."
+          content="Conheça nossos serviços hospitalares, produtos sob medida, Palmilhas Ortopédicas, Colete OTLS, Próteses Ortopédicas e Colar Aspen em Ponte Nova Mg."
         />
       </Helmet>
       <style type="text/css">
@@ -31,11 +31,11 @@ const Services = ({ banner4 }) => {
           <img
             className={`img-fluid image-carousel-servicos`}
             src={banner4}
-            alt="Pró-Vida Banner Locações"
+            alt="Servicos hospitalares da Pró-Vida Cirúrgica em Ponte Nova Mg"
           />
         </Container>
       </div>
-      <div>
+      <section aria-label="Serviços disponíveis">
         <Container className="p-5 mt-4">
           <Row>
             {servicos &&
@@ -56,7 +56,7 @@ const Services = ({ banner4 }) => {
               ))}
           </Row>
         </Container>
-      </div>
+      </section>
     </>
   );
 };
