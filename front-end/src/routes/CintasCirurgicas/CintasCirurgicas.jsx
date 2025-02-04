@@ -4,17 +4,20 @@ import { Helmet } from "react-helmet-async";
 // bootstrap
 import { Container, Col, Row, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import meiasdecompressao from "../../data/meiasdecompressao.json";
+import cintas from "../../data/cintas.json";
 
 // CSS
-import styles from "./MeiasDeCompressao.module.css";
+import styles from "./CintasCirurgicas.module.css";
 
-const MeiasDeCompressao = ({ banner2 }) => {
+const CintasCirurgicas = ({ banner2 }) => {
   return (
     <>
       <Helmet>
-        <title>Meias de Compressão</title>
-        <meta name="description" content="Oferecemos meias de compressão em Ponte Nova Mg ideais para o tratamento de varizes e prevenção de trombose, com modelos antiembolia. Contamos com opções com efeito climático, que não esquentam no calor, garantindo frescor e bem-estar durante o uso."/>
+        <title>Sutiãs e Cintas Pós-Cirúrgicas</title>
+        <meta
+          name="description"
+          content="Oferecemos sutiãs e cintas pós-cirúrgicas em Ponte Nova MG ideais para recuperação de cirurgias plásticas, abdominoplastia, lipoaspiração, mamoplastia e cesárea. Conforto, compressão e segurança para o melhor suporte no pós-operatório."
+        />
       </Helmet>
       <style type="text/css">
         {`
@@ -35,13 +38,13 @@ const MeiasDeCompressao = ({ banner2 }) => {
       <div>
         <Container className="p-5 mt-4">
           <Row>
-            {meiasdecompressao &&
-              meiasdecompressao.map(({ id, name, image }) => (
+            {cintas &&
+              cintas.map(({ id, name, image }) => (
                 <Col key={id} xl={3} md={4} xs={6} className="mb-4">
                   <Card>
-                    <Link to={`/produtos/meias/${id}`}>
+                    <Link to={`/produtos/pos-cirurgico/${id}`}>
                       <Card.Img
-                        className={styles.images_meias_de_compressao}
+                        className={styles.images_cintas}
                         variant="top"
                         src={image}
                         alt={name}
@@ -58,4 +61,4 @@ const MeiasDeCompressao = ({ banner2 }) => {
   );
 };
 
-export default MeiasDeCompressao;
+export default CintasCirurgicas;

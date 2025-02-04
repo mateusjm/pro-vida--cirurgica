@@ -111,5 +111,12 @@
     "tipo": "descartaveis",
     "description": "Álcool 70% para desinfecção hospitalar profissional, age na desinfecção de superfícies fixas e artigos não críticos de ambientes hospitalares e estabelecimentos relacionados com o atendimento à saúde. Recomendações para primeiros socorros. É um produto amplamente utilizado para a higienização e desinfecção de superfícies.",
     "image": "https://live.staticflickr.com/65535/54307084135_3d8f28a3b0_n.jpg"
+  },
+  {
+    "id": "preservativo-nao-lubrificado",
+    "name": "Preservativo Não Lubrificado",
+    "tipo": "descartaveis",
+    "description": "Os preservativos Não Lubrificados de uso clínico destinam-se a recobrir as sondas de aparelhos de ultrassonografia transvaginal. Esse procedimento reduz a propagação de doenças infecciosas entre as pacientes.",
+    "image": "https://live.staticflickr.com/65535/54307554425_463848e678_n.jpg  "
   }
 ]

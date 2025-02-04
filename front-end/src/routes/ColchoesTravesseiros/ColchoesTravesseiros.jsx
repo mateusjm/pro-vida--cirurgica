@@ -16,7 +16,7 @@ const ColchoesTravesseiros = ({ banner2 }) => {
         <title>Colchões e Travesseiros</title>
         <meta
           name="description"
-          content="Colchões e Travesseiros Hospitalares em Ponte Nova."
+          content="Oferecemos colchão e travesseiro especializados na prevenção de escaras. Encontre colchão pneumático em Ponte Nova MG e caixa de ovo, ideais para proporcionar conforto, alívio da pressão e cuidados essenciais para pacientes acamados."
         />
       </Helmet>
       <style type="text/css">

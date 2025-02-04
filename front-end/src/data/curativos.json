@@ -90,5 +90,12 @@
     "tipo": "curativos",
     "description": "Curatec Bota de Unna é uma bandagem inelástica (terapia de contensão) impregnada com pasta à base de óxido de zinco. Melhora o retorno venoso dos membros inferiores.",
     "image": "https://live.staticflickr.com/65535/54242534188_eae8cf4185_n.jpg"
+  },
+  {
+    "id": "oleo-de-girassol",
+    "name": "Óleo de Girassol Cicatrizante",
+    "tipo": "curativos",
+    "description": "Óleo de Girassol Cicatrizante, é um óleo extraído da semente da própria flor, ideal para prevenção e tratamento de escaras, queimaduras e demais feridas.",
+    "image": "https://live.staticflickr.com/65535/54307083696_a06f26225c_n.jpg"
   }
 ]

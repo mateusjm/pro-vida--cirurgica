@@ -16,7 +16,7 @@ const Curativos = ({ banner2 }) => {
         <title>Curativos</title>
         <meta
           name="description"
-          content="Curativos Cirúrgicos em Ponte Nova."
+          content="Oferecemos curativos cirúrgicos em Ponte Nova MG especializados para o tratamento de feridas, incluindo Petrolatum e Lomatuel Pro. Soluções cirúrgicas para proteção, cicatrização e lavagem adequada, garantindo o melhor cuidado para a recuperação da pele"
         />
       </Helmet>
       <style type="text/css">

@@ -6,7 +6,7 @@
   },
   {
     "id": "sapatos",
-    "name": "Sapatos Profissionais",
+    "name": "Sapatos Hospitalares",
     "image": "https://live.staticflickr.com/65535/54242111228_9071f105b4_n.jpg"
   },
   {
@@ -38,5 +38,10 @@
     "id": "aparelhos",
     "name": "Aparelhos de Monitoramento",
     "image": "https://live.staticflickr.com/65535/54290261547_0a0864b2f0_n.jpg"
+  },
+  {
+    "id": "pos-cirurgico",
+    "name": "Sutiãs e Cintas Pós-Cirúrgicas",
+    "image": "https://live.staticflickr.com/65535/54306163942_40056f0608_n.jpg"
   }
 ]

@@ -16,7 +16,7 @@ const DietasEnterais = ({ banner2 }) => {
         <title>Dietas Enterais</title>
         <meta
           name="description"
-          content="Dietas Enterais e Suplementos em Ponte Nova."
+          content="Oferecemos dieta enteral em Ponte Nova Mg e acessórios essenciais para nutrição clínica, como frasco de dieta, equipo de dieta e seringas. Soluções completas para a alimentação nutricional de pacientes que necessitam de suporte especializado."
         />
       </Helmet>
       <style type="text/css">

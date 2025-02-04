@@ -16,7 +16,7 @@ const MateriaisOrtopedicos = ({ banner2 }) => {
         <title>Materiais Ortopédicos</title>
         <meta
           name="description"
-          content="Materiais Ortopédicos em Ponte Nova."
+          content="Oferecemos materiais ortopédicos como tipoia, imobilizador de joelho, joelheira e palmilha ortopédica em Ponte Nova Mg. Produtos essenciais para o alívio de dores, prevenção e recuperação de lesões musculoesqueléticas com conforto e qualidade"
         />
       </Helmet>
       <style type="text/css">

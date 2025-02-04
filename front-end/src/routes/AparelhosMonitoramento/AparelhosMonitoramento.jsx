@@ -16,7 +16,7 @@ const ColchoesTravesseiros = ({ banner2 }) => {
         <title>Aparelhos de Monitoramento</title>
         <meta
           name="description"
-          content="Aparelhos de Monitoramento em Ponte Nova."
+          content="Oferecemos aparelhos de monitoramento para saúde, como oxímetro, medidor de glicose e aparelho de pressão em Ponte Nova MG. Precisão e segurança para acompanhar sua saturação, glicemia e pressão arterial no dia a dia."
         />
       </Helmet>
       <style type="text/css">

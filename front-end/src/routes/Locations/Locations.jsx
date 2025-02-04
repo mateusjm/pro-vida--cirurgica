@@ -16,7 +16,7 @@ const Locations = ({ banner3 }) => {
         <title>Locações</title>
         <meta
           name="description"
-          content="Aluguel de CPAP, Cama Hospitalar, Cadeira de Rodas e Cadeira de Banho em Ponte Nova."
+          content="Oferecemos aluguel de equipamentos hospitalares em Ponte Nova Mg, como CPAP, Cama Hospitalar, Cadeira de Rodas, Cadeira de Banho, Muletas e Andadores. Conforto, segurança e praticidade para a recuperação e mobilidade do paciente"
         />
       </Helmet>
       <style type="text/css">

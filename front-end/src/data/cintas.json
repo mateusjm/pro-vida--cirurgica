@@ -1,0 +1,45 @@
+[
+  {
+    "id": "sutia-cirurgico",
+    "name": "Sutiã Pós-Cirúrgico",
+    "tipo": "pos-cirurgico",
+    "description": "O Sutiã Pós-Cirúrgico de compressão sem costura com fechamento frontal. Indicado para mamoplastia, implantes de silicone e para sustentação no uso diário.",
+    "image": "https://live.staticflickr.com/65535/54307269243_709cebb3ae_n.jpg"
+  },
+  {
+    "id": "cinta-abdominal-pos-parto",
+    "name": "Cinta Pós-Cirúrgica Abdominal Pós-Parto",
+    "tipo": "pos-cirurgico",
+    "description": "A Cinta Pós-Cirúrgica Abdominal Pós-Parto foi fabricada especificamente para auxiliar as mulheres na recuperação de cirurgias abdominais, como cesárias, partos normais e lipoaspiração. Além disso, o produto entrega um resultado estético favorável por não marcar por baixo da roupa, e ainda melhora a circulação sanguínea do local.",
+    "image": "https://live.staticflickr.com/65535/54307017011_73f67b74d5_n.jpg"
+  },
+  {
+    "id": "cinta-abdominal-bermuda",
+    "name": "Cinta Pós-Cirúrgica Abdominal Bermuda",
+    "tipo": "pos-cirurgico",
+    "description": "A Cinta Pós-Cirúrgica Abdominal Bermuda com cintura alta, pernas 3/4, fechamento frontal, alça destacável, alta compressão com reforço duplo no abdômen e costas. Indicado para pós cirurgias abdominais, pernas e culote. Indicado para cirurgia abdominal, lipoaspiração, pernas e culote.",
+    "image": "https://live.staticflickr.com/65535/54306149322_a096172299_n.jpg"
+  },
+  {
+    "id": "cinta-modeladora",
+    "name": "Cinta Pós-Cirúrgica Modeladora",
+    "tipo": "pos-cirurgico",
+    "description": "A Cinta Pós-Cirúrgica Modeladora com fechamento frontal, busto flexível, alças fixas e reguláveis, média compressão com reforço duplo no abdômen. Indicado para cirurgia abdominal, lipoaspiração e mamas",
+
+    "image": "https://live.staticflickr.com/65535/54307457285_097a9d07f4_n.jpg"
+  },
+  {
+    "id": "cinta-modeladora-completa",
+    "name": "Cinta Pós-Cirúrgica Modeladora Completa",
+    "tipo": "pos-cirurgico",
+    "description": "A Cinta Pós-Cirúrgica Modeladora Completa confeccionada em malha compressiva, resistente e confortável, essa cinta auxilia na recuperação pós-cirúrgica. Sua utilização pode ser diária, junto com a roupa de costume, de acordo com a recomendação médica. Essa cinta é recomendada para uso pós-lipoaspiração de culotes e cirurgias abdominais.",
+    "image": "https://live.staticflickr.com/65535/54307027916_2efd6d4abc_n.jpg"
+  },
+  {
+    "id": "cinta-modeladora-abdominal",
+    "name": "Cinta Pós-Cirúrgica Modeladora Abdominal",
+    "tipo": "pos-cirurgico",
+    "description": "O travesseiro magnético terapêutico ortopédico em viscoelástico perfil baixo Perfetto une o Infravermelho Longo, tecnologia que simula as características mais benéficas dos raios solares, e a Magnetoterapia, uma terapia natural que oferece inúmeros benefícios ao organismo.",
+    "image": "https://live.staticflickr.com/65535/54306163942_40056f0608_n.jpg"
+  }
+]

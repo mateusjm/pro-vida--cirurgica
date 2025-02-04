@@ -59,6 +59,8 @@ import MateriaisDescartaveisDetails from "./routes/MateriaisDescartaveisDetails/
 import Avaliacoes from "./routes/Avaliacoes/Avaliacoes.jsx";
 import AparelhosMonitoramento from "./routes/AparelhosMonitoramento/AparelhosMonitoramento.jsx";
 import AparelhosMonitoramentoDetails from "./routes/AparelhosMonitoramentoDetails/AparelhosMonitoramentoDetails.jsx";
+import CintasCirurgicas from './routes/CintasCirurgicas/CintasCirurgicas.jsx'
+import CintasCirurgicasDetails from "./routes/CintasCirurgicasDetails/CintasCirurgicasDetails.jsx";
 import Contact from "./routes/Contact/Contact.jsx";
 
 const router = createBrowserRouter([
@@ -143,6 +145,10 @@ const router = createBrowserRouter([
         element: <AparelhosMonitoramento banner2={banner2} />,
       },
       {
+        path: "/produtos/pos-cirurgico",
+        element: <CintasCirurgicas banner2={banner2} />,
+      },
+      {
         path: "/locacoes/:id",
         element: <LocationsDetails />,
       },
@@ -181,6 +187,10 @@ const router = createBrowserRouter([
       {
         path: "/produtos/aparelhos/:id",
         element: <AparelhosMonitoramentoDetails />,
+      },
+      {
+        path: "/produtos/pos-cirurgico/:id",
+        element: <CintasCirurgicasDetails />,
       },
     ],
   },

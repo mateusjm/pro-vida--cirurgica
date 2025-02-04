@@ -13,10 +13,10 @@ const SapatosSoftWorks = ({ banner2 }) => {
   return (
     <>
       <Helmet>
-        <title>Sapatos Profissionais</title>
+        <title>Sapatos Hospitalares</title>
         <meta
           name="description"
-          content="Sapatos Profissionais SoftWorks em Ponte Nova."
+          content="Oerecemos sapatos hospitalares impermeáveis, ideais para o ambiente de trabalho em hospitais. Confortáveis, leves e macios, esses calçados foram desenvolvidos para garantir conforto durante toda a rotina, proporcionando segurança e praticidade no dia a dia."
         />
       </Helmet>
       <style type="text/css">
