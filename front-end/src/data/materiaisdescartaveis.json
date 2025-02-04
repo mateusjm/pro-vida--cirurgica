@@ -36,6 +36,13 @@
     "image": "https://live.staticflickr.com/65535/54242900650_a896c2a6ae_n.jpg"
   },
   {
+    "id": "gel-sache",
+    "name": "Gel Sachê",
+    "tipo": "descartaveis",
+    "description": "Gel Sachê não gorduroso, hidrossolúvel, não irritante, hipoalergênico, não abrasivo e umectante, o que facilita sua remoção do transdutor e da pele proporcionando ainda, entre um e outro, uma película suave e deslizante.",
+    "image": "https://live.staticflickr.com/65535/54306885913_a10982b9d8_n.jpg"
+  },
+  {
     "id": "equipo-dieta",
     "name": "Equipo de Dieta",
     "tipo": "descartaveis",
@@ -78,10 +85,31 @@
     "image": "https://live.staticflickr.com/65535/54242718773_d711bffde8_n.jpg"
   },
   {
+    "id": "atadura",
+    "name": "Atadura",
+    "tipo": "descartaveis",
+    "description": "Atadura é indicada para utilização em terapia compressiva. Aplicações ortopédicas como imobilizações e enfaixamentos. Fixação de curativos. Prevenção de contusões em atividades esportivas. As ataduras são confeccionadas em tecido de alta qualidade, conferindo ao produto grande elasticidade no sentido longitudinal.",
+    "image": "https://live.staticflickr.com/65535/54306885923_28c1ce7197_n.jpg"
+  },
+  {
+    "id": "compressa-gaze",
+    "name": "Compressa Gaze",
+    "tipo": "descartaveis",
+    "description": "A Compressa Gaze tem ótimo acabamento, possui excelente absorção de sangue e secreções líquidas e é muito utilizada como cobertura para ferimentos.",
+    "image": "https://live.staticflickr.com/65535/54307073145_210691bd09_n.jpg"
+  },
+  {
     "id": "seringa",
     "name": "Seringa",
     "tipo": "descartaveis",
     "description": "A Seringa foi desenvolvida para aplicação de medicamentos pela via parenteral e coleta de sangue.",
     "image": "https://live.staticflickr.com/65535/54242484176_376430136c_n.jpg"
+  },
+  {
+    "id": "alcool-70",
+    "name": "Álcool 70%",
+    "tipo": "descartaveis",
+    "description": "Álcool 70% para desinfecção hospitalar profissional, age na desinfecção de superfícies fixas e artigos não críticos de ambientes hospitalares e estabelecimentos relacionados com o atendimento à saúde. Recomendações para primeiros socorros. É um produto amplamente utilizado para a higienização e desinfecção de superfícies.",
+    "image": "https://live.staticflickr.com/65535/54307084135_3d8f28a3b0_n.jpg"
   }
 ]

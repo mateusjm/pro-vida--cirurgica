@@ -20,9 +20,9 @@ import concorrencia from "./assets/concorrencia.png";
 import medico from "./assets/medico.jpg";
 import maps from "./assets/maps.png";
 import favicon from "./assets/logo-pro-vida.ico";
-import email from './assets/email.png'
-import telefone from './assets/telefone.png'
-import home from './assets/home.png'
+import email from "./assets/email.png";
+import telefone from "./assets/telefone.png";
+import home from "./assets/home.png";
 
 // configurando o router
 import {
@@ -108,15 +108,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/contato",
-        element: (
-          <Contact
-            favicon={favicon}
-            home={home}
-            maps={maps}
-            telefone={telefone}
-            email={email}
-          />
-        ),
+        element: <Contact favicon={favicon} />,
       },
       {
         path: "/produtos/meias",
