@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import emailjs from "@emailjs/browser";
+import { Container, Row, Col, Form, Button, Modal } from "react-bootstrap";
 import styles from "./Contact.module.css";
 
 const Contact = () => {
@@ -54,79 +55,70 @@ const Contact = () => {
           content="Entre em contato conosco para saber mais sobre os produtos e serviços da Pró-Vida Cirúrgica."
         />
       </Helmet>
-      <div className="container mt-5 mb-5 p-5">
-        <h1 className="mb-3">
-          Entre em Contato -{" "}
+      <Container className="mt-5 mb-5 p-4">
+        <h1 className="mb-3 text-center">
+          Entre em Contato {" "}
           <span className="text-success">Pró-Vida Cirúrgica em Ponte Nova MG</span>
         </h1>
         <p className="mb-5 text-center">
           A Pró-Vida Cirúrgica fica localizada na cidade de Ponte Nova MG e
           conta com os melhores especialistas em produtos hospitalares.
         </p>
-        <div className="d-flex justify-content-center">
-          <form className={styles.form_contact} onSubmit={sendEmail}>
-            <input
-              className={styles.textarea}
-              type="text"
-              name="name"
-              placeholder="Seu Nome"
-              value={formData.name}
-              onChange={handleChange}
-              required
-            />
-            <input
-              className={styles.input_contact}
-              type="email"
-              name="email"
-              placeholder="Seu E-mail"
-              value={formData.email}
-              onChange={handleChange}
-              required
-            />
-            <textarea
-              style={{ height: 100 }}
-              className={styles.textarea}
-              name="message"
-              placeholder="Sua Mensagem"
-              value={formData.message}
-              onChange={handleChange}
-              required
-            />
-            <button className={styles.button_contact} type="submit">
-              Enviar
-            </button>
-          </form>
-        </div>
 
-        {showModal && (
-          <div className={styles.modal}>
-            <div className={styles.modalContent}>
-              <div className={styles.modalHeader}>
-                <h2>{status.includes("sucesso") ? "Sucesso!" : "Erro!"}</h2>
-                <button
-                  className={styles.closeModal}
-                  onClick={() => setShowModal(false)}
-                >
-                  &times;
-                </button>
-              </div>
-              <p className={styles.error}>{status}</p>
-              {status.includes("sucesso") ? (
-                <button
-                  className="btn btn-success"
-                  onClick={() => setShowModal(false)}
-                >
-                  Agradecemos pelo contato!
-                </button>
-              ) : (
-                <button className={styles.retryButton} onClick={handleRetry}>
-                  Tentar novamente
-                </button>
-              )}
-            </div>
-          </div>
-        )}
-      </div>
+        <Row className="justify-content-center">
+            <Form className={styles.form_contact} onSubmit={sendEmail}>
+              <Form.Control
+                className={styles.textarea}
+                type="text"
+                name="name"
+                placeholder="Seu Nome"
+                value={formData.name}
+                onChange={handleChange}
+                required
+              />
+              <Form.Control
+                className={styles.input_contact}
+                type="email"
+                name="email"
+                placeholder="Seu E-mail"
+                value={formData.email}
+                onChange={handleChange}
+                required
+              />
+              <Form.Control
+                as="textarea"
+                rows={3}
+                className={styles.textarea}
+                name="message"
+                placeholder="Sua Mensagem"
+                value={formData.message}
+                onChange={handleChange}
+                required
+              />
+              <Button className={styles.button_contact} type="submit" variant="success" block>
+                Enviar
+              </Button>
+            </Form>
+        </Row>
+
+        <Modal show={showModal} onHide={() => setShowModal(false)} centered>
+          <Modal.Header closeButton>
+            <Modal.Title>{status.includes("sucesso") ? "Sucesso!" : "Erro!"}</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <p>{status}</p>
+            {status.includes("sucesso") ? (
+              <Button variant="success" className="w-100" onClick={() => setShowModal(false)}>
+                Agradecemos pelo contato!
+              </Button>
+            ) : (
+              <Button variant="danger" className="w-100" onClick={handleRetry}>
+                Tentar novamente
+              </Button>
+            )}
+          </Modal.Body>
+        </Modal>
+      </Container>
     </>
   );
 };
