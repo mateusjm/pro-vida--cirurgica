@@ -9,7 +9,7 @@ import curativos from "../../data/curativos.json";
 // CSS
 import styles from "./Curativos.module.css";
 
-const Curativos = ({ banner2 }) => {
+const Curativos = ({ banner2, favicon }) => {
   return (
     <>
       <Helmet>
@@ -18,6 +18,7 @@ const Curativos = ({ banner2 }) => {
           name="description"
           content="Oferecemos curativos cirúrgicos em Ponte Nova MG especializados para o tratamento de feridas, incluindo Petrolatum e Lomatuel Pro. Soluções cirúrgicas para proteção, cicatrização e lavagem adequada, garantindo o melhor cuidado para a recuperação da pele"
         />
+        <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <style type="text/css">
         {`

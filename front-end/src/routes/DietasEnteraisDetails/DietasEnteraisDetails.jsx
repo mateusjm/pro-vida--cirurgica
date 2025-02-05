@@ -10,7 +10,7 @@ import { Container, Col, Row, Button } from "react-bootstrap";
 import styles from "./DietasEnteraisDetails.module.css";
 import ErrorPage from "../ErrorPage/ErrorPage";
 
-const DietasEnteraisDetails = () => {
+const DietasEnteraisDetails = ({favicon}) => {
   const { id } = useParams();
   const [dieta, setDieta] = useState(null);
 
@@ -28,6 +28,7 @@ const DietasEnteraisDetails = () => {
       <Helmet>
         <title>{dieta.name}</title>
         <meta name="description" content={`${dieta.description}`} />
+        <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <Container className={`mb-5`}>
         <h1 className="mt-5 mb-5">{dieta.name}</h1>

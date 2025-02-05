@@ -10,7 +10,7 @@ import { Container, Col, Row, Button } from "react-bootstrap";
 import styles from "./CurativosDetails.module.css";
 import ErrorPage from "../ErrorPage/ErrorPage";
 
-const CurativosDetails = () => {
+const CurativosDetails = ({favicon}) => {
   const { id } = useParams();
   const [curativo, setCurativo] = useState(null);
 
@@ -28,6 +28,7 @@ const CurativosDetails = () => {
       <Helmet>
         <title>{curativo.name}</title>
         <meta name="description" content={`${curativo.description}`} />
+        <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <Container className={`mb-5`}>
         <h1 className="mt-5 mb-5">{curativo.name}</h1>

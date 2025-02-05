@@ -9,7 +9,7 @@ import materiaisdescartaveis from "../../data/materiaisdescartaveis.json";
 // CSS
 import styles from "./MateriaisDescartaveis.module.css";
 
-const MateriaisDescartaveis = ({ banner2 }) => {
+const MateriaisDescartaveis = ({ banner2, favicon }) => {
   return (
     <>
       <Helmet>
@@ -18,6 +18,7 @@ const MateriaisDescartaveis = ({ banner2 }) => {
           name="description"
           content="Oferecemos materiais descartáveis em Ponte Nova MG como máscara, sachê de gel, espéculo e preservativo não lubrificado, ideais para atender às necessidades de consumos de clínicas e cuidados pessoais, com qualidade e praticidade."
         />
+        <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <style type="text/css">
         {`

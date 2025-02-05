@@ -9,7 +9,7 @@ import locacoes from "../../data/locacoes.json";
 // CSS
 import styles from "./Locations.module.css";
 
-const Locations = ({ banner3 }) => {
+const Locations = ({ banner3, favicon}) => {
   return (
     <>
       <Helmet>
@@ -18,6 +18,7 @@ const Locations = ({ banner3 }) => {
           name="description"
           content="Oferecemos aluguel de equipamentos hospitalares em Ponte Nova Mg, como CPAP, Cama Hospitalar, Cadeira de Rodas, Cadeira de Banho, Muletas e Andadores. Conforto, segurança e praticidade para a recuperação e mobilidade do paciente"
         />
+        <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <style type="text/css">
         {`

@@ -10,7 +10,7 @@ import { Container, Col, Row, Button } from "react-bootstrap";
 import styles from "./ColchoesTravesseirosDetails.module.css";
 import ErrorPage from "../ErrorPage/ErrorPage";
 
-const ColchoesTravesseirosDetails = () => {
+const ColchoesTravesseirosDetails = ({favicon}) => {
   const { id } = useParams();
   const [colchoesTravesseiros, setColchoesTravesseiros] = useState(null);
 
@@ -33,6 +33,7 @@ const ColchoesTravesseirosDetails = () => {
           name="description"
           content={`${colchoesTravesseiros.description}`}
         />
+        <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <Container className={`mb-5`}>
         <h1 className="mt-5 mb-5">{colchoesTravesseiros.name}</h1>

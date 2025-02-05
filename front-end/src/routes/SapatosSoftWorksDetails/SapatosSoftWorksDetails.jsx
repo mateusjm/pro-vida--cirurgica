@@ -10,7 +10,7 @@ import { Container, Col, Row, Button } from "react-bootstrap";
 import styles from "./SapatosSoftWorksDetails.module.css";
 import ErrorPage from "../ErrorPage/ErrorPage";
 
-const SapatosSoftWorksDetails = () => {
+const SapatosSoftWorksDetails = ({ favicon }) => {
   const { id } = useParams();
   const [sapato, setSapatos] = useState(null);
 
@@ -27,10 +27,8 @@ const SapatosSoftWorksDetails = () => {
     <>
       <Helmet>
         <title>{sapato.name}</title>
-        <meta
-          name="description"
-          content={`${sapato.description}`}
-        />
+        <meta name="description" content={`${sapato.description}`} />
+        <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <Container className={`mb-5`}>
         <h1 className="mt-5 mb-5">{sapato.name}</h1>

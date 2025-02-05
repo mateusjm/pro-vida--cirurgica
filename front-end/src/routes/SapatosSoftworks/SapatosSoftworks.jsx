@@ -9,7 +9,7 @@ import sapatos from "../../data/sapatos.json";
 // CSS
 import styles from "./SapatosSoftWorks.module.css";
 
-const SapatosSoftWorks = ({ banner2 }) => {
+const SapatosSoftWorks = ({ banner2, favicon }) => {
   return (
     <>
       <Helmet>
@@ -18,6 +18,7 @@ const SapatosSoftWorks = ({ banner2 }) => {
           name="description"
           content="Oerecemos sapatos hospitalares impermeáveis, ideais para o ambiente de trabalho em hospitais. Confortáveis, leves e macios, esses calçados foram desenvolvidos para garantir conforto durante toda a rotina, proporcionando segurança e praticidade no dia a dia."
         />
+        <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <style type="text/css">
         {`

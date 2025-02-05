@@ -9,7 +9,7 @@ import dietasenterais from "../../data/dietasenterais.json";
 // CSS
 import styles from "./DietasEnterais.module.css";
 
-const DietasEnterais = ({ banner2 }) => {
+const DietasEnterais = ({ banner2, favicon }) => {
   return (
     <>
       <Helmet>
@@ -18,6 +18,7 @@ const DietasEnterais = ({ banner2 }) => {
           name="description"
           content="Oferecemos dieta enteral em Ponte Nova Mg e acessórios essenciais para nutrição clínica, como frasco de dieta, equipo de dieta e seringas. Soluções completas para a alimentação nutricional de pacientes que necessitam de suporte especializado."
         />
+        <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <style type="text/css">
         {`

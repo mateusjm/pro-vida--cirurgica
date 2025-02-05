@@ -59,7 +59,6 @@ const SearchResults = () => {
 
       {hasResults ? (
         <>
-          {/* Renderizar resultados gerais */}
           {filteredGeneral.map(
             ({ title, results }) =>
               results.length > 0 && (
@@ -100,7 +99,6 @@ const SearchResults = () => {
               )
           )}
 
-          {/* Renderizar locações */}
           {filteredLocacoes.length > 0 && (
             <section>
               <h3 className="mt-5">
@@ -132,7 +130,6 @@ const SearchResults = () => {
             </section>
           )}
 
-          {/* Renderizar serviços */}
           {filteredServicos.length > 0 && (
             <section>
               <h3 className="mt-5">
@@ -172,7 +169,7 @@ const SearchResults = () => {
           <Row>
             <Col>
               <p className="fs-4 text-secondary">
-                Nenhum resultado encontrado.
+                Ops! Nenhum resultado encontrado.
               </p>
               <Button
                 href="/busca"

@@ -11,7 +11,7 @@ import {
 import { LinkContainer } from "react-router-bootstrap";
 import { useLocation, useNavigate } from "react-router-dom";
 
-const Header = ({ logo, produtos }) => {
+const Header = ({ logo }) => {
   const location = useLocation();
   const navigate = useNavigate();
   const [expanded, setExpanded] = useState(false);
@@ -21,18 +21,14 @@ const Header = ({ logo, produtos }) => {
     if (expanded) setExpanded(false);
   };
 
-  // Função para lidar com o envio da pesquisa
   const handleSearch = (e) => {
     e.preventDefault();
     if (searchTerm.trim() === "") return;
   
-    // Normaliza o termo de busca
     const normalizedSearchTerm = searchTerm.trim().toLowerCase();
-  
-    // Realiza a navegação para a página de busca com o termo normalizado
+
     navigate(`/busca?q=${encodeURIComponent(normalizedSearchTerm)}`);
   
-    // Limpa o campo de busca e fecha o menu
     setSearchTerm("");
     setExpanded(false);
   };
@@ -87,6 +83,14 @@ const Header = ({ logo, produtos }) => {
                 onClick={handleNavItemClick}
               >
                 Serviços
+              </Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/blog">
+              <Nav.Link
+                active={location.pathname === "/blog"}
+                onClick={handleNavItemClick}
+              >
+                Blog
               </Nav.Link>
             </LinkContainer>
             <LinkContainer to="/contato">

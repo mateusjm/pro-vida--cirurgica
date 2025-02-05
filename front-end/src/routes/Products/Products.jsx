@@ -9,7 +9,7 @@ import secoesprodutos from "../../data/secoesprodutos.json";
 // CSS
 import styles from "./Products.module.css";
 
-const Products = ({ banner2 }) => {
+const Products = ({ banner2, favicon }) => {
   return (
     <>
       <Helmet>
@@ -18,6 +18,7 @@ const Products = ({ banner2 }) => {
           name="description"
           content="Linha de Produtos e Materiais Hospitalares em Ponte Nova."
         />
+         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <style type="text/css">
         {`

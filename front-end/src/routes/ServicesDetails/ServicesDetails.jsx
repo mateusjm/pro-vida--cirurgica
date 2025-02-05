@@ -10,7 +10,7 @@ import { Container, Col, Row, Button } from "react-bootstrap";
 import styles from "./ServicesDetails.module.css";
 import ErrorPage from "../ErrorPage/ErrorPage";
 
-const ServicesDetails = () => {
+const ServicesDetails = ({ favicon }) => {
   const { id } = useParams();
   const [servico, setServico] = useState(null);
 
@@ -29,6 +29,7 @@ const ServicesDetails = () => {
       <Helmet>
         <title>{servico.name}</title>
         <meta name="description" content={`${servico.description}`} />
+        <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <Container className={`mb-5`}>
         <h1 className="mt-5 mb-5">{servico.name}</h1>

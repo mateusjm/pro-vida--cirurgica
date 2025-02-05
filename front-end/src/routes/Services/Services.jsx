@@ -9,7 +9,7 @@ import servicos from "../../data/servicos.json";
 // CSS
 import styles from "./Services.module.css";
 
-const Services = ({ banner4 }) => {
+const Services = ({ banner4, favicon }) => {
   return (
     <>
       <Helmet>
@@ -18,6 +18,7 @@ const Services = ({ banner4 }) => {
           name="description"
           content="Conheça nossos serviços hospitalares, produtos sob medida, Palmilhas Ortopédicas, Colete OTLS, Próteses Ortopédicas e Colar Aspen em Ponte Nova Mg."
         />
+        <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <style type="text/css">
         {`

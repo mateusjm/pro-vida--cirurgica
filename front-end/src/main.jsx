@@ -20,9 +20,6 @@ import concorrencia from "./assets/concorrencia.png";
 import medico from "./assets/medico.jpg";
 import maps from "./assets/maps.png";
 import favicon from "./assets/logo-pro-vida.ico";
-import email from "./assets/email.png";
-import telefone from "./assets/telefone.png";
-import home from "./assets/home.png";
 
 // configurando o router
 import {
@@ -39,7 +36,10 @@ import Home from "./routes/Home/Home.jsx";
 import Products from "./routes/Products/Products.jsx";
 import Locations from "./routes/Locations/Locations.jsx";
 import Services from "./routes/Services/Services.jsx";
+import Blog from "./routes/Blog/Blog.jsx";
+import Contact from "./routes/Contact/Contact.jsx";
 import ErrorPage from "./routes/ErrorPage/ErrorPage.jsx";
+
 import LocationsDetails from "./routes/LocationsDetails/LocationsDetails.jsx";
 import ServicesDetails from "./routes/ServicesDetails/ServicesDetails.jsx";
 import MeiasdeCompressao from "./routes/MeiasDeCompressao/MeiasDeCompressao.jsx";
@@ -61,7 +61,7 @@ import AparelhosMonitoramento from "./routes/AparelhosMonitoramento/AparelhosMon
 import AparelhosMonitoramentoDetails from "./routes/AparelhosMonitoramentoDetails/AparelhosMonitoramentoDetails.jsx";
 import CintasCirurgicas from './routes/CintasCirurgicas/CintasCirurgicas.jsx'
 import CintasCirurgicasDetails from "./routes/CintasCirurgicasDetails/CintasCirurgicasDetails.jsx";
-import Contact from "./routes/Contact/Contact.jsx";
+import BlogDetails from './routes/BlogDetails/BlogDetails.jsx'
 
 const router = createBrowserRouter([
   {
@@ -87,7 +87,7 @@ const router = createBrowserRouter([
           />
         ),
       },
-      { path: "*", element: <ErrorPage /> },
+      { path: "*", element: <ErrorPage favicon={favicon} /> },
       {
         path: "/produtos",
         element: <Products banner2={banner2} />,
@@ -98,11 +98,15 @@ const router = createBrowserRouter([
       },
       {
         path: "/locacoes",
-        element: <Locations banner3={banner3} />,
+        element: <Locations banner3={banner3} favicon={favicon} />,
       },
       {
         path: "/servicos",
-        element: <Services banner4={banner4} />,
+        element: <Services banner4={banner4} favicon={favicon} />,
+      },
+      {
+        path: "/blog",
+        element: <Blog banner4={banner4} favicon={favicon} />,
       },
       {
         path: "/avaliacoes",
@@ -114,83 +118,87 @@ const router = createBrowserRouter([
       },
       {
         path: "/produtos/meias",
-        element: <MeiasdeCompressao banner2={banner2} />,
+        element: <MeiasdeCompressao banner2={banner2} favicon={favicon} />,
       },
       {
         path: "/produtos/sapatos",
-        element: <SapatosSoftWorks banner2={banner2} />,
+        element: <SapatosSoftWorks banner2={banner2} favicon={favicon} />,
       },
       {
         path: "/produtos/dietas",
-        element: <DietasEnterais banner2={banner2} />,
+        element: <DietasEnterais banner2={banner2} favicon={favicon} />,
       },
       {
         path: "/produtos/curativos",
-        element: <Curativos banner2={banner2} />,
+        element: <Curativos banner2={banner2} favicon={favicon} />,
       },
       {
         path: "/produtos/ortopedicos",
-        element: <MateriaisOrtopedicos banner2={banner2} />,
+        element: <MateriaisOrtopedicos banner2={banner2} favicon={favicon} />,
       },
       {
         path: "/produtos/colchoes",
-        element: <ColchoesTravesseiros banner2={banner2} />,
+        element: <ColchoesTravesseiros banner2={banner2} favicon={favicon} />,
       },
       {
         path: "/produtos/descartaveis",
-        element: <MateriaisDescartaveis banner2={banner2} />,
+        element: <MateriaisDescartaveis banner2={banner2} favicon={favicon} />,
       },
       {
         path: "/produtos/aparelhos",
-        element: <AparelhosMonitoramento banner2={banner2} />,
+        element: <AparelhosMonitoramento banner2={banner2} favicon={favicon} />,
       },
       {
         path: "/produtos/pos-cirurgico",
-        element: <CintasCirurgicas banner2={banner2} />,
+        element: <CintasCirurgicas banner2={banner2} favicon={favicon} />,
       },
       {
         path: "/locacoes/:id",
-        element: <LocationsDetails />,
+        element: <LocationsDetails favicon={favicon} />,
       },
       {
         path: "/servicos/:id",
-        element: <ServicesDetails />,
+        element: <ServicesDetails favicon={favicon} />,
+      },
+      {
+        path: "/blog/:id",
+        element: <BlogDetails favicon={favicon} />,
       },
       {
         path: "/produtos/meias/:id",
-        element: <MeiasDeCompressaoDetails />,
+        element: <MeiasDeCompressaoDetails favicon={favicon} />,
       },
       {
         path: "/produtos/sapatos/:id",
-        element: <SapatosSoftWorksDetails />,
+        element: <SapatosSoftWorksDetails favicon={favicon} />,
       },
       {
         path: "/produtos/dietas/:id",
-        element: <DietasEnteraisDetails />,
+        element: <DietasEnteraisDetails favicon={favicon} />,
       },
       {
         path: "/produtos/curativos/:id",
-        element: <CurativosDetails />,
+        element: <CurativosDetails favicon={favicon} />,
       },
       {
         path: "/produtos/ortopedicos/:id",
-        element: <MateriaisOrtopedicosDetails />,
+        element: <MateriaisOrtopedicosDetails favicon={favicon} />,
       },
       {
         path: "/produtos/colchoes/:id",
-        element: <ColchoesTravesseirosDetails />,
+        element: <ColchoesTravesseirosDetails favicon={favicon} />,
       },
       {
         path: "/produtos/descartaveis/:id",
-        element: <MateriaisDescartaveisDetails />,
+        element: <MateriaisDescartaveisDetails favicon={favicon} />,
       },
       {
         path: "/produtos/aparelhos/:id",
-        element: <AparelhosMonitoramentoDetails />,
+        element: <AparelhosMonitoramentoDetails favicon={favicon} />,
       },
       {
         path: "/produtos/pos-cirurgico/:id",
-        element: <CintasCirurgicasDetails />,
+        element: <CintasCirurgicasDetails favicon={favicon}/>,
       },
     ],
   },

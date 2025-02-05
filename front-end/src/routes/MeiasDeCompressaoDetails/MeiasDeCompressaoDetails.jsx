@@ -10,7 +10,7 @@ import { Container, Col, Row, Button } from "react-bootstrap";
 import styles from "./MeiasDeCompressaoDetails.module.css";
 import ErrorPage from "../ErrorPage/ErrorPage";
 
-const MeiasDeCompressaoDetails = () => {
+const MeiasDeCompressaoDetails = ({favicon}) => {
   const { id } = useParams();
   const [meia, setMeia] = useState(null);
 
@@ -28,6 +28,7 @@ const MeiasDeCompressaoDetails = () => {
       <Helmet>
         <title>{meia.name}</title>
         <meta name="description" content={`${meia.description}`} />
+        <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <Container className={`mb-5`}>
         <h1 className="mt-5 mb-5">{meia.name}</h1>

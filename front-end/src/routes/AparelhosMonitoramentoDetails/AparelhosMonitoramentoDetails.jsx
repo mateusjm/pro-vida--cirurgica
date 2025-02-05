@@ -10,7 +10,7 @@ import { Container, Col, Row, Button } from "react-bootstrap";
 import styles from "./AparelhosMonitoramentoDetails.module.css";
 import ErrorPage from "../ErrorPage/ErrorPage";
 
-const AparelhosMonitoramentoDetails = () => {
+const AparelhosMonitoramentoDetails = ({favicon}) => {
   const { id } = useParams();
   const [aparelhos, setAparelhos] = useState(null);
 
@@ -33,6 +33,7 @@ const AparelhosMonitoramentoDetails = () => {
           name="description"
           content={`${aparelhos.description}`}
         />
+        <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <Container className={`mb-5`}>
         <h1 className="mt-5 mb-5">{aparelhos.name}</h1>

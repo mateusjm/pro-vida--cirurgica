@@ -10,7 +10,7 @@ import { Container, Col, Row, Button } from "react-bootstrap";
 import styles from "./MateriaisOrtopedicosDetails.module.css";
 import ErrorPage from "../ErrorPage/ErrorPage";
 
-const MateriaisOrtopedicosDetails = () => {
+const MateriaisOrtopedicosDetails = ({favicon}) => {
   const { id } = useParams();
   const [materialOrtopedico, setMaterialOrtopedico] = useState(null);
 
@@ -33,6 +33,7 @@ const MateriaisOrtopedicosDetails = () => {
           name="description"
           content={`${materialOrtopedico.description}`}
         />
+         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <Container className={`mb-5`}>
         <h1 className="mt-5 mb-5">{materialOrtopedico.name}</h1>

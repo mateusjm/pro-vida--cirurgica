@@ -9,12 +9,13 @@ import meiasdecompressao from "../../data/meiasdecompressao.json";
 // CSS
 import styles from "./MeiasDeCompressao.module.css";
 
-const MeiasDeCompressao = ({ banner2 }) => {
+const MeiasDeCompressao = ({ banner2, favicon}) => {
   return (
     <>
       <Helmet>
         <title>Meias de Compressão</title>
         <meta name="description" content="Oferecemos meias de compressão em Ponte Nova Mg ideais para o tratamento de varizes e prevenção de trombose, com modelos antiembolia. Contamos com opções com efeito climático, que não esquentam no calor, garantindo frescor e bem-estar durante o uso."/>
+        <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <style type="text/css">
         {`

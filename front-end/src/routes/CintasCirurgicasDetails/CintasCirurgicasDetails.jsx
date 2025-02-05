@@ -10,7 +10,7 @@ import { Container, Col, Row, Button } from "react-bootstrap";
 import styles from "./CintasCirurgicasDetails.module.css";
 import ErrorPage from "../ErrorPage/ErrorPage";
 
-const CintasCirurgicasDetails = () => {
+const CintasCirurgicasDetails = ({favicon}) => {
   const { id } = useParams();
   const [cintasCirurgicas, setCintasCirurgicas] = useState(null);
 
@@ -33,6 +33,7 @@ const CintasCirurgicasDetails = () => {
           name="description"
           content={`${cintasCirurgicas.description}`}
         />
+        <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <Container className={`mb-5`}>
         <h1 className="mt-5 mb-5">{cintasCirurgicas.name}</h1>

@@ -9,7 +9,7 @@ import materiaisortopedicos from "../../data/materiaisortopedicos.json";
 // CSS
 import styles from "./MateriaisOrtopedicos.module.css";
 
-const MateriaisOrtopedicos = ({ banner2 }) => {
+const MateriaisOrtopedicos = ({ banner2, favicon }) => {
   return (
     <>
       <Helmet>
@@ -18,6 +18,7 @@ const MateriaisOrtopedicos = ({ banner2 }) => {
           name="description"
           content="Oferecemos materiais ortopédicos como tipoia, imobilizador de joelho, joelheira e palmilha ortopédica em Ponte Nova Mg. Produtos essenciais para o alívio de dores, prevenção e recuperação de lesões musculoesqueléticas com conforto e qualidade"
         />
+         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <style type="text/css">
         {`

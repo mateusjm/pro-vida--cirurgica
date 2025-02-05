@@ -9,7 +9,7 @@ import aparelhosmonitoramento from "../../data/aparelhosmonitoramento.json";
 // CSS
 import styles from "./AparelhosMonitoramento.module.css";
 
-const ColchoesTravesseiros = ({ banner2 }) => {
+const ColchoesTravesseiros = ({ banner2, favicon }) => {
   return (
     <>
       <Helmet>
@@ -18,6 +18,7 @@ const ColchoesTravesseiros = ({ banner2 }) => {
           name="description"
           content="Oferecemos aparelhos de monitoramento para saúde, como oxímetro, medidor de glicose e aparelho de pressão em Ponte Nova MG. Precisão e segurança para acompanhar sua saturação, glicemia e pressão arterial no dia a dia."
         />
+        <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <style type="text/css">
         {`

@@ -10,7 +10,7 @@ import { Container, Col, Row, Button } from "react-bootstrap";
 import styles from "./LocationsDetails.module.css";
 import ErrorPage from "../ErrorPage/ErrorPage";
 
-const LocationDetails = () => {
+const LocationDetails = ({favicon}) => {
   const { id } = useParams();
   const [locacao, setLocacao] = useState(null);
 
@@ -27,10 +27,8 @@ const LocationDetails = () => {
     <>
       <Helmet>
         <title>{locacao.name}</title>
-        <meta
-          name="description"
-          content={`${locacao.description}`}
-        />
+        <meta name="description" content={`${locacao.description}`} />
+        <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <Container className={`mb-5`}>
         <h1 className="mt-5 mb-5">{locacao.name}</h1>

@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 import { Container, Row, Col, Form, Button, Modal } from "react-bootstrap";
 import styles from "./Contact.module.css";
 
-const Contact = () => {
+const Contact = ({favicon}) => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -54,6 +54,7 @@ const Contact = () => {
           name="description"
           content="Entre em contato conosco para saber mais sobre os produtos e serviços da Pró-Vida Cirúrgica."
         />
+        <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <Container className="mt-5 mb-5 p-4">
         <h1 className="mb-3 text-center">

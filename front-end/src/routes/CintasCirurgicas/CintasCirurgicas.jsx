@@ -9,7 +9,7 @@ import cintas from "../../data/cintas.json";
 // CSS
 import styles from "./CintasCirurgicas.module.css";
 
-const CintasCirurgicas = ({ banner2 }) => {
+const CintasCirurgicas = ({ banner2, favicon }) => {
   return (
     <>
       <Helmet>
@@ -18,6 +18,7 @@ const CintasCirurgicas = ({ banner2 }) => {
           name="description"
           content="Oferecemos sutiãs e cintas pós-cirúrgicas em Ponte Nova MG ideais para recuperação de cirurgias plásticas, abdominoplastia, lipoaspiração, mamoplastia e cesárea. Conforto, compressão e segurança para o melhor suporte no pós-operatório."
         />
+        <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <style type="text/css">
         {`
