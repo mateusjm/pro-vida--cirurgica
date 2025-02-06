@@ -111,7 +111,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/blog",
-        element: <Blog banner4={banner4} favicon={favicon} />,
+        element: <Blog banner1={banner1} favicon={favicon} />,
       },
       {
         path: "/avaliacoes",
