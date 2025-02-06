@@ -21,7 +21,7 @@ const BlogDetails = () => {
   }
 
   return (
-    <Container fluid className="mb-5">
+    <Container fluid className="bg-light">
       {/* Caminho de Navegação */}
       <Row className="mb-4 bg-success">
         <Col className="mb-5 mt-5">
@@ -33,7 +33,7 @@ const BlogDetails = () => {
       {blogPost.imagem && (
         <Row className="d-flex justify-content-center align-items-center">
           <img
-            className="img-fluid my-4"
+            className="img-fluid my-4 mb-5"
             style={{ width: "90%" }}
             src={blogPost.imagem}
             alt={blogPost.titulo}
@@ -41,10 +41,10 @@ const BlogDetails = () => {
         </Row>
       )}
 
-      <Row className="mb-4">
+      <Row>
         {/* Barra Lateral de Tópicos */}
         <Col md={3}>
-          <div className={`${styles.barra_lateral} p-4 rounded shadow-sm`}>
+          <div className={`${styles.barra_lateral} bg-white p-4 rounded  mb-2`}>
             <h5 className="mb-3">Conteúdo do Post</h5>
             <ListGroup>
               {blogPost.topicos.map((topico, index) => (
@@ -64,7 +64,7 @@ const BlogDetails = () => {
 
         {/* Conteúdo do Post */}
         <Col md={9}>
-          <div className="p-4 rounded">
+          <div className="p-4 rounded bg-white mb-5">
             <p>{blogPost.descricao}</p>
 
             {blogPost.conteudo.map((section, index) => (
@@ -72,7 +72,7 @@ const BlogDetails = () => {
                 id={section.subtitulo.toLowerCase().replace(/\s+/g, "-")}
                 key={index}
               >
-                <h3 className="mt-5 mb-3 text-start">{section.subtitulo}</h3>
+                <h2 className="mt-5 mb-3 text-start">{section.subtitulo}</h2>
                 <p>{section.texto}</p>
 
                 {/* Verificando e exibindo imagem apenas se houver */}

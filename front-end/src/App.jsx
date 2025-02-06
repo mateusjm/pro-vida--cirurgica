@@ -1,5 +1,4 @@
 import "./App.css";
-import { useState } from "react";
 
 // assets
 import logo from "./assets/logo-pro-vida.png";
@@ -8,8 +7,8 @@ import email from "./assets/email.png";
 import facebook from "./assets/facebook.png";
 import instagram from "./assets/instagram.png";
 import whatsapp from "./assets/whatsapp.png";
-import maps from './assets/maps.png'
-import home from './assets/home.png'
+import maps from "./assets/maps.png";
+import home from "./assets/home.png";
 
 // reaproveitando estrutura
 import { Outlet } from "react-router-dom";

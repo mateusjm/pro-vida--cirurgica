@@ -6,6 +6,8 @@ import { Container, Col, Row, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import locacoes from "../../data/locacoes.json";
 
+import ButtonSearch from '../../components/ButtonSearch'
+
 // CSS
 import styles from "./Locations.module.css";
 
@@ -36,8 +38,9 @@ const Locations = ({ banner3, favicon}) => {
           />
         </Container>
       </div>
+      <ButtonSearch searchPath="/busca"  placeholder="Pesquisar locações..." />
       <section aria-label="Locações disponíveis">
-        <Container className="p-5 mt-4">
+        <Container className="p-5 mt-3">
           <Row>
             {locacoes &&
               locacoes.map(({ id, name, image }) => (

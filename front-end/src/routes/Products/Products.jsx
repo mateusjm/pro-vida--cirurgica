@@ -6,6 +6,8 @@ import { Container, Col, Row, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import secoesprodutos from "../../data/secoesprodutos.json";
 
+import ButtonSearch from '../../components/ButtonSearch'
+
 // CSS
 import styles from "./Products.module.css";
 
@@ -36,8 +38,9 @@ const Products = ({ banner2, favicon }) => {
           />
         </Container>
       </div>
+      <ButtonSearch searchPath="/busca"  placeholder="Pesquisar produtos..." />
       <section aria-label="Produtos disponíveis">
-        <Container className="p-5 mt-4">
+        <Container className="p-5 mt-3">
           <Row>
             {secoesprodutos &&
               secoesprodutos.map(({ id, name, image }) => (

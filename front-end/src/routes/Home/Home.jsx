@@ -66,8 +66,14 @@ const Home = ({
       </div>
       <div>
         <Container fluid>
-          <Row>
-            <Col xxl={5} xl={5} md={3} className={`d-none d-md-block`} style={{ height: "734px" }}>
+          <Row className="mb-xs-5 mb-xl-0 mt-xl-5">
+            <Col
+              xxl={5}
+              xl={5}
+              md={3}
+              className={`d-none d-md-block`}
+              style={{ height: "734px" }}
+            >
               <img
                 src={people}
                 alt="Pessoas"
@@ -108,7 +114,7 @@ const Home = ({
                         <img
                           src={`https://cdn-icons-png.flaticon.com/128/2563/2563778.png`}
                           alt="Ícone de locações"
-                          className={styles.image}
+                          className={`${styles.image}`}
                         />
                       </div>
                     </a>
@@ -136,7 +142,10 @@ const Home = ({
                     </div>
                   </li>
                   <li className={styles.list_item}>
-                    <a target="_blank" href="https://cpap.providacirurgica.com.br">
+                    <a
+                      target="_blank"
+                      href="https://cpap.providacirurgica.com.br"
+                    >
                       <div className={styles.circulo}>
                         <img
                           src={`https://cdn-icons-png.flaticon.com/128/11228/11228368.png`}
@@ -157,7 +166,7 @@ const Home = ({
         </Container>
       </div>
       <div className="bg-dark pt-5 pb-5">
-        <Container>
+        <Container className="mt-0 mt-xl-5 mb-0 mb-xl-5">
           <Row>
             <Col xs={12}>
               <h1 className="text-light mt-5">
@@ -211,14 +220,14 @@ const Home = ({
         </Container>
       </div>
       <div className={`${styles.color_green} pt-5 pb-5`}>
-        <Container fluid>
+        <Container className="p-xs-0 mt-0 mt-xl-5 mb-0 mb-xl-5 p-xl-5" fluid>
           <Row className="p-3 justify-content-center">
             <Col xxl={12}>
               <h1 className={`text-light text-center p-3 mb-3`}>
                 Compromisso com nossos clientes!
               </h1>
             </Col>
-            <Col xxl={8} className="text-center">
+            <Col xxl={10} className="text-center">
               <h3>
                 Nossa missão é proporcionar um serviço excepcional em todos os
                 aspectos
@@ -228,7 +237,7 @@ const Home = ({
               </h4>
             </Col>
           </Row>
-          <Row className={`text-center justify-content-around`}>
+          <Row className={`text-center justify-content-around mb-5`}>
             <Col
               className={`${styles.cards} mb-4 p-4`}
               xxl={2}
@@ -239,7 +248,9 @@ const Home = ({
             >
               <img width={110} className="img-fluid" src={car} alt="" />
               <h4 className="text-success">Entrega em toda Região</h4>
-              <p className={`${styles.avaliacoes}`}>Garantimos uma experiência sem preocupações!</p>
+              <p className={`${styles.avaliacoes}`}>
+                Garantimos uma experiência sem preocupações!
+              </p>
             </Col>
             <Col
               className={`${styles.cards} mb-4 p-4`}
@@ -250,7 +261,12 @@ const Home = ({
               xs={10}
             >
               <a className={`${styles.avaliacoes}`} href="/avaliacoes">
-                <img width={110} className="img-fluid p-3" src={medalha} alt="" />
+                <img
+                  width={110}
+                  className="img-fluid p-3"
+                  src={medalha}
+                  alt=""
+                />
                 <h4 className="text-success">
                   Ótimo <br />
                   Atendimento
@@ -275,7 +291,9 @@ const Home = ({
               <h4 className="text-success">
                 Melhores <br /> Preços
               </h4>
-              <p className={`${styles.avaliacoes}`}>Sua satisfação é nossa prioridade!</p>
+              <p className={`${styles.avaliacoes}`}>
+                Sua satisfação é nossa prioridade!
+              </p>
             </Col>
             <Col
               className={`${styles.cards} mb-4 p-4`}
@@ -294,12 +312,14 @@ const Home = ({
               <h4 className="text-success">
                 Líder no <br /> Mercado
               </h4>
-              <p className={`${styles.avaliacoes}`}>Reconhecidos pela nossa excelência e confiança!</p>
+              <p className={`${styles.avaliacoes}`}>
+                Reconhecidos pela nossa excelência e confiança!
+              </p>
             </Col>
           </Row>
         </Container>
       </div>
-      <div className={`pt-5 pb-5`}>
+      <div className={`pt-5 pb-5 mt-xl-5 mb-xl-5`}>
         <Container>
           <Row className="align-items-center justify-content-center mt-5 mb-5">
             <Col xxl={6} xl={5} lg={6} md={6} sm={10} className="text-black">

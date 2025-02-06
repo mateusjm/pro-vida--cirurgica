@@ -1,7 +1,7 @@
 import React from "react";
 import { useSearchParams, Link } from "react-router-dom";
 import { Container, Col, Row, Card, Button } from "react-bootstrap";
-import styles from "./Search.module.css";
+import styles from "./SearchResults.module.css";
 
 // Importando dados
 import meias from "../data/meiasdecompressao.json";

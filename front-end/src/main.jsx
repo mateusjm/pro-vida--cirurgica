@@ -30,6 +30,7 @@ import {
 
 //components
 import SearchResults from "./components/SearchResults.jsx";
+import SearchBlog from './components/SearchBlog.jsx'
 
 // routes
 import Home from "./routes/Home/Home.jsx";
@@ -95,6 +96,10 @@ const router = createBrowserRouter([
       {
         path: "/busca",
         element: <SearchResults />,
+      },
+      {
+        path: "/busca-blog",
+        element: <SearchBlog />,
       },
       {
         path: "/locacoes",

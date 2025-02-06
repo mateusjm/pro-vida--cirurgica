@@ -9,6 +9,8 @@ import blog from "../../data/blog.json";
 // CSS
 import styles from "./Blog.module.css";
 
+import ButtonSearch from '../../components/ButtonSearch'
+
 const Blog = ({ banner4, favicon }) => {
   return (
     <>
@@ -36,12 +38,13 @@ const Blog = ({ banner4, favicon }) => {
           />
         </Container>
       </div>
+      <ButtonSearch searchPath="/busca-blog" placeholder="Pesquisar notícias..." />
       <section aria-label="Posts do blog">
-        <Container className="p-5 mt-4">
+        <Container className="p-4 mt-4">
           <Row>
             {blog &&
               blog.map(({ id, titulo, descricao, imagem, data }) => (
-                <Col key={id} xl={4} md={6} xs={12} className="mb-4">
+                <Col xl={4} md={6} xs={12} className="mb-4">
                   <Card className={styles.images_services}>
                     <Link
                       to={`/blog/${id}`}
@@ -50,7 +53,7 @@ const Blog = ({ banner4, favicon }) => {
                       <Card.Img
                         className="mt-3"
                         style={{
-                          width: '90%',
+                          width: '95%',
                           objectFit: "contain",
                         }}
                         variant="top"

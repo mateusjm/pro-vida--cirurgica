@@ -37,6 +37,9 @@ const Footer = ({ logo, home, maps, telefone, email, facebook, instagram, whatsa
             <LinkContainer to="/servicos">
               <Link className={styles.footerLink}>Serviços</Link>
             </LinkContainer>
+            <LinkContainer to="/blog">
+              <Link className={styles.footerLink}>Blog</Link>
+            </LinkContainer>
             <LinkContainer to="/contato">
               <Link className={styles.footerLink}>Contato</Link>
             </LinkContainer>

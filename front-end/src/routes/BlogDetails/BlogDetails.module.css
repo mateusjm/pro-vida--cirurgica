@@ -1,3 +1,12 @@
+.barra_lateral {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+  z-index: 10;
+  padding: 15px;
+}
+
+
 .barra_lateral a {
   text-decoration: none;
   color: black;
