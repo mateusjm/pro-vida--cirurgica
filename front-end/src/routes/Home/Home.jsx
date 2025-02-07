@@ -185,9 +185,9 @@ const Home = ({
                   Hospitalares de Ponte Nova-Mg e região!
                 </li>
                 <li className="mb-3">
-                  Entregamos e montamos Camas Hospitalares
+                  Entregamos e montamos Camas Hospitalares em Ponte Nova-MG
                 </li>
-                <li className="mb-3">Realizamos locações de produtos</li>
+                <li className="mb-3">Realizamos locações de produtos hospitalares em Ponte Nova-MG</li>
                 <li className="mb-3">
                   Estamos presentes nas principais Redes-Sociais
                 </li>
