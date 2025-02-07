@@ -58,7 +58,11 @@ const SearchBlog = () => {
                         <Card.Title className="text-start text-success">
                           {item.titulo}
                         </Card.Title>
-                        <Card.Text className="mb-4">{item.descricao}</Card.Text>
+                        <Card.Text className="mb-4">
+                          {item.descricao.length > 125
+                            ? item.descricao.substring(0, 126) + "..."
+                            : item.descricao}
+                        </Card.Text>
                         <Link
                           to={`/blog/${item.id}`}
                           className="btn btn-success d-block text-center"
