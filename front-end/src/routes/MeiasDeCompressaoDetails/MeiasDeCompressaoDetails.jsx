@@ -26,7 +26,7 @@ const MeiasDeCompressaoDetails = ({favicon}) => {
   return (
     <>
       <Helmet>
-        <title>{meia.name}</title>
+        <title>{meia.name} em Ponte Nova</title>
         <meta name="description" content={`${meia.description}`} />
         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>

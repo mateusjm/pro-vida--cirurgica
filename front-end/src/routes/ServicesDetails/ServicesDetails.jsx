@@ -27,7 +27,7 @@ const ServicesDetails = ({ favicon }) => {
     <>
       {" "}
       <Helmet>
-        <title>{servico.name}</title>
+        <title>{servico.name} em Ponte Nova</title>
         <meta name="description" content={`${servico.description}`} />
         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>

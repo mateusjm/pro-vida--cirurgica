@@ -13,7 +13,7 @@ const DietasEnterais = ({ banner2, favicon }) => {
   return (
     <>
       <Helmet>
-        <title>Dietas Enterais</title>
+        <title>Dietas Enterais em Ponte Nova</title>
         <meta
           name="description"
           content="Oferecemos dieta enteral em Ponte Nova Mg e acessórios essenciais para nutrição clínica, como frasco de dieta, equipo de dieta e seringas. Soluções completas para a alimentação nutricional de pacientes que necessitam de suporte especializado."

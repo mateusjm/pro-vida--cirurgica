@@ -13,7 +13,7 @@ const SapatosSoftWorks = ({ banner2, favicon }) => {
   return (
     <>
       <Helmet>
-        <title>Sapatos Hospitalares</title>
+        <title>Sapatos Hospitalares em Ponte Nova</title>
         <meta
           name="description"
           content="Oerecemos sapatos hospitalares impermeáveis, ideais para o ambiente de trabalho em hospitais. Confortáveis, leves e macios, esses calçados foram desenvolvidos para garantir conforto durante toda a rotina, proporcionando segurança e praticidade no dia a dia."

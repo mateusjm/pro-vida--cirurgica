@@ -26,7 +26,7 @@ const DietasEnteraisDetails = ({favicon}) => {
   return (
     <>
       <Helmet>
-        <title>{dieta.name}</title>
+        <title>{dieta.name} em Ponte Nova</title>
         <meta name="description" content={`${dieta.description}`} />
         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>

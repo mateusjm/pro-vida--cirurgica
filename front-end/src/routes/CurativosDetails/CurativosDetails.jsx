@@ -26,7 +26,7 @@ const CurativosDetails = ({favicon}) => {
   return (
     <>
       <Helmet>
-        <title>{curativo.name}</title>
+        <title>{curativo.name} em Ponte Nova</title>
         <meta name="description" content={`${curativo.description}`} />
         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>

@@ -28,7 +28,7 @@ const ColchoesTravesseirosDetails = ({favicon}) => {
   return (
     <>
       <Helmet>
-        <title>{colchoesTravesseiros.name}</title>
+        <title>{colchoesTravesseiros.name} em Ponte Nova</title>
         <meta
           name="description"
           content={`${colchoesTravesseiros.description}`}

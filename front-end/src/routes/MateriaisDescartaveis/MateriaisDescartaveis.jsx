@@ -13,7 +13,7 @@ const MateriaisDescartaveis = ({ banner2, favicon }) => {
   return (
     <>
       <Helmet>
-        <title>Materiais Descartáveis</title>
+        <title>Materiais Descartáveis em Ponte Nova</title>
         <meta
           name="description"
           content="Oferecemos materiais descartáveis em Ponte Nova MG como máscara, sachê de gel, espéculo e preservativo não lubrificado, ideais para atender às necessidades de consumos de clínicas e cuidados pessoais, com qualidade e praticidade."

@@ -28,7 +28,7 @@ const MateriaisDescartaveisDetails = ({favicon}) => {
   return (
     <>
       <Helmet>
-        <title>{materialDescartavel.name}</title>
+        <title>{materialDescartavel.name} em Ponte Nova</title>
         <meta name="description" content={`${materialDescartavel.description}`} />
         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>

@@ -15,7 +15,7 @@ const Products = ({ banner2, favicon }) => {
   return (
     <>
       <Helmet>
-        <title>Produtos</title>
+        <title>Produtos Hospitalares em Ponte Nova</title>
         <meta
           name="description"
           content="Linha de Produtos e Materiais Hospitalares em Ponte Nova."

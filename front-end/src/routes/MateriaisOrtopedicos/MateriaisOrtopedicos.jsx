@@ -13,7 +13,7 @@ const MateriaisOrtopedicos = ({ banner2, favicon }) => {
   return (
     <>
       <Helmet>
-        <title>Materiais Ortopédicos</title>
+        <title>Materiais Ortopédicos em Ponte Nova</title>
         <meta
           name="description"
           content="Oferecemos materiais ortopédicos como tipoia, imobilizador de joelho, joelheira e palmilha ortopédica em Ponte Nova Mg. Produtos essenciais para o alívio de dores, prevenção e recuperação de lesões musculoesqueléticas com conforto e qualidade"

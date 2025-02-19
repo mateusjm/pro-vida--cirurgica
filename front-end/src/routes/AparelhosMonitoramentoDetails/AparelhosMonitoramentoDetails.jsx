@@ -28,7 +28,7 @@ const AparelhosMonitoramentoDetails = ({favicon}) => {
   return (
     <>
       <Helmet>
-        <title>{aparelhosmonitoramento.name}</title>
+        <title>{aparelhos.name} em Ponte Nova</title>
         <meta
           name="description"
           content={`${aparelhos.description}`}

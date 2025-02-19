@@ -26,7 +26,7 @@ const LocationDetails = ({favicon}) => {
   return (
     <>
       <Helmet>
-        <title>{locacao.name}</title>
+        <title>{locacao.name} em Ponte Nova</title>
         <meta name="description" content={`${locacao.description}`} />
         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>

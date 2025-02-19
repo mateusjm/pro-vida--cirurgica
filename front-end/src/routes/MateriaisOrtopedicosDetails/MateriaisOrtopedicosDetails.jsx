@@ -28,7 +28,7 @@ const MateriaisOrtopedicosDetails = ({favicon}) => {
   return (
     <>
       <Helmet>
-        <title>{materialOrtopedico.name}</title>
+        <title>{materialOrtopedico.name} em Ponte Nova</title>
         <meta
           name="description"
           content={`${materialOrtopedico.description}`}

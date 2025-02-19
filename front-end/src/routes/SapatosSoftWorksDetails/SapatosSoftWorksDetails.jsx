@@ -26,7 +26,7 @@ const SapatosSoftWorksDetails = ({ favicon }) => {
   return (
     <>
       <Helmet>
-        <title>{sapato.name}</title>
+        <title>{sapato.name} em Ponte Nova</title>
         <meta name="description" content={`${sapato.description}`} />
         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>

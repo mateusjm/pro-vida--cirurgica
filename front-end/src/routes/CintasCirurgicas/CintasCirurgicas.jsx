@@ -13,7 +13,7 @@ const CintasCirurgicas = ({ banner2, favicon }) => {
   return (
     <>
       <Helmet>
-        <title>Sutiãs e Cintas Pós-Cirúrgicas</title>
+        <title>Sutiãs e Cintas Pós-Cirúrgicas em Ponte Nova</title>
         <meta
           name="description"
           content="Oferecemos sutiãs e cintas pós-cirúrgicas em Ponte Nova MG ideais para recuperação de cirurgias plásticas, abdominoplastia, lipoaspiração, mamoplastia e cesárea. Conforto, compressão e segurança para o melhor suporte no pós-operatório."

@@ -15,7 +15,7 @@ const Services = ({ banner4, favicon }) => {
   return (
     <>
       <Helmet>
-        <title>Serviços</title>
+        <title>Serviços Hospitalares em Ponte Nova</title>
         <meta
           name="description"
           content="Conheça nossos serviços hospitalares, produtos sob medida, Palmilhas Ortopédicas, Colete OTLS, Próteses Ortopédicas e Colar Aspen em Ponte Nova Mg."
