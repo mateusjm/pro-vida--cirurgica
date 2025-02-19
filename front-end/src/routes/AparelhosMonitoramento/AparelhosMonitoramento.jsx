@@ -42,7 +42,10 @@ const ColchoesTravesseiros = ({ banner2, favicon }) => {
             Aparelhos de Monitoramento em Ponte Nova
           </h1>
           <p className="text-center mb-5">
-            Encontre os melhores aparelhos de monitoramento para acompanhar sua saturação, glicemia e pressão arterial no dia a dia.
+            Oferecemos aparelhos de monitoramento para saúde, como oxímetro,
+            medidor de glicose e aparelho de pressão em Ponte Nova. Precisão
+            e segurança para acompanhar sua saturação, glicemia e pressão
+            arterial no dia a dia.
           </p>
           <Row>
             {aparelhosmonitoramento &&
