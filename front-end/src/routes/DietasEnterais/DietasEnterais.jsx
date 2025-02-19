@@ -37,7 +37,16 @@ const DietasEnterais = ({ banner2, favicon }) => {
         </Container>
       </div>
       <div>
-        <Container className="p-5 mt-4">
+        <Container className="p-4 mt-4">
+          <h1 className="text-center text-success mb-4">
+            Dietas Enterais em Ponte Nova
+          </h1>
+          <p className="text-center mb-5">
+            Oferecemos dieta enteral em Ponte Nova e acessórios essenciais
+            para nutrição clínica, como frasco de dieta, equipo de dieta e
+            seringas. Soluções completas para a alimentação nutricional de
+            pacientes que necessitam de suporte especializado.
+          </p>
           <Row>
             {dietasenterais &&
               dietasenterais.map(({ id, name, image }) => (
@@ -48,7 +57,7 @@ const DietasEnterais = ({ banner2, favicon }) => {
                         className={styles.images_dietas_enterais}
                         variant="top"
                         src={image}
-                        alt={name}
+                        alt={`${name} em Ponte Nova`}
                       />
                     </Link>
                   </Card>

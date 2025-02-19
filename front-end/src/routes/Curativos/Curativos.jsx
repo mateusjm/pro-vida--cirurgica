@@ -13,7 +13,7 @@ const Curativos = ({ banner2, favicon }) => {
   return (
     <>
       <Helmet>
-        <title>Curativos em Ponte Nova</title>
+        <title>Curativos Cirúrgicos em Ponte Nova</title>
         <meta
           name="description"
           content="Oferecemos curativos cirúrgicos em Ponte Nova MG especializados para o tratamento de feridas, incluindo Petrolatum e Lomatuel Pro. Soluções cirúrgicas para proteção, cicatrização e lavagem adequada, garantindo o melhor cuidado para a recuperação da pele"
@@ -37,7 +37,16 @@ const Curativos = ({ banner2, favicon }) => {
         </Container>
       </div>
       <div>
-        <Container className="p-5 mt-4">
+        <Container className="p-4 mt-4">
+          <h1 className="text-center text-success mb-4">
+            Curativos Cirúrgicos em Ponte Nova
+          </h1>
+          <p className="text-center mb-5">
+            Oferecemos curativos cirúrgicos em Ponte Nova especializados para
+            o tratamento de feridas, incluindo Petrolatum e Lomatuel Pro.
+            Soluções cirúrgicas para proteção, cicatrização e lavagem adequada,
+            garantindo o melhor cuidado para a recuperação da pele.
+          </p>
           <Row>
             {curativos &&
               curativos.map(({ id, name, image }) => (
@@ -48,7 +57,7 @@ const Curativos = ({ banner2, favicon }) => {
                         className={styles.images_curativos}
                         variant="top"
                         src={image}
-                        alt={name}
+                        alt={`${name} em Ponte Nova`}
                       />
                     </Link>
                   </Card>

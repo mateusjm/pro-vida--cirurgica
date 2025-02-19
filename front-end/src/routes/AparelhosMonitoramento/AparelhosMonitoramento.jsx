@@ -37,7 +37,13 @@ const ColchoesTravesseiros = ({ banner2, favicon }) => {
         </Container>
       </div>
       <div>
-        <Container className="p-5 mt-4">
+        <Container className="p-4 mt-4">
+          <h1 className="text-center text-success mb-4">
+            Aparelhos de Monitoramento em Ponte Nova
+          </h1>
+          <p className="text-center mb-5">
+            Encontre os melhores aparelhos de monitoramento para acompanhar sua saturação, glicemia e pressão arterial no dia a dia.
+          </p>
           <Row>
             {aparelhosmonitoramento &&
               aparelhosmonitoramento.map(({ id, name, image }) => (
@@ -48,7 +54,7 @@ const ColchoesTravesseiros = ({ banner2, favicon }) => {
                         className={styles.images_aparelhos}
                         variant="top"
                         src={image}
-                        alt={name}
+                        alt={`${name} em Ponte Nova`}
                       />
                     </Link>
                   </Card>

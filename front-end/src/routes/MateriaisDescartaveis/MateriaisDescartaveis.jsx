@@ -37,7 +37,16 @@ const MateriaisDescartaveis = ({ banner2, favicon }) => {
         </Container>
       </div>
       <div>
-        <Container className="p-5 mt-4">
+        <Container className="p-4 mt-4">
+          <h1 className="text-center text-success mb-4">
+            Materiais Descartáveis em Ponte Nova
+          </h1>
+          <p className="text-center mb-5">
+            Oferecemos materiais descartáveis em Ponte Nova incluindo máscara,
+            sachê de gel, espéculo e preservativo não lubrificado, ideais para
+            atender às necessidades de consumos de clínicas e cuidados pessoais,
+            com qualidade e praticidade.
+          </p>
           <Row>
             {materiaisdescartaveis &&
               materiaisdescartaveis.map(({ id, name, image }) => (
@@ -48,7 +57,7 @@ const MateriaisDescartaveis = ({ banner2, favicon }) => {
                         className={styles.images_materiais_descartaveis}
                         variant="top"
                         src={image}
-                        alt={name}
+                        alt={`${name} em Ponte Nova`}
                       />
                     </Link>
                   </Card>

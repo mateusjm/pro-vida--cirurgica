@@ -52,7 +52,7 @@ const Home = ({
             <img
               className="d-block w-100 image-carousel"
               src={banner3}
-              alt="Locações de equipamentos hospitalares da Pró-Vida Cirúrgica em Ponte Nova MG"
+              alt="Aluguel de equipamentos hospitalares da Pró-Vida Cirúrgica em Ponte Nova MG"
             />
           </Carousel.Item>
           <Carousel.Item interval={3000}>

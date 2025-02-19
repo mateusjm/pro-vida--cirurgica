@@ -16,7 +16,9 @@ const SapatosSoftWorks = ({ banner2, favicon }) => {
         <title>Sapatos Hospitalares em Ponte Nova</title>
         <meta
           name="description"
-          content="Oerecemos sapatos hospitalares impermeáveis, ideais para o ambiente de trabalho em hospitais. Confortáveis, leves e macios, esses calçados foram desenvolvidos para garantir conforto durante toda a rotina, proporcionando segurança e praticidade no dia a dia."
+          content="Oferecemos sapatos hospitalares em Ponte Nova impermeáveis, ideais para o ambiente de trabalho em hospitais. Confortáveis, leves e macios, esses calçados foram desenvolvidos para garantir conforto
+          durante toda a rotina, proporcionando segurança e praticidade no dia
+          a dia."
         />
         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
@@ -37,7 +39,17 @@ const SapatosSoftWorks = ({ banner2, favicon }) => {
         </Container>
       </div>
       <div>
-        <Container className="p-5 mt-4">
+        <Container className="p-4 mt-4">
+          <h1 className="text-center text-success">
+            Sapatos Hospitalares em Ponte Nova
+          </h1>
+          <p className="text-center mb-5">
+            Oferecemos sapatos hospitalares em Ponte Nova impermeáveis, ideais
+            para o ambiente de trabalho em hospitais. Confortáveis, leves e
+            macios, esses calçados foram desenvolvidos para garantir conforto
+            durante toda a rotina, proporcionando segurança e praticidade no dia
+            a dia.
+          </p>
           <Row>
             {sapatos &&
               sapatos.map(({ id, name, image }) => (
@@ -48,7 +60,7 @@ const SapatosSoftWorks = ({ banner2, favicon }) => {
                         className={styles.images_sapatos_hospitalares}
                         variant="top"
                         src={image}
-                        alt={name}
+                        alt={`${name} em Ponte Nova`}
                       />
                     </Link>
                   </Card>

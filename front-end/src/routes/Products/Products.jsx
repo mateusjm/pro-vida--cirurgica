@@ -40,7 +40,7 @@ const Products = ({ banner2, favicon }) => {
       </div>
       <ButtonSearch searchPath="/busca"  placeholder="Pesquisar produtos..." />
       <section aria-label="Produtos disponíveis">
-        <Container className="p-5 mt-3">
+        <Container className="p-4 mt-3">
           <Row>
             {secoesprodutos &&
               secoesprodutos.map(({ id, name, image }) => (
@@ -51,7 +51,7 @@ const Products = ({ banner2, favicon }) => {
                         className={styles.images_products}
                         variant="top"
                         src={image}
-                        alt={name}
+                        alt={`${name} em Ponte Nova`}
                       />
                     </Link>
                   </Card>

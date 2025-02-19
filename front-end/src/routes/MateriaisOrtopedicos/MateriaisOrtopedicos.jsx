@@ -18,7 +18,7 @@ const MateriaisOrtopedicos = ({ banner2, favicon }) => {
           name="description"
           content="Oferecemos materiais ortopédicos como tipoia, imobilizador de joelho, joelheira e palmilha ortopédica em Ponte Nova Mg. Produtos essenciais para o alívio de dores, prevenção e recuperação de lesões musculoesqueléticas com conforto e qualidade"
         />
-         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
+        <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
       <style type="text/css">
         {`
@@ -37,7 +37,16 @@ const MateriaisOrtopedicos = ({ banner2, favicon }) => {
         </Container>
       </div>
       <div>
-        <Container className="p-5 mt-4">
+        <Container className="p-4 mt-4">
+          <h1 className="text-center text-success mb-4">
+            Materiais Ortopédicos em Ponte Nova
+          </h1>
+          <p className="text-center mb-5">
+            Oferecemos materiais ortopédicos como tipoia, imobilizador de
+            joelho, joelheira e palmilha ortopédica em Ponte Nova. Produtos
+            essenciais para o alívio de dores, prevenção e recuperação de lesões
+            musculoesqueléticas com conforto e qualidade.
+          </p>
           <Row>
             {materiaisortopedicos &&
               materiaisortopedicos.map(({ id, name, image }) => (
@@ -48,7 +57,7 @@ const MateriaisOrtopedicos = ({ banner2, favicon }) => {
                         className={styles.images_materiais_ortopedicos}
                         variant="top"
                         src={image}
-                        alt={name}
+                        alt={`${name} em Ponte Nova`}
                       />
                     </Link>
                   </Card>

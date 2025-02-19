@@ -40,7 +40,7 @@ const Locations = ({ banner3, favicon}) => {
       </div>
       <ButtonSearch searchPath="/busca"  placeholder="Pesquisar locações..." />
       <section aria-label="Locações disponíveis">
-        <Container className="p-5 mt-3">
+        <Container className="p-4 mt-3">
           <Row>
             {locacoes &&
               locacoes.map(({ id, name, image }) => (
@@ -51,7 +51,7 @@ const Locations = ({ banner3, favicon}) => {
                         className={styles.images_locations}
                         variant="top"
                         src={image}
-                        alt={name}
+                        alt={`${name} em Ponte Nova`}
                       />
                     </Link>
                   </Card>
