@@ -34,7 +34,7 @@ const Locations = ({ banner3, favicon}) => {
           <img
             className={`img-fluid image-carousel`}
             src={banner3}
-            alt="Locações de equipamentos hospitalares da Pró-Vida Cirúrgica em Ponte Nova Mg"
+            alt="Aluguel de equipamentos hospitalares da Pró-Vida Cirúrgica em Ponte Nova Mg"
           />
         </Container>
       </div>
