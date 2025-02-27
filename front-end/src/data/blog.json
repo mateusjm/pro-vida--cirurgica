@@ -1,6 +1,50 @@
 [
   {
-    "id": 1,
+    "id": "aluguel-concentrador-de-oxigenio-ponte-nova",
+    "titulo": "Concentradores de Oxigênio: Benefícios e Aluguel em Ponte Nova",
+    "descricao": "Os concentradores de oxigênio são essenciais no tratamento de diversas doenças respiratórias, proporcionando uma melhora significativa na qualidade de vida dos pacientes. Este artigo aborda os principais benefícios desses dispositivos, detalha os equipamentos complementares utilizados e apresenta os serviços de aluguel disponíveis em Ponte Nova - MG, com entrega imediata.",
+    "imagem": "https://live.staticflickr.com/65535/54353562497_0f07d5e9ca_z.jpg",
+    "data": "27/02/2025",
+    "conteudo": [
+      {
+        "subtitulo": "O que é um Concentrador de Oxigênio?",
+        "texto": "Um concentrador de oxigênio é um dispositivo médico que extrai o oxigênio do ar ambiente, filtrando outros gases e fornecendo oxigênio concentrado ao paciente. Diferente dos cilindros de oxigênio, que armazenam o gás em estado comprimido, os concentradores produzem oxigênio continuamente, desde que estejam conectados a uma fonte de energia elétrica. Isso os torna ideais para uso domiciliar, oferecendo uma fonte constante e segura de oxigênio suplementar.",
+        "imagem": "https://www.cpaps.com.br/blog/wp-content/uploads/2017/04/concentrador-philips.jpg"
+      },
+      {
+        "subtitulo": "Benefícios do Uso de Concentradores de Oxigênio",
+        "texto": "O uso de concentradores de oxigênio traz diversos benefícios para pacientes com doenças respiratórias crônicas, como Doença Pulmonar Obstrutiva Crônica (DPOC) e fibrose pulmonar. Entre os principais benefícios estão: Melhora na oxigenação sanguínea: Ao fornecer oxigênio suplementar, o concentrador ajuda a manter níveis adequados de oxigênio no sangue, aliviando sintomas como falta de ar e fadiga. Aumento da capacidade física: Com melhor oxigenação, pacientes podem realizar atividades diárias com mais facilidade e disposição. Redução de complicações: O uso contínuo de oxigênio pode diminuir o risco de complicações associadas à baixa oxigenação, como problemas cardíacos.Melhora na qualidade do sono: Pacientes que utilizam oxigenoterapia noturna relatam um sono mais reparador e redução de episódios de apneia.",
+        "imagem": "https://respirecomsaude.com.br/wp-content/uploads/2019/09/CONCENTRADOR-DE-OXIGENIO-EVERFLO-PHILIPS-RESPIRONICS-3-1024x768.jpg"
+      },
+      {
+        "subtitulo": "Equipamentos Complementares para Concentradores de Oxigênio",
+        "texto": "Para garantir a eficácia e o conforto durante a oxigenoterapia, alguns acessórios são utilizados em conjunto com os concentradores de oxigênio: Copo Umidificador: Adiciona umidade ao oxigênio fornecido, prevenindo o ressecamento das vias aéreas. Extensores de Oxigênio: Tubos que aumentam o alcance do paciente, permitindo maior mobilidade dentro de casa. Cânulas Nasais e Máscaras: Dispositivos que conduzem o oxigênio do concentrador até as vias respiratórias do paciente, disponíveis em diferentes modelos para atender às necessidades individuais."
+      },
+      {
+        "subtitulo": "Locação de Concentrador de Oxigênio",
+        "texto": "Para pacientes que necessitam de oxigenoterapia por períodos determinados, a locação de concentradores de oxigênio é uma opção prática e econômica. Em Ponte Nova - MG, oferecemos serviços de aluguel com entrega imediata, garantindo que o paciente receba o equipamento no momento em que mais precisa. Nossos equipamentos passam por rigorosos processos de higienização e manutenção, assegurando a qualidade e a segurança no uso.",
+        "imagem": "https://media.extraguarapuava.com.br/2021/05/90b4bba3-concentradores-de-oxigenio-guarapuava-6-scaled-1.jpg "
+      },
+      {
+        "subtitulo": "Dados e Estudos Relevantes sobre Oxigenoterapia",
+        "texto": "Estudos clínicos demonstram que a oxigenoterapia domiciliar prolongada pode aumentar a sobrevida e melhorar a qualidade de vida de pacientes com DPOC grave. Segundo a Sociedade Brasileira de Pneumologia e Tisiologia, a utilização adequada de oxigênio suplementar é fundamental para manter a saturação de oxigênio em níveis satisfatórios, prevenindo complicações e hospitalizações frequentes."
+      },
+      {
+        "subtitulo": "Entre em Contato Conosco",
+        "texto": "Se você ou um familiar necessita de oxigenoterapia e está em busca de alguel de concentradores de oxigênio em Ponte Nova - MG, entre em contato conosco. Nossa equipe está pronta para oferecer atendimento especializado, orientando sobre o uso correto dos equipamentos e garantindo uma entrega rápida e eficiente."
+      }
+    ],
+    "topicos": [
+      "O que é um Concentrador de Oxigênio?",
+      "Benefícios do Uso de Concentradores de Oxigênio",
+      "Equipamentos Complementares para Concentradores de Oxigênio",
+      "Locação de Concentrador de Oxigênio",
+      "Dados e Estudos Relevantes sobre Oxigenoterapia",
+      "Entre em Contato Conosco"
+    ]
+  },
+  {
+    "id": "como-escolher-a-melhor-cama-hospitalar-em-ponte-nova",
     "titulo": "Como Escolher a Melhor Cama Hospitalar em Ponte Nova - MG? Guia Completo para Compra e Aluguel",
     "descricao": "Se você está buscando camas hospitalares em Ponte Nova - MG, seja para compra ou aluguel, é fundamental conhecer os diferentes modelos disponíveis e entender qual atende melhor às necessidades do paciente. Contar com um fornecedor especializado faz toda a diferença, pois garante entrega rápida, montagem profissional e um atendimento personalizado para cada caso. Neste guia, você encontrará informações detalhadas sobre os tipos de camas hospitalares, seus benefícios e qual modelo é mais adequado para cada necessidade.",
     "imagem": "https://live.staticflickr.com/65535/54311464720_5d869ce510_z.jpg",
@@ -46,7 +90,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": "a-importancia-do-cpap-no-tratamento-da-apneia-do-sono",
     "titulo": "A Importância do CPAP no tratamento da Apneia do Sono",
     "descricao": "Entenda como o CPAP pode melhorar a qualidade do sono e a saúde geral de pessoas com apneia do sono em Ponte Nova, MG. Descubra os melhores modelos de CPAP, máscaras, filtros e acessórios disponíveis em nossa loja!",
     "imagem": "https://live.staticflickr.com/65535/54311288093_efb63b571d_z.jpg",

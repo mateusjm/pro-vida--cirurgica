@@ -91,15 +91,15 @@ const router = createBrowserRouter([
       { path: "*", element: <ErrorPage favicon={favicon} /> },
       {
         path: "/produtos",
-        element: <Products banner2={banner2} />,
+        element: <Products banner2={banner2} favicon={favicon} />,
       },
       {
         path: "/busca",
-        element: <SearchResults />,
+        element: <SearchResults favicon={favicon} />,
       },
       {
         path: "/busca-blog",
-        element: <SearchBlog />,
+        element: <SearchBlog favicon={favicon} />,
       },
       {
         path: "/locacoes",

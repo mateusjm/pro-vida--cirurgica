@@ -16,6 +16,7 @@ import { Outlet } from "react-router-dom";
 // components
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 // hooks
 import ScrollToTop from "./hooks/ScrollToTop";
@@ -24,6 +25,7 @@ function App() {
   return (
     <>
       <ScrollToTop />
+      <WhatsAppButton />
       <header>
         <Header logo={logo} />
       </header>

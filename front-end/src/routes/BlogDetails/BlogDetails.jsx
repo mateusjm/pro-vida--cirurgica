@@ -9,7 +9,8 @@ const BlogDetails = () => {
   const { id } = useParams();
 
   // Encontrar o post com useMemo para evitar re-renderizações desnecessárias
-  const blogPost = useMemo(() => blog.find((post) => post.id === parseInt(id)), [id]);
+  const blogPost = useMemo(() => blog.find((post) => post.id === id), [id]);
+
 
   if (!blogPost) {
     return <ErrorPage />;

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import { useSearchParams, Link } from "react-router-dom";
 import { Container, Col, Row, Card, Button } from "react-bootstrap";
 import styles from "./SearchBlog.module.css";
@@ -6,7 +7,7 @@ import styles from "./SearchBlog.module.css";
 // Importando dados
 import blog from "../data/blog.json";
 
-const SearchBlog = () => {
+const SearchBlog = ({ favicon }) => {
   const [searchParams] = useSearchParams();
   const query = (searchParams.get("q") || "").toLowerCase();
 
@@ -24,6 +25,14 @@ const SearchBlog = () => {
         Resultados para: "<span className="text-success">{query}</span>"
       </h2>
       <>
+        <Helmet>
+          <title>Blog</title>
+          <meta
+            name="description"
+            content="Conheça nosso blog com as principais notícias sobre artigos hospitalares,produtos e aluguel de equipamentos hospitalares."
+          />
+          <link rel="shortcut icon" href={favicon} type="image/x-icon" />
+        </Helmet>
         {filteredBlog.length > 0 && (
           <section>
             <h3 className="mt-5">
@@ -89,7 +98,7 @@ const SearchBlog = () => {
                 Ops! Nenhum resultado encontrado.
               </p>
               <Button
-                href="/busca"
+                href="/busca-blog"
                 variant="success"
                 size="md"
                 className="mt-3"
