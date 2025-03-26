@@ -37,6 +37,7 @@ import Home from "./routes/Home/Home.jsx";
 import Products from "./routes/Products/Products.jsx";
 import Locations from "./routes/Locations/Locations.jsx";
 import Services from "./routes/Services/Services.jsx";
+import Novidades from './routes/Novidades/Novidades.jsx'
 import Blog from "./routes/Blog/Blog.jsx";
 import Contact from "./routes/Contact/Contact.jsx";
 import ErrorPage from "./routes/ErrorPage/ErrorPage.jsx";
@@ -62,6 +63,7 @@ import AparelhosMonitoramento from "./routes/AparelhosMonitoramento/AparelhosMon
 import AparelhosMonitoramentoDetails from "./routes/AparelhosMonitoramentoDetails/AparelhosMonitoramentoDetails.jsx";
 import CintasCirurgicas from './routes/CintasCirurgicas/CintasCirurgicas.jsx'
 import CintasCirurgicasDetails from "./routes/CintasCirurgicasDetails/CintasCirurgicasDetails.jsx";
+import NovidadesDetails from './routes/NovidadesDetails/NovidadesDetails.jsx'
 import BlogDetails from './routes/BlogDetails/BlogDetails.jsx'
 
 const router = createBrowserRouter([
@@ -104,6 +106,14 @@ const router = createBrowserRouter([
       {
         path: "/locacoes",
         element: <Locations banner3={banner3} favicon={favicon} />,
+      },
+      {
+        path: "/servicos",
+        element: <Services banner4={banner4} favicon={favicon} />,
+      },
+      {
+        path: "/novidades",
+        element: <Novidades banner4={banner4} favicon={favicon} />,
       },
       {
         path: "/servicos",
@@ -164,6 +174,10 @@ const router = createBrowserRouter([
       {
         path: "/servicos/:id",
         element: <ServicesDetails favicon={favicon} />,
+      },
+      {
+        path: "/novidades/:id",
+        element: <NovidadesDetails favicon={favicon} />,
       },
       {
         path: "/blog/:id",

@@ -1,0 +1,48 @@
+.carousel-control-prev,
+.carousel-control-next {
+  color: #00AA57 !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: brightness(0) saturate(100%) invert(41%) sepia(96%) saturate(419%) hue-rotate(108deg) brightness(94%) contrast(101%);
+}
+
+.custom-carousel .left {
+  left: -30px;
+}
+
+.custom-carousel .right {
+  right: -30px;
+}
+
+.custom-carousel .carousel-items-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  width: 100%;
+  max-width: 280px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.btn-overlay {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.text-center .btn {
+  background-color: #00AA57;
+  border: none;
+}

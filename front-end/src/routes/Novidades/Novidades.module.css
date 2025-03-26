@@ -15,14 +15,14 @@
   border: 1px solid black;
 }
 
-.images_colchoes_travesseiros {
+.images_novidades {
   background-color: white;
   border-radius: 10px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   transition: box-shadow 0.3s ease; 
 }
 
-.images_colchoes_travesseiros:hover {
+.images_novidades:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
 }
 

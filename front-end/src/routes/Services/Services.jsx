@@ -38,7 +38,7 @@ const Services = ({ banner4, favicon }) => {
           />
         </Container>
       </div>
-      <ButtonSearch searchPath="/busca"  placeholder="Pesquisar serviços..." />
+      <ButtonSearch searchPath="/busca"  placeholder="Pesquisar produtos..." />
       <section aria-label="Serviços disponíveis">
         <Container className="p-4 mt-3">
           <Row>

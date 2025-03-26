@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
+import ProductCarousel from "../../components/ProductCarousel";
 
 // CSS
 import styles from "./Home.module.css";
@@ -67,12 +68,45 @@ const Home = ({
       <div>
         <Container fluid>
           <Row className="mb-xs-5 mb-xl-0 mt-xl-5">
+            <Col>
+              <h5 style={{ color: "#00AA57" }} className="text-center mt-5">
+                Novidades
+              </h5>
+              <h1 className="mb-3">
+                Procurando{" "}
+                <span style={{ color: "#00AA57" }}>Cadeira Motorizada </span>em
+                Ponte Nova?
+              </h1>
+              <h3
+                sm={12}
+                xs={12}
+                className="text-center text-black fst-italic mb-5"
+              >
+                Entregamos{" "}
+                <span style={{ color: "#00AA57" }}>cadeiras motorizadas</span>,{" "}
+                <span style={{ color: "#00AA57" }}>cama de três manivelas</span>{" "}
+                e <span style={{ color: "#00AA57" }}>scooter</span> para toda
+                região de <span style={{ color: "#00AA57" }}>Ponte Nova</span>.
+              </h3>
+            </Col>
+          </Row>
+        </Container>
+        <ProductCarousel />
+      </div>
+      <div>
+        <Container fluid>
+          <Row className="mb-xs-5 mb-xl-0">
+            <h1 className="mt-5 mb-3">Mais de 200 mil clientes satisfeitos!</h1>
+            <h3 sm={12} xs={12} className="text-center fst-italic mb-5">
+              Somos especialistas em produtos hospitalares, ortopédicos e
+              cuidados pessoais.
+            </h3>
             <Col
               xxl={5}
               xl={5}
               md={3}
               className={`d-none d-md-block`}
-              style={{ height: "734px" }}
+              style={{ height: "560px" }}
             >
               <img
                 src={people}
@@ -81,14 +115,7 @@ const Home = ({
                 style={{ objectFit: "cover" }}
               />
             </Col>
-            <Col>
-              <h1 className="mt-5 mb-3">
-                Mais de 200 mil clientes satisfeitos!
-              </h1>
-              <h3 sm={12} xs={12} className="text-center fst-italic mb-5">
-                Somos especialistas em produtos hospitalares, ortopédicos e
-                cuidados pessoais.
-              </h3>
+            <Col className="d-flex align-items-end mb-5">
               <ul className={`${styles.home}`}>
                 <Stack gap={4}>
                   <li className={styles.list_item}>
@@ -187,7 +214,9 @@ const Home = ({
                 <li className="mb-3">
                   Entregamos e montamos Camas Hospitalares em Ponte Nova-MG
                 </li>
-                <li className="mb-3">Realizamos locações de produtos hospitalares em Ponte Nova-MG</li>
+                <li className="mb-3">
+                  Realizamos locações de produtos hospitalares em Ponte Nova-MG
+                </li>
                 <li className="mb-3">
                   Estamos presentes nas principais Redes-Sociais
                 </li>

@@ -4,6 +4,7 @@ import { Container, Col, Row, Card, Button } from "react-bootstrap";
 import styles from "./SearchResults.module.css";
 
 // Importando dados
+import novidades from '../data/novidades.json'
 import meias from "../data/meiasdecompressao.json";
 import dietas from "../data/dietasenterais.json";
 import sapatos from "../data/sapatos.json";
@@ -33,6 +34,10 @@ const SearchResults = () => {
     { title: "Sutiãs e Cintas Pós-Cirúrgicas", data: cintas }
   ];
 
+  const filteredNovidades = novidades.filter((item) =>
+    item.name.toLowerCase().includes(query)
+  );
+
   const filteredGeneral = generalSections.map(({ title, data }) => ({
     title,
     results: data.filter((item) => item.name.toLowerCase().includes(query)),
@@ -48,6 +53,7 @@ const SearchResults = () => {
 
   const hasResults =
     filteredGeneral.some((section) => section.results.length > 0) ||
+    filteredNovidades.length > 0 ||
     filteredLocacoes.length > 0 ||
     filteredServicos.length > 0;
 
@@ -59,6 +65,37 @@ const SearchResults = () => {
 
       {hasResults ? (
         <>
+        {filteredNovidades.length > 0 && (
+            <section>
+              <h3 className="mt-5">
+                <Link className={styles.link} to={`/novidades`}>
+                  Novidades
+                </Link>
+              </h3>
+              <Container className="p-3 mt-3">
+                <Row>
+                  {filteredNovidades.map((item) => (
+                    <Col key={item.id} xl={3} md={4} xs={6} className="mb-4">
+                      <Card>
+                        <Link to={`/novidades/${item.id}`}>
+                          <Card.Img
+                            className={styles.images_search}
+                            variant="top"
+                            src={item.image}
+                            alt={item.name}
+                          />
+                        </Link>
+                      </Card>
+                      <Card.Title className="text-center mt-3">
+                        {item.name}
+                      </Card.Title>
+                    </Col>
+                  ))}
+                </Row>
+              </Container>
+            </section>
+          )}
+
           {filteredGeneral.map(
             ({ title, results }) =>
               results.length > 0 && (
@@ -175,7 +212,12 @@ const SearchResults = () => {
                 href="/busca"
                 variant="success"
                 size="md"
-                className="mt-3"
+                className={styles.button_link}
+                style={{
+                  padding: '10px',
+                  backgroundColor: "#00AA57",
+                  border: "transparent",
+                }}
               >
                 Voltar para a Página de Busca
               </Button>

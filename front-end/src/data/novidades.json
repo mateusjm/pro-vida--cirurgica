@@ -1,0 +1,38 @@
+[
+  {
+    "id": "scooter-mirage-rx",
+    "name": "Scooter Mirage RX",
+    "description": "A Scooter Mirage RX é um modelo bastante versátil, com diversas alternativas para tornar o dia a dia do usuário ainda mais confortável. Com o tamanho ideal para proporcionar conforto e segurança dentro de ambientes internos. Como quadriciclo, proporciona maior estabilidade em diferentes terrenos.",
+    "image": "https://live.staticflickr.com/65535/54411624633_6dcaac5764_n.jpg"
+  },
+  {
+    "id": "cadeira-rodas-motorizada-slim-lite",
+    "name": "Cadeira de Rodas Motorizada Slim Power Lite",
+    "description": "A Slim Power Lite é a cadeira de rodas motorizada ideal para quem busca mobilidade com praticidade, conforto e um excelente custo-benefício. Com capacidade para até 130 kg, ela combina design leve e dobrável, facilitando o transporte e armazenamento, sendo perfeita para acompanhar o seu dia a dia. Inspirada no modelo Robooter, a Slim oferece todas as funcionalidades essenciais, mantendo a sofisticação e eficiência.",
+    "image": "https://live.staticflickr.com/65535/54410501587_0e7061eeef_n.jpg"
+  },
+  {
+    "id": "cadeira-rodas-motorizada-pop-lite",
+    "name": "Cadeira de Rodas Motorizada Leve Pop Power Lite",
+    "description": "A Cadeira de Rodas Motorizada POP da Power Lite é a solução ideal para quem busca mobilidade, conforto e praticidade. Com apenas 32 kg (com bateria), ela é leve e compacta, projetada para caber facilmente em porta-malas de qualquer veículo, incluindo sedãs. Com uma capacidade de carga de até 120 kg e uma autonomia de até 15 km, a POP garante que você tenha a liberdade de se deslocar com segurança, seja em ambientes internos ou externos.",
+    "image": "https://live.staticflickr.com/65535/54411555424_0157b39fc4_n.jpg"
+  },
+  {
+    "id": "cama-hospitalar-dx3",
+    "name": "Cama Hospitalar de 3 Manivelas DX3",
+    "description": "A Cama Hospitalar de 3 Manivelas DX3 Dellamed é um equipamento projetado para proporcionar conforto e cuidados adequados a usuários acamados, especialmente idosos. Com uma capacidade de suporte de até 200 kg, ela oferece robustez e segurança aos seus usuários. Equipada com três movimentos ajustáveis e cinco posições, esta cama permite ao paciente encontrar a posição mais adequada para descansar e promover seu bem-estar. Com um sistema manual de três manivelas, proporciona facilidade de ajuste e operação, sendo uma escolha ideal para ambientes hospitalares e de cuidados domiciliares.",
+    "image": "https://live.staticflickr.com/65535/54411869845_bf0f13ef2a_n.jpg"
+  },
+  {
+    "id": "andador-freedom-walker",
+    "name": "Andador Freedom Walker",
+    "description": "O Andador Freedom Walker é um equipamento de auxílio à mobilidade, oferecendo maior estabilidade e segurança. Moderno e seguro, possui configurações, opções e estrutura para atender às necessidades do usuário. É composto por quatro rodas, com freios de direção e estacionamento, além de banco para paradas de descanso, pedal para transposição de obstáculos e cesta de compras.",
+    "image": "https://live.staticflickr.com/65535/54411584424_a4f1323ebe_n.jpg"
+  },
+  {
+    "id": "cadeira-rodas-freedom-start",
+    "name": "Cadeira de Rodas Freedom Start",
+    "description": "A Cadeira de Rodas Freedom Start é um modelo compacto e com excelente custo benefício, aliado a um design universal que pode beneficiar diversos tipos de usuários. Adequada para uso em ambientes internos e externos, com destaque para o uso corporativo, se destacando pela sua versatilidade. Disponível nos tamanhos deassento: (14) Largura 35/36 Profundidade 40 (16) Largura 40/41 Profundidade 40 (17) Largura 43/44 Profundidade 40 (18) Largura 45/46 Profundidade 40 (20) Largura 50/51 Profundidade 40.",
+    "image": "https://live.staticflickr.com/65535/54410538657_0214c9e84a_n.jpg"
+  }
+]
