@@ -1,0 +1,38 @@
+[
+  {
+    "id": "chinelo-ortopedico-rose-gold",
+    "name": "Chinelo Ortopédico Classic - Rosê Gold",
+    "description": "O Chinelo Ortopédico Classic Rosê Gold é projetado para aliviar a dor nos pés, calcanhares, joelhos e até mesmo nas costas, graças à sua distribuição de peso, estabilidade e amortecimento. O design anatômico garante o alinhamento natural do pé, reduzindo a sobrecarga em pontos específicos e proporcionando uma postura mais equilibrada.",
+    "image": "https://live.staticflickr.com/65535/54440991670_c2d5028048_n.jpg"
+  },
+  {
+    "id": "chinelo-ortopedico-cinza",
+    "name": "Chinelo Ortopédico Classic - Cinza",
+    "description": "O Chinelo Ortopédico Classic Cinza é projetado para aliviar a dor nos pés, calcanhares, joelhos e até mesmo nas costas, graças à sua distribuição de peso, estabilidade e amortecimento. O design anatômico garante o alinhamento natural do pé, reduzindo a sobrecarga em pontos específicos e proporcionando uma postura mais equilibrada.",
+    "image": "https://live.staticflickr.com/65535/54440991660_587db1014e_n.jpg"
+  },
+  {
+    "id": "sandalia-ortopedica-urbano-preto",
+    "name": "Sándalia Ortopédica Urbano - Preto",
+    "description": "A Sándalia Ortopédica Urbano Preta oferece uma base ampla e apoio do arco plantar, o que permite a distribuição do peso do usuário de forma mais uniforme, reduzindo pontos de pressão e proporcionando maior conforto. O apoio do arco plantar ajuda a manter a curvatura natural do pé, controlando a pronação (movimento para dentro) e a supinação (movimento para fora), evitando problemas como dores nos pés, joelhos, quadris e coluna.",
+    "image": "https://live.staticflickr.com/65535/54439763197_94fb35a416_n.jpg"
+  },
+  {
+    "id": "sandalia-ortopedica-classic-jeans",
+    "name": "Sándalia Ortopédica Classic - Jeans Azul Marinho",
+    "description": "A conformação anatômica é a característica única que permite que a base do calçado se ajuste perfeitamente ao seu pé, oferecendo alívio e suporte essenciais para o seu corpo. Isso significa que a Sandália Classic Jeans foi projetada para se moldar perfeitamente ao seu pé, como uma luva.",
+    "image": "https://live.staticflickr.com/65535/54440619206_10b3c93320_n.jpg"
+  },
+  {
+    "id": "sandalia-ortopedica-classic-preto",
+    "name": "Sándalia Ortopédica Classic - Preto",
+    "description": "A conformação anatômica é a característica única que permite que a base do calçado se ajuste perfeitamente ao seu pé, oferecendo alívio e suporte essenciais para o seu corpo. Isso significa que a Sandália Classic Preta foi projetada para se moldar perfeitamente ao seu pé, como uma luva.",
+    "image": "https://live.staticflickr.com/65535/54440868458_7b826a48b0_n.jpg"
+  },
+  {
+    "id": "cadeira-rodas-freedom-start",
+    "name": "Chinelo Ortopédico Robust - Preto/Preto",
+    "description": "Esta característica única permite que a base do calçado se ajuste perfeitamente ao seu pé, oferecendo alívio e suporte essenciais para o seu corpo. Isso significa que o Chinelo Robust foi projetado para se moldar perfeitamente ao seu pé, como uma luva, proporcionando uma série de benefícios:",
+    "image": "https://live.staticflickr.com/65535/54439763202_4e34ba5e4b_n.jpg"
+  }
+]

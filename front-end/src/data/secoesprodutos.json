@@ -43,5 +43,10 @@
     "id": "pos-cirurgico",
     "name": "Sutiãs e Cintas Pós-Cirúrgicas",
     "image": "https://live.staticflickr.com/65535/54306163942_40056f0608_n.jpg"
+  },
+  {
+    "id": "sandalias",
+    "name": "Sandálias Ortopédicas",
+    "image": "https://live.staticflickr.com/65535/54440991670_c2d5028048_n.jpg"
   }
 ]

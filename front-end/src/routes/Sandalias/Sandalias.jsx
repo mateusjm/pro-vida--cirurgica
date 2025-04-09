@@ -4,19 +4,23 @@ import { Helmet } from "react-helmet-async";
 // bootstrap
 import { Container, Col, Row, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import meiasdecompressao from "../../data/meiasdecompressao.json";
+import sandaliasortopedicas from "../../data/sandaliasortopedicas.json";
 
 // CSS
-import styles from "./MeiasDeCompressao.module.css";
+import styles from "./Sandalias.module.css";
 
-const MeiasDeCompressao = ({ banner2, favicon }) => {
+const Sandalias = ({ banner2, favicon }) => {
   return (
     <>
       <Helmet>
-        <title>Meias de Compressão em Ponte Nova</title>
+        <title>Sandálias Ortopédicas em Ponte Nova</title>
         <meta
           name="description"
-          content="Oferecemos meias de compressão em Ponte Nova Mg ideais para o tratamento de varizes e prevenção de trombose, com modelos antiembolia. Contamos com opções com efeito climático, que não esquentam no calor, garantindo frescor e bem-estar durante o uso."
+          content="Oferecemos sandálias ortopédicas em Ponte Nova projetados para
+            aliviar a dor nos pés, calcanhares, joelhos e até mesmo nas costas,
+            graças à sua distribuição de peso, estabilidade e amortecimento.
+            Reduzem a sobrecarga em pontos específicos e proporcionam uma
+            postura mais equilibrada."
         />
         <link rel="shortcut icon" href={favicon} type="image/x-icon" />
       </Helmet>
@@ -39,21 +43,22 @@ const MeiasDeCompressao = ({ banner2, favicon }) => {
       <div>
         <Container className="p-4 mt-4">
           <h1 className="text-center text-success">
-            Meias de Compressão em Ponte Nova
+            Sandálias Ortopédicas em Ponte Nova
           </h1>
           <p className="text-center mb-5">
-            Oferecemos meias de compressão em Ponte Nova ideais para o
-            tratamento de varizes e prevenção de trombose, com modelos
-            antiembolia. Contamos com opções com efeito climático, que não
-            esquentam no calor, garantindo frescor e bem-estar durante o uso.
+            Oferecemos sandálias ortopédicas em Ponte Nova projetados para
+            aliviar a dor nos pés, calcanhares, joelhos e até mesmo nas costas,
+            graças à sua distribuição de peso, estabilidade e amortecimento.
+            Reduzem a sobrecarga em pontos específicos e proporcionam uma
+            postura mais equilibrada.
           </p>
           <Row>
-            {meiasdecompressao.map(({ id, name, image }) => (
+            {sandaliasortopedicas.map(({ id, name, image }) => (
               <Col key={id} xl={3} md={4} xs={6} className="mb-4">
                 <Card>
-                  <Link to={`/produtos/meias/${id}`}>
+                  <Link to={`/produtos/sandalias/${id}`}>
                     <Card.Img
-                      className={styles.images_meias_de_compressao}
+                      className={styles.images_sandalias}
                       variant="top"
                       src={image}
                       alt={`${name} em Ponte Nova`}
@@ -70,4 +75,4 @@ const MeiasDeCompressao = ({ banner2, favicon }) => {
   );
 };
 
-export default MeiasDeCompressao;
+export default Sandalias;

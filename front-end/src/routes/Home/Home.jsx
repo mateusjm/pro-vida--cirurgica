@@ -66,35 +66,7 @@ const Home = ({
         </Carousel>
       </div>
       <div>
-        <Container fluid>
-          <Row className="mb-xs-5 mb-xl-0 mt-xl-5">
-            <Col>
-              <h5 style={{ color: "#00AA57" }} className="text-center mt-5">
-                Novidades
-              </h5>
-              <h1 className="mb-3">
-                Procurando{" "}
-                <span style={{ color: "#00AA57" }}>Cadeira Motorizada </span>em
-                Ponte Nova?
-              </h1>
-              <h3
-                sm={12}
-                xs={12}
-                className="text-center text-black fst-italic mb-5"
-              >
-                Entregamos{" "}
-                <span style={{ color: "#00AA57" }}>cadeiras motorizadas</span>,{" "}
-                <span style={{ color: "#00AA57" }}>cama de três manivelas</span>{" "}
-                e <span style={{ color: "#00AA57" }}>scooter</span> para toda
-                região de <span style={{ color: "#00AA57" }}>Ponte Nova</span>.
-              </h3>
-            </Col>
-          </Row>
-        </Container>
-        <ProductCarousel />
-      </div>
-      <div>
-        <Container fluid>
+        <Container fluid className="mt-5">
           <Row className="mb-xs-5 mb-xl-0">
             <h1 className="mt-5 mb-3">Mais de 200 mil clientes satisfeitos!</h1>
             <h3 sm={12} xs={12} className="text-center fst-italic mb-5">
@@ -247,6 +219,34 @@ const Home = ({
             </Col>
           </Row>
         </Container>
+      </div>
+      <div>
+        <Container fluid>
+          <Row className="mb-xs-5 mb-xl-0 mt-xl-5">
+            <Col>
+              <h5 style={{ color: "#00AA57" }} className="text-center mt-5">
+                Novidades
+              </h5>
+              <h1 className="mb-3">
+                Procurando{" "}
+                <span style={{ color: "#00AA57" }}>Cadeira Motorizada </span>em
+                Ponte Nova?
+              </h1>
+              <h3
+                sm={12}
+                xs={12}
+                className="text-center text-black fst-italic mb-5"
+              >
+                Entregamos{" "}
+                <span style={{ color: "#00AA57" }}>cadeiras motorizadas</span>,{" "}
+                <span style={{ color: "#00AA57" }}>cama de três manivelas</span>{" "}
+                e <span style={{ color: "#00AA57" }}>scooter</span> para toda
+                região de <span style={{ color: "#00AA57" }}>Ponte Nova</span>.
+              </h3>
+            </Col>
+          </Row>
+        </Container>
+        <ProductCarousel />
       </div>
       <div className={`${styles.color_green} pt-5 pb-5`}>
         <Container className="p-xs-0 mt-0 mt-xl-5 mb-0 mb-xl-5 p-xl-5" fluid>

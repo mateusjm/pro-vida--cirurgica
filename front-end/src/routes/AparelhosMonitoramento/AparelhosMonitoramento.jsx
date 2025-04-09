@@ -43,9 +43,9 @@ const ColchoesTravesseiros = ({ banner2, favicon }) => {
           </h1>
           <p className="text-center mb-5">
             Oferecemos aparelhos de monitoramento para saúde, como oxímetro,
-            medidor de glicose e aparelho de pressão em Ponte Nova. Precisão
-            e segurança para acompanhar sua saturação, glicemia e pressão
-            arterial no dia a dia.
+            medidor de glicose e aparelho de pressão em Ponte Nova. Precisão e
+            segurança para acompanhar sua saturação, glicemia e pressão arterial
+            no dia a dia.
           </p>
           <Row>
             {aparelhosmonitoramento &&
@@ -61,7 +61,7 @@ const ColchoesTravesseiros = ({ banner2, favicon }) => {
                       />
                     </Link>
                   </Card>
-                  <Card.Title className="text-center mt-3">{name}</Card.Title>
+                  <h6 className="text-center mt-3">{name}</h6>
                 </Col>
               ))}
           </Row>

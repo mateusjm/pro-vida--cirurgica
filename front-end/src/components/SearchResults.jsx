@@ -14,6 +14,7 @@ import colchoes from "../data/colchoestravesseiros.json";
 import descartaveis from "../data/materiaisdescartaveis.json";
 import aparelhos from "../data/aparelhosmonitoramento.json";
 import cintas from '../data/cintas.json'
+import sandalias from '../data/sandaliasortopedicas.json'
 import locacoes from "../data/locacoes.json";
 import servicos from "../data/servicos.json";
 
@@ -31,7 +32,8 @@ const SearchResults = () => {
     { title: "Colchões e Travesseiros", data: colchoes },
     { title: "Materiais Descartáveis", data: descartaveis },
     { title: "Aparelhos de Monitoramento", data: aparelhos },
-    { title: "Sutiãs e Cintas Pós-Cirúrgicas", data: cintas }
+    { title: "Sutiãs e Cintas Pós-Cirúrgicas", data: cintas },
+    { title: "Sandálias Ortopédicas", data: sandalias }
   ];
 
   const filteredNovidades = novidades.filter((item) =>

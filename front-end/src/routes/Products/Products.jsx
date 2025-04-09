@@ -55,7 +55,7 @@ const Products = ({ banner2, favicon }) => {
                       />
                     </Link>
                   </Card>
-                  <Card.Title className="text-center mt-3">{name}</Card.Title>
+                  <h6 className="text-center mt-3">{name}</h6>
                 </Col>
               ))}
           </Row>

@@ -63,6 +63,8 @@ import AparelhosMonitoramento from "./routes/AparelhosMonitoramento/AparelhosMon
 import AparelhosMonitoramentoDetails from "./routes/AparelhosMonitoramentoDetails/AparelhosMonitoramentoDetails.jsx";
 import CintasCirurgicas from './routes/CintasCirurgicas/CintasCirurgicas.jsx'
 import CintasCirurgicasDetails from "./routes/CintasCirurgicasDetails/CintasCirurgicasDetails.jsx";
+import Sandalias from './routes/Sandalias/Sandalias.jsx'
+import SandaliasDetails from './routes/SandaliasDetails/SandaliasDetails.jsx'
 import NovidadesDetails from './routes/NovidadesDetails/NovidadesDetails.jsx'
 import BlogDetails from './routes/BlogDetails/BlogDetails.jsx'
 
@@ -168,6 +170,10 @@ const router = createBrowserRouter([
         element: <CintasCirurgicas banner2={banner2} favicon={favicon} />,
       },
       {
+        path: "/produtos/sandalias",
+        element: <Sandalias banner2={banner2} favicon={favicon} />,
+      },
+      {
         path: "/locacoes/:id",
         element: <LocationsDetails favicon={favicon} />,
       },
@@ -218,6 +224,10 @@ const router = createBrowserRouter([
       {
         path: "/produtos/pos-cirurgico/:id",
         element: <CintasCirurgicasDetails favicon={favicon}/>,
+      },
+      {
+        path: "/produtos/sandalias/:id",
+        element: <SandaliasDetails favicon={favicon}/>,
       },
     ],
   },
